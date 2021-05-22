@@ -1,0 +1,3 @@
+CLASS com/lunar/class_292 com/lunar/common/discord/Online
+	FIELD IlIIlllIIIIlllIlIIllllIll name Ljava/lang/String;
+	METHOD lllIIllIllllIIIllllllllIl getName ()Ljava/lang/String;

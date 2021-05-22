@@ -1,0 +1,3 @@
+CLASS com/lunar/class_803 com/lunar/common/discord/DiscordRpc
+	METHOD lIllIIllllIlIIlIIIIllIIlI setOnlineStatus (Lcom/lunar/class_292;)V
+	METHOD lIllIIllllIlIIlIIIIllIIlI setStatus (Ljava/lang/String;)V

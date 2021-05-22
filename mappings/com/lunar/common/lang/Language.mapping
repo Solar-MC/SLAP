@@ -1,0 +1,4 @@
+CLASS com/lunar/class_485 com/lunar/common/lang/Language
+	FIELD IIlIllIllIIIllIIIIIIlIllI displayName Ljava/lang/String;
+	METHOD lllIIllIllllIIIllllllllIl getName ()Ljava/lang/String;
+	METHOD values ()[Lcom/lunar/class_485;

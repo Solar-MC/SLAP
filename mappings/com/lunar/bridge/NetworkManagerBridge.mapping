@@ -1,0 +1,4 @@
+CLASS com/lunar/class_93 com/lunar/bridge/NetworkManagerBridge
+	METHOD bridge$getChannel ()Lio/netty/channel/Channel;
+	METHOD bridge$getNetHandler ()Lcom/lunar/class_1067;
+	METHOD bridge$isLocalChannel ()Z

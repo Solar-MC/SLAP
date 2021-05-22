@@ -1,0 +1,2 @@
+CLASS com/moonsworth/client/javafx/MicrosoftAuthApp com/moonsworth/client/javafx/MicrosoftAuthApp
+	METHOD start ()V

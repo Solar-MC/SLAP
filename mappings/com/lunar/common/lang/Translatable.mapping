@@ -1,0 +1,3 @@
+CLASS com/lunar/class_483 com/lunar/common/lang/Translatable
+	METHOD IIllIllIIllIIlllIIIlIlllI getTranslationKey ()Ljava/lang/String;
+	METHOD lllIIllIllllIIIllllllllIl getTranslation (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;

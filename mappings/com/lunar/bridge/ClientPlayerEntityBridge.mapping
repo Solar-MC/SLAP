@@ -1,0 +1,5 @@
+CLASS com/lunar/class_1072 com/lunar/bridge/ClientPlayerEntityBridge
+	METHOD lllIIllIllllIIIllllllllIl playSound (Ljava/lang/String;FF)V
+		ARG 1 name
+		ARG 2 volume
+		ARG 3 pitch

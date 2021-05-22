@@ -1,0 +1,3 @@
+CLASS com/lunar/class_832 com/lunar/common/util/BungeeCord
+	FIELD lIllIIllllIlIIlIIIIllIIlI name Ljava/lang/String;
+	METHOD lllIIllIllllIIIllllllllIl getName ()Ljava/lang/String;

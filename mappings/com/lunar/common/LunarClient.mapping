@@ -1,0 +1,25 @@
+CLASS com/lunar/class_286 com/lunar/common/LunarClient
+	FIELD IIlIIIllllIllIllIIlllIIII languageManager Lcom/lunar/class_516;
+	FIELD IIlIIlIIllIIIIlIIlllIIlll gameDir Ljava/io/File;
+	FIELD IIlIllIllIIIllIIIIIIlIllI arch Ljava/lang/String;
+	FIELD IIllIllIIllIIlllIIIlIlllI language Ljava/lang/String;
+	FIELD IlIIlllIIIIlllIlIIllllIll branch Ljava/lang/String;
+	FIELD IllIllIlllIlllllIIllIIllI rpc Lcom/lunar/class_803;
+	FIELD lIIlIlIIIIIlIIIIIIIlllIlI EMPTY Lcom/lunar/class_68;
+	FIELD lIIllIIIIllllIlIIIIlIlIIl osName Ljava/lang/String;
+	FIELD lIIllIlIllIlIIlIlIlIIlIlI serverConnection Lcom/lunar/class_295;
+	FIELD lIllIIlIIIIllllIlllIlIlIl instance Lcom/lunar/class_286;
+	FIELD lIllllIlllIIIlllIllllllll random Ljava/util/Random;
+	FIELD llllIlIlIIllllIIlIlIIllII GSON Lcom/google/gson/Gson;
+	METHOD IIIIIlIIIllllllIlIlllIIlI getLangManager ()Lcom/lunar/class_516;
+	METHOD IIlIIIlIIlIIlIllIllllllII getOsName ()Ljava/lang/String;
+	METHOD IlIIlllIIIIlllIlIIllllIll getRpc ()Lcom/lunar/class_803;
+	METHOD IlIIlllIIllIIlllIllIIIlII getServerConnection ()Lcom/lunar/class_295;
+	METHOD IlIlIIlIIIlIlIIllIIIIllll launch ()V
+	METHOD IllIllIlIIlIIIlllllIIIIll getInstance ()Lcom/lunar/class_286;
+	METHOD lIIllIIIIllllIlIIIIlIlIIl getGameDir ()Ljava/io/File;
+	METHOD lIlIlIlIIlIlIIllllIllIllI getBranch ()Ljava/lang/String;
+	METHOD lIllIIIIllIlIlIlIlIIIIIII tryInitDevEnv ()V
+	METHOD lIllIIllllIlIIlIIIIllIIlI initAssets ()V
+	METHOD llIIIlIIIlIlIllIIllIIIlll getArch ()Ljava/lang/String;
+	METHOD lllIIllIllllIIIllllllllIl initDiscordRpc (Lcom/lunar/class_253;)V

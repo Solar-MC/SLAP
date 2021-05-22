@@ -1,0 +1,5 @@
+CLASS com/lunar/class_474
+	FIELD IlIIlllIIllIIlllIllIIIlII screenshotDir Ljava/lang/String;
+	FIELD IlllIIIIlllllllIllIIIlIII dateFormat Ljava/text/DateFormat;
+	METHOD lllIIllIllllIIIllllllllIl (Ljava/io/File;IILcom/lunar/class_28;)V
+		ARG 1 screenshot

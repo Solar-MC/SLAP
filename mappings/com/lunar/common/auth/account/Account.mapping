@@ -1,0 +1,25 @@
+CLASS com/lunar/class_503 com/lunar/common/auth/account/Account
+	FIELD IIIlIlllIIllllIIIlIllllll accessTokenExpiresAt Ljava/time/Instant;
+	FIELD IIlIllIllIIIllIIIIIIlIllI authType Lcom/lunar/class_498;
+	FIELD IIllIllIIllIIlllIIIlIlllI username Ljava/lang/String;
+	FIELD IlIIIIlIlIlIlIIlIlIIlIIll localId Ljava/lang/String;
+	FIELD lIIllIIIIllllIlIIIIlIlIIl remoteId Ljava/lang/String;
+	FIELD lIllIIllllIlIIlIIIIllIIlI accessToken Ljava/lang/String;
+	FIELD lllIIllIllllIIIllllllllIl playerSkin Lcom/lunar/class_245;
+	METHOD IIIlIlllIIllllIIIlIllllll setRemoteId (Ljava/lang/String;)V
+		ARG 1 remoteId
+	METHOD IIlIllIllIIIllIIIIIIlIllI getLocalId ()Ljava/lang/String;
+	METHOD IlIIIIlIlIlIlIIlIlIIlIIll setUsername (Ljava/lang/String;)V
+		ARG 1 username
+	METHOD IlIIlllIIllIIlllIllIIIlII getRemoteId ()Ljava/lang/String;
+	METHOD lIIllIIIIllllIlIIIIlIlIIl getAccessTokenExpiresAt ()Ljava/time/Instant;
+	METHOD lIllIIllllIlIIlIIIIllIIlI setLocalId (Ljava/lang/String;)V
+		ARG 1 localId
+	METHOD lIllllIlllIIIlllIllllllll getUsername ()Ljava/lang/String;
+	METHOD lllIIllIllllIIIllllllllIl setAuthType (Lcom/lunar/class_498;)V
+		ARG 1 authType
+	METHOD lllIIllIllllIIIllllllllIl setAccessToken (Ljava/lang/String;)V
+		ARG 1 token
+	METHOD lllIIllIllllIIIllllllllIl setAccessTokenExpiresAt (Ljava/time/Instant;)V
+		ARG 1 expiresAt
+	METHOD llllIlIlIIllllIIlIlIIllII getAuthType ()Lcom/lunar/class_498;

@@ -1,0 +1,3 @@
+CLASS com/lunar/class_253
+	METHOD bridge$getProfile ()Lcom/mojang/authlib/GameProfile;
+	METHOD bridge$getUsername ()Ljava/lang/String;

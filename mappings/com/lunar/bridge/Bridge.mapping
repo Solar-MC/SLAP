@@ -1,0 +1,5 @@
+CLASS com/lunar/class_108 com/lunar/bridge/Bridge
+	METHOD enable ()V
+	METHOD getMinecraftVersion ()Lcom/lunar/class_106;
+	METHOD readImage (Ljava/io/InputStream;)Ljava/awt/image/BufferedImage;
+		ARG 1 input

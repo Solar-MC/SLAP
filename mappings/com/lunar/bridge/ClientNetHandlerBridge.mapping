@@ -1,0 +1,7 @@
+CLASS com/lunar/class_1066 com/lunar/bridge/ClientNetHandlerBridge
+	METHOD bridge$addToSendQueue (Lcom/lunar/class_92;)V
+	METHOD bridge$getLCChannelName ()Ljava/lang/String;
+	METHOD bridge$getNetworkManager ()Lcom/lunar/class_93;
+	METHOD bridge$getPlayerInfoMap ()Ljava/util/List;
+	METHOD bridge$getRegisterPacketName ()Ljava/lang/String;
+	METHOD bridge$quit ()V

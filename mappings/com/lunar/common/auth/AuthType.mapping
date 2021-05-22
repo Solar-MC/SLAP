@@ -1,0 +1,3 @@
+CLASS com/lunar/class_498 com/lunar/common/auth/AuthType
+	FIELD IIIlIlllIIllllIIIlIllllll name Ljava/lang/String;
+	METHOD lllIIllIllllIIIllllllllIl getName ()Ljava/lang/String;

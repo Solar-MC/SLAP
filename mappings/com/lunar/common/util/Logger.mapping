@@ -1,0 +1,12 @@
+CLASS com/lunar/class_493 com/lunar/common/util/Logger
+	FIELD lllIIllIllllIIIllllllllIl LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD IIIlIlllIIllllIIIlIllllll log3 (Ljava/lang/Object;[Ljava/lang/Object;)V
+	METHOD IIIlIlllIIllllIIIlIllllll logWithName3 (Ljava/lang/String;Ljava/lang/Object;[Ljava/lang/Object;)V
+	METHOD IlIIIIlIlIlIlIIlIlIIlIIll log4 (Ljava/lang/Object;[Ljava/lang/Object;)V
+	METHOD IlIIIIlIlIlIlIIlIlIIlIIll logWithName4 (Ljava/lang/String;Ljava/lang/Object;[Ljava/lang/Object;)V
+	METHOD lIllIIllllIlIIlIIIIllIIlI log2 (Ljava/lang/Object;[Ljava/lang/Object;)V
+	METHOD lIllIIllllIlIIlIIIIllIIlI logWithName2 (Ljava/lang/String;Ljava/lang/Object;[Ljava/lang/Object;)V
+	METHOD lllIIllIllllIIIllllllllIl log (Ljava/lang/Object;[Ljava/lang/Object;)V
+		ARG 0 str
+		ARG 1 formatting
+	METHOD lllIIllIllllIIIllllllllIl logWithName (Ljava/lang/String;Ljava/lang/Object;[Ljava/lang/Object;)V
