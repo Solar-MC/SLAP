@@ -1,5 +1,0 @@
-CLASS com/lunar/class_295 com/lunar/net/ServerConnection
-	FIELD IIlIllIllIIIllIIIIIIlIllI client Lcom/lunar/class_286;
-	FIELD IlIIlllIIllIIlllIllIIIlII status Lcom/lunar/class_293;
-	METHOD onOpen (Lorg/java_websocket/handshake/ServerHandshake;)V
-		ARG 1 handshake

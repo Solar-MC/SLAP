@@ -1,3 +1,6 @@
 CLASS com/lunar/class_803 com/lunar/common/discord/DiscordRpc
+	FIELD IIIlIlllIIllllIIIlIllllll playerUuid Ljava/util/UUID;
+	FIELD IIllIllIIllIIlllIIIlIlllI version Lcom/lunar/class_106;
+	FIELD llIlIIlIllllllllllIllIIll online Lcom/lunar/class_292;
 	METHOD lIllIIllllIlIIlIIIIllIIlI setOnlineStatus (Lcom/lunar/class_292;)V
 	METHOD lIllIIllllIlIIlIIIIllIIlI setStatus (Ljava/lang/String;)V

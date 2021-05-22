@@ -1,0 +1,6 @@
+CLASS com/lunar/class_626 com/lunar/common/screen/LunarScreen
+	FIELD IlIIlllIIIIlllIlIIllllIll lunarStar Lcom/lunar/class_245;
+	METHOD lllIIllIllllIIIllllllllIl (Lcom/lunar/class_245;FFFFFFF)V
+		ARG 4 x
+		ARG 5 y
+		ARG 6 y2
