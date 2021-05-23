@@ -1,0 +1,4 @@
+CLASS com/lunar/class_561
+	FIELD IIllIllIIllIIlllIIIlIlllI chroma Lcom/lunar/class_574;
+	FIELD IlIIlllIIllIIlllIllIIIlII chromaSpeed Lcom/lunar/class_560;
+	FIELD llllIlIlIIllllIIlIlIIllII chromaType Lcom/lunar/class_558;

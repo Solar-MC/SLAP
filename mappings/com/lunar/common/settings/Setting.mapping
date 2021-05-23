@@ -1,2 +1,14 @@
 CLASS com/lunar/class_568 com/lunar/common/settings/Setting
+	FIELD IIIlIlllIIllllIIIlIllllll name Ljava/lang/String;
+	FIELD lIllIIllllIlIIlIIIIllIIlI defaultValue Ljava/lang/Object;
+	FIELD lllIIllIllllIIIllllllllIl value Ljava/lang/Object;
+	METHOD <init> (Ljava/lang/String;Ljava/lang/Object;)V
+		ARG 1 name
+		ARG 2 defaultValue
+	METHOD <init> (Ljava/lang/String;Ljava/lang/Object;Ljava/util/function/BooleanSupplier;)V
+		ARG 1 name
+		ARG 2 defaultValue
+	METHOD IIlllIlIIIIIIlIlIlllllIlI getDefaultValue ()Ljava/lang/Object;
+	METHOD lIIllIlIllIlIIlIlIlIIlIlI getName ()Ljava/lang/String;
+	METHOD llIlIIlIllllllllllIllIIll getValue ()Ljava/lang/Object;
 	METHOD method_5 getTranslation ()Ljava/lang/String;

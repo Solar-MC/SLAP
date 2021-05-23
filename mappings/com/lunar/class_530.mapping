@@ -1,0 +1,23 @@
+CLASS com/lunar/class_530
+	FIELD IIIlIlllIIllllIIIlIllllll weather Lcom/lunar/class_574;
+	FIELD IIlIIIIlllIlllllIIIIIIlIl hudLayoutColor Lcom/lunar/class_561;
+	FIELD IIlIIlIIllIIIIlIIlllIIlll nametagLogo Lcom/lunar/class_574;
+	FIELD IIlIllIllIIIllIIIIIIlIllI showHudInShiftTab Lcom/lunar/class_574;
+	FIELD IIllIllIIllIIlllIIIlIlllI useMinecraftScaleEnum Lcom/lunar/class_558;
+	FIELD IlIIIIlIlIlIlIIlIlIIlIIll popupLocation Lcom/lunar/class_558;
+	FIELD IlIIIIlllIIIllIIlIlIIlIll searchOptions Lcom/lunar/class_574;
+	FIELD IlIIlllIIIIlllIlIIllllIll shiftEffects Lcom/lunar/class_574;
+	FIELD IlIIlllIIllIIlllIllIIIlII clearGlass Lcom/lunar/class_558;
+	FIELD IlIlllIllllIlIllIIIIlllII lockMods Lcom/lunar/class_574;
+	FIELD IllIllIlllIlllllIIllIIllI nameTag Lcom/lunar/class_574;
+	FIELD IlllIIIIlllllllIllIIIlIII friendOnlineStatus Lcom/lunar/class_574;
+	FIELD lIIlIlIIIIIlIIIIIIIlllIlI friendsMenuDisable Lcom/lunar/class_574;
+	FIELD lIIllIIIIllllIlIIIIlIlIIl showHudInDebug Lcom/lunar/class_574;
+	FIELD lIIllIlIllIlIIlIlIlIIlIlI achivements Lcom/lunar/class_574;
+	FIELD lIllIIlIIIIllllIlllIlIlIl showInF5 Lcom/lunar/class_574;
+	FIELD lIllIIllllIlIIlIIIIllIIlI debugEnum Lcom/lunar/class_558;
+	FIELD lIlllIlIlIIlIlIIIIllllIll sortingOptions Lcom/lunar/class_558;
+	FIELD lIllllIlllIIIlllIllllllll transResPackMenuBg Lcom/lunar/class_574;
+	FIELD llIlIIlIllllllllllIllIIll tabLogo Lcom/lunar/class_574;
+	FIELD lllIIllIllllIIIllllllllIl debug01 Lcom/lunar/class_574;
+	FIELD lllIIllllIIIIlIlIllIIIIlI tutorialHints Lcom/lunar/class_574;
