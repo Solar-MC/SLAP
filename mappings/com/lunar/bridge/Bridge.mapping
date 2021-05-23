@@ -1,4 +1,5 @@
 CLASS com/lunar/class_108 com/lunar/bridge/Bridge
-	METHOD enable ()V
+	METHOD initChatText (Ljava/lang/String;)Lcom/lunar/class_240;
+	METHOD initTessellator ()Lcom/lunar/class_1084;
 	METHOD readImage (Ljava/io/InputStream;)Ljava/awt/image/BufferedImage;
 		ARG 1 input

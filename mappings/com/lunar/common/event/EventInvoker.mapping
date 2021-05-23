@@ -1,0 +1,9 @@
+CLASS com/lunar/class_355 com/lunar/common/event/EventInvoker
+	FIELD lIllIIllllIlIIlIIIIllIIlI method Ljava/lang/reflect/Method;
+	FIELD lllIIllIllllIIIllllllllIl object Ljava/lang/Object;
+	METHOD <init> (Ljava/lang/Object;Ljava/lang/reflect/Method;)V
+		ARG 1 object
+		ARG 2 method
+	METHOD accept (Ljava/lang/Object;)V
+		ARG 1 event
+	METHOD lllIIllIllllIIIllllllllIl getObject ()Ljava/lang/Object;

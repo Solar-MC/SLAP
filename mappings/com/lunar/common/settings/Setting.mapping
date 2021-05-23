@@ -1,2 +1,2 @@
-CLASS com/lunar/class_556 com/lunar/common/settings/Setting
-	FIELD IlIIIIlIlIlIlIIlIlIIlIIll name Ljava/lang/String;
+CLASS com/lunar/class_568 com/lunar/common/settings/Setting
+	METHOD method_5 getTranslation ()Ljava/lang/String;

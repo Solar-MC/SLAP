@@ -1,0 +1,2 @@
+CLASS mchorse/emoticons/common/emotes/Emotes
+	METHOD register ()V

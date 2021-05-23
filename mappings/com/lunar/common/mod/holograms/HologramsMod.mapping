@@ -1,0 +1,3 @@
+CLASS com/lunar/class_435 com/lunar/common/mod/holograms/HologramsMod
+	METHOD lllIIllIllllIIIllllllllIl render (Lcom/lunar/class_122;)V
+		ARG 1 entityRenderEvent

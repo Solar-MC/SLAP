@@ -1,0 +1,8 @@
+CLASS com/lunar/class_158
+	FIELD lIllIIllllIlIIlIIIIllIIlI world Lcom/lunar/class_269;
+	FIELD lllIIllIllllIIIllllllllIl chunk Lcom/lunar/class_281;
+	METHOD <init> (Lcom/lunar/class_281;Lcom/lunar/class_269;)V
+		ARG 1 chunk
+		ARG 2 world
+	METHOD lIllIIllllIlIIlIIIIllIIlI getWorld ()Lcom/lunar/class_269;
+	METHOD lllIIllIllllIIIllllllllIl getChunk ()Lcom/lunar/class_281;

@@ -1,1 +1,2 @@
 CLASS com/lunar/class_22 com/lunar/bridge/KeyBindingBridge
+	METHOD bridge$getCategory ()Ljava/lang/String;

@@ -1,0 +1,4 @@
+CLASS com/lunar/class_433 com/lunar/common/mod/borders/BordersMod
+	FIELD IlIIlllIIIIlllIlIIllllIll forceField Lcom/lunar/class_245;
+	METHOD lllIIllIllllIIIllllllllIl (Lcom/lunar/class_36;F)V
+		ARG 1 entity

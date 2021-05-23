@@ -1,0 +1,7 @@
+CLASS com/lunar/class_555 com/lunar/common/network/NetworkManager
+	FIELD IIIlIlllIIllllIIIlIllllll lunarClientBinary Ljava/lang/String;
+	FIELD IlIIIIlIlIlIlIIlIlIIlIIll channelCheck Z
+	FIELD lIllIIllllIlIIlIIIIllIIlI currentChannel Ljava/lang/String;
+	FIELD lllIIllIllllIIIllllllllIl lunarClientChannel Ljava/lang/String;
+	METHOD IIIlIlllIIllllIIIlIllllll getChannelCheck ()Z
+	METHOD lllIIllIllllIIIllllllllIl getCurrentChannel ()Ljava/lang/String;

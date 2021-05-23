@@ -1,0 +1,5 @@
+CLASS com/lunar/class_399 com/lunar/common/hacks/LunarHacks
+	FIELD IlIIIIlIlIlIlIIlIlIIlIIll name Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;)V
+		ARG 3 name
+	METHOD lllIIllIllllIIIllllllllIl getName ()Ljava/lang/String;

@@ -1,5 +1,0 @@
-CLASS com/lunar/class_562 com/lunar/common/profile/AccountProfile
-	METHOD lIllIIllllIlIIlIIIIllIIlI fromJson (Lcom/google/gson/JsonObject;)V
-		ARG 1 json
-	METHOD lllIIllIllllIIIllllllllIl toJson (Lcom/google/gson/JsonObject;)V
-		ARG 1 accessToken

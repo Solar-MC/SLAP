@@ -1,0 +1,3 @@
+CLASS com/lunar/class_199 com/lunar/common/mod/ModCategory
+	FIELD IIlIllIllIIIllIIIIIIlIllI name Ljava/lang/String;
+	METHOD lllIIllIllllIIIllllllllIl getName ()Ljava/lang/String;

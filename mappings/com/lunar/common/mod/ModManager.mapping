@@ -1,0 +1,21 @@
+CLASS com/lunar/class_521 com/lunar/common/mod/ModManager
+	FIELD IIIlIlllIIllllIIIlIllllll keystrokesMod Lcom/lunar/class_449;
+	FIELD IlIIIIlIlIlIlIIlIlIIlIIll autoTextMod Lcom/lunar/class_444;
+	FIELD IlIIlllIIllIIlllIllIIIlII shinyPotsMod Lcom/lunar/class_371;
+	FIELD IllIllIlllIlllllIIllIIllI crosshairMod Lcom/lunar/class_220;
+	FIELD lIllIIllllIlIIlIIIIllIIlI fovMod Lcom/lunar/class_223;
+	FIELD lIlllIlIlIIlIlIIIIllllIll menuBlurMod Lcom/lunar/class_452;
+	FIELD lIllllIlllIIIlllIllllllll items2DMod Lcom/lunar/class_446;
+	FIELD llIlIIlIllllllllllIllIIll replayMod Lcom/lunar/class_468;
+	FIELD lllIIllIllllIIIllllllllIl oneSevenVisuals Lcom/lunar/class_461;
+	METHOD IIIIIlIIIllllllIlIlllIIlI getReplayMod ()Lcom/lunar/class_468;
+	METHOD IIIllIllIIlIlllIIllIIlllI getMenuBlurMod ()Lcom/lunar/class_452;
+	METHOD IlIIIIlllIIIllIIlIlIIlIll getCrosshairMod ()Lcom/lunar/class_220;
+	METHOD IlIIlllIIllIIlllIllIIIlII getOneSevenVisuals ()Lcom/lunar/class_461;
+	METHOD lIIlIlIIIIIlIIIIIIIlllIlI getAutoTextMod ()Lcom/lunar/class_444;
+	METHOD lIIllIlIllIlIIlIlIlIIlIlI getItems2dMod ()Lcom/lunar/class_446;
+	METHOD lIllllIlllIIIlllIllllllll getKeystrokesMod ()Lcom/lunar/class_449;
+	METHOD llIlIIlIllllllllllIllIIll getShinyPotsMod ()Lcom/lunar/class_371;
+	METHOD lllIIllIllllIIIllllllllIl addMod ([Lcom/lunar/class_195;)Ljava/util/LinkedHashSet;
+		ARG 1 mod
+	METHOD llllIlIlIIllllIIlIlIIllII getFovMod ()Lcom/lunar/class_223;

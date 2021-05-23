@@ -1,1 +1,2 @@
 CLASS com/lunar/class_23 com/lunar/bridge/GameOptionsBridge
+	METHOD bridge$getKeyBindings ()[Lcom/lunar/class_22;

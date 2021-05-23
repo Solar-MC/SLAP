@@ -1,2 +1,5 @@
 CLASS com/lunar/class_495
-	METHOD IlIIlllIIIIlllIlIIllllIll getLangJson ()Ljava/lang/String;
+	METHOD IIlIllIllIIIllIIIIIIlIllI loadSettings ()Z
+	METHOD IIllIllIIllIIlllIIIlIlllI save ()V
+	METHOD IlIIlllIIIIlllIlIIllllIll getSettingJson ()Ljava/lang/String;
+	METHOD lIIllIIIIllllIlIIIIlIlIIl getSettingFile ()Ljava/io/File;

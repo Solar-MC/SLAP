@@ -1,0 +1,7 @@
+CLASS com/lunar/class_502 com/lunar/common/auth/AccountInfo
+	FIELD IIIlIlllIIllllIIIlIllllll hasMultipleProfiles Z
+	FIELD IlIIIIlIlIlIlIIlIlIIlIIll legacy Z
+	FIELD IlIIlllIIIIlllIlIIllllIll persistent Z
+	FIELD lIIllIIIIllllIlIIIIlIlIIl userProperties Lcom/google/gson/JsonArray;
+	FIELD lIllIIllllIlIIlIIIIllIIlI eligibleForMigration Z
+	FIELD lllIIllIllllIIIllllllllIl avatar Ljava/lang/String;

@@ -1,0 +1,7 @@
+CLASS com/lunar/class_519 com/lunar/common/cosmetic/CosmeticManager
+	FIELD IIIlIlllIIllllIIIlIllllll logo32 Lcom/lunar/class_245;
+	FIELD lIllIIllllIlIIlIIIIllIIlI logo100 Lcom/lunar/class_245;
+	FIELD lIllllIlllIIIlllIllllllll cosmeticRetriever Ljava/util/function/Function;
+	FIELD lllIIllIllllIIIllllllllIl logo64 Lcom/lunar/class_245;
+	METHOD IlIIlllIIIIlllIlIIllllIll (Lcom/lunar/class_245;)Lcom/lunar/class_346;
+		ARG 0 cosmeticIndex

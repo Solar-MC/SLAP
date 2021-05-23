@@ -1,0 +1,2 @@
+CLASS mchorse/emoticons/ClientProxy
+	METHOD init ()V

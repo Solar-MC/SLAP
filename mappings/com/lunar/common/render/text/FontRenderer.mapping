@@ -1,0 +1,17 @@
+CLASS com/lunar/class_677 com/lunar/common/render/text/FontRenderer
+	METHOD IIIlIlllIIllllIIIlIllllll drawWithShadow (Ljava/lang/String;FFI)F
+		ARG 1 string
+		ARG 2 x
+		ARG 3 y
+		ARG 4 color
+	METHOD lIllIIllllIlIIlIIIIllIIlI drawStr (Ljava/lang/String;FFI)F
+		ARG 1 string
+		ARG 2 x
+		ARG 3 y
+		ARG 4 color
+	METHOD lllIIllIllllIIIllllllllIl drawString (Ljava/lang/String;DDIZ)F
+	METHOD lllIIllIllllIIIllllllllIl drawString (Ljava/lang/String;FFI)F
+		ARG 1 string
+		ARG 2 x
+		ARG 3 y
+		ARG 4 color

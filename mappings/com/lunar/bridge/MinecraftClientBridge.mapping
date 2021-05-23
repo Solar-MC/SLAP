@@ -1,1 +1,2 @@
 CLASS com/lunar/class_1023 com/lunar/bridge/MinecraftClientBridge
+	METHOD bridge$getGameSettings ()Lcom/lunar/class_23;

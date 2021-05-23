@@ -1,0 +1,28 @@
+CLASS com/lunar/class_194 com/lunar/common/mod/feature/ModEventHandler
+	FIELD IIIlIlllIIllllIIIlIllllll minecraftClient Lcom/lunar/class_1023;
+	FIELD IIlIllIllIIIllIIIIIIlIllI details Lcom/lunar/class_193;
+	FIELD IIllIllIIllIIlllIIIlIlllI seen Z
+	FIELD IIlllIlIIIIIIlIlIlllllIlI smallIconIdentifier Lcom/lunar/class_245;
+	FIELD IlIIIIlIlIlIlIIlIlIIlIIll lunarClient Lcom/lunar/class_286;
+	FIELD IlIIlllIIIIlllIlIIllllIll mods Ljava/util/List;
+	FIELD lIIlIlIIIIIlIIIIIIIlllIlI panelIndex I
+	FIELD lIIllIlIllIlIIlIlIlIIlIlI bigIconIdentifier Lcom/lunar/class_245;
+	FIELD llIlIIlIllllllllllIllIIll eventHandlers Ljava/util/Map;
+	METHOD IIIlIlllIIllllIIIlIllllll setIsSeen (Z)V
+	METHOD IIlIIlIIllIIIIlIIlllIIlll getMinecraftClient ()Lcom/lunar/class_1023;
+	METHOD IIlIllIllIIIllIIIIIIlIllI getFeatureDetails ()Lcom/lunar/class_193;
+	METHOD IlIIlllIIllIIlllIllIIIlII getMods ()Ljava/util/List;
+	METHOD IlllIIIIlllllllIllIIIlIII isSeen ()Z
+	METHOD lIIllIIIIllllIlIIIIlIlIIl getSettings ()Ljava/util/List;
+	METHOD lIlllIlIlIIlIlIIIIllllIll getEventHandlers ()Ljava/util/Map;
+	METHOD lIllllIlllIIIlllIllllllll getDetails ()Lcom/lunar/class_193;
+	METHOD llIlIIlIllllllllllIllIIll getLunarClient ()Lcom/lunar/class_286;
+	METHOD llIlIIllIIlIlllIIlIlIIllI getSmalIconIdentifier ()Lcom/lunar/class_245;
+	METHOD llIlllIllIIlllllIllllIIII getPanelIndex ()I
+	METHOD lllIIllIllllIIIllllllllIl logModInfo (FFFFFFZ)V
+	METHOD lllIIllIllllIIIllllllllIl setPanelIndex (I)V
+	METHOD lllIIllIllllIIIllllllllIl registerEvent (Ljava/lang/Class;Ljava/util/function/Consumer;)V
+	METHOD lllIIllIllllIIIllllllllIl getIconIdentifier (Ljava/lang/String;)Lcom/lunar/class_245;
+		ARG 1 size
+	METHOD lllIIllIllllIIIllllllllIl renderName (Ljava/lang/String;FFFF)V
+	METHOD method_1 a_ ()V

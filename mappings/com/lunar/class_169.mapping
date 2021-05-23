@@ -1,0 +1,4 @@
+CLASS com/lunar/class_169
+	FIELD lllIIllIllllIIIllllllllIl entity Lcom/lunar/class_35;
+	METHOD <init> (Lcom/lunar/class_35;)V
+		ARG 1 entity

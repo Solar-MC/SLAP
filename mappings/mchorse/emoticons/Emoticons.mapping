@@ -1,0 +1,4 @@
+CLASS mchorse/emoticons/Emoticons
+	FIELD config Ljava/lang/String;
+	FIELD debug Z
+	FIELD instance Lmchorse/emoticons/Emoticons;

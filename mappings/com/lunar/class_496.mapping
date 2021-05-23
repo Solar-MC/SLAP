@@ -1,0 +1,4 @@
+CLASS com/lunar/class_496
+	FIELD lllIIllIllllIIIllllllllIl items Ljava/util/Map;
+	METHOD IlIIIIlIlIlIlIIlIlIIlIIll getAllValues ()Ljava/util/Map;
+	METHOD lllIIllIllllIIIllllllllIl getItems ()Ljava/util/Map;
