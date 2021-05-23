@@ -2,6 +2,7 @@ CLASS com/lunar/class_577 com/lunar/common/profile/ProfileManager
 	FIELD IlIIIIlIlIlIlIIlIlIIlIIll currentProfile Lcom/lunar/class_578;
 	FIELD lIllIIllllIlIIlIIIIllIIlI configFiles Lcom/google/common/collect/ImmutableList;
 	FIELD lllIIllIllllIIIllllllllIl gameTypes Lcom/google/common/collect/ImmutableList;
+	METHOD IlIIlllIIIIlllIlIIllllIll getCurrentProfile ()Lcom/lunar/class_578;
 	METHOD lllIIllIllllIIIllllllllIl switchLoadedProfile (Lcom/lunar/class_578;)V
 		ARG 1 profile
 	METHOD lllIIllIllllIIIllllllllIl (Ljava/lang/String;)Lcom/lunar/class_578;

@@ -1,4 +1,4 @@
-CLASS com/lunar/class_474
+CLASS com/lunar/class_474 com/lunar/common/mod/screenshot/ScreenshotMod
 	FIELD IlIIlllIIllIIlllIllIIIlII screenshotDir Ljava/lang/String;
 	FIELD IlllIIIIlllllllIllIIIlIII dateFormat Ljava/text/DateFormat;
 	METHOD lllIIllIllllIIIllllllllIl (Ljava/io/File;IILcom/lunar/class_28;)V

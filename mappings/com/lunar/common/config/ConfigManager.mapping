@@ -1,1 +1,2 @@
 CLASS com/lunar/class_525 com/lunar/common/config/ConfigManager
+	METHOD lllIIllIllllIIIllllllllIl onSettingChanged (Lcom/lunar/class_568;)V
