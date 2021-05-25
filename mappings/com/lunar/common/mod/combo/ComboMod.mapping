@@ -1,1 +1,4 @@
 CLASS com/lunar/class_214 com/lunar/common/mod/combo/ComboMod
+	FIELD IlIlllIllllIlIllIIIIlllII comboCount I
+	METHOD lllIIllIllllIIIllllllllIl onDamage (Lcom/lunar/class_181;)V
+		ARG 1 e

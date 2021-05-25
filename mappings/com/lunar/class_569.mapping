@@ -5,3 +5,4 @@ CLASS com/lunar/class_569
 		ARG 3 value
 	METHOD lIllIIlIIIIllllIlllIlIlIl getModEventHandler ()Lcom/lunar/class_194;
 	METHOD lllIIllIllllIIIllllllllIl setModEventHandler (Lcom/lunar/class_194;)V
+	METHOD lllIIllIllllIIIllllllllIl onChanged (Ljava/lang/Runnable;)Lcom/lunar/class_569;

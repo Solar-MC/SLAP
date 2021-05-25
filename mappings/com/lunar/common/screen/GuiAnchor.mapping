@@ -1,1 +1,2 @@
 CLASS com/lunar/class_197 com/lunar/common/screen/GuiAnchor
+	METHOD lllIIllIllllIIIllllllllIl deserializeAnchor (Ljava/lang/String;)Lcom/lunar/class_197;

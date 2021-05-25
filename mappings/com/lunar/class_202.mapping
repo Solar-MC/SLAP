@@ -1,2 +1,8 @@
 CLASS com/lunar/class_202
+	FIELD IlIIlllIIIIlllIlIIllllIll x F
+	FIELD lIIllIIIIllllIlIIIIlIlIIl y F
 	FIELD llllIlIlIIllllIIlIlIIllII scale Lcom/lunar/class_560;
+	METHOD IlIIIlIlIIlllllllllIlIIII resetPosition ()V
+	METHOD lllIIllIllllIIIllllllllIl setPosition (FF)V
+		ARG 1 x
+		ARG 2 y

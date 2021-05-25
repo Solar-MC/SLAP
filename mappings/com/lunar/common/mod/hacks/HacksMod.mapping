@@ -1,0 +1,4 @@
+CLASS com/lunar/class_400 com/lunar/common/mod/hacks/HacksMod
+	FIELD IlIIlllIIIIlllIlIIllllIll hack Lcom/lunar/class_399;
+	METHOD <init> (Lcom/lunar/class_399;)V
+		ARG 1 hack

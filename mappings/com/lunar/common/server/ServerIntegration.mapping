@@ -1,1 +1,5 @@
 CLASS com/lunar/class_586 com/lunar/common/server/ServerIntegration
+	METHOD lllIIllIllllIIIllllllllIl onDisconnect (Lcom/lunar/class_142;)V
+	METHOD lllIIllIllllIIIllllllllIl onConnect (Lcom/lunar/class_152;)V
+	METHOD lllIIllIllllIIIllllllllIl updateFeature (Lcom/lunar/class_194;Z)V
+		ARG 2 enable

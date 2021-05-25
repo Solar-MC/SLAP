@@ -1,0 +1,23 @@
+CLASS com/lunar/class_249 com/lunar/common/math/Quaternion
+	FIELD IIIlIlllIIllllIIIlIllllll y F
+	FIELD IlIIIIlIlIlIlIIlIlIIlIIll z F
+	FIELD IlIIlllIIIIlllIlIIllllIll w F
+	FIELD lIllIIllllIlIIlIIIIllIIlI x F
+	FIELD lllIIllIllllIIIllllllllIl ZERO Lcom/lunar/class_249;
+	METHOD <init> (FFFF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 w
+	METHOD IIlIllIllIIIllIIIIIIlIllI getW ()F
+	METHOD IIlIllIllIIIllIIIIIIlIllI setZ (F)V
+		ARG 1 z
+	METHOD IIllIllIIllIIlllIIIlIlllI setW (F)V
+		ARG 1 w
+	METHOD IlIIIIlIlIlIlIIlIlIIlIIll getX ()F
+	METHOD IlIIlllIIIIlllIlIIllllIll getY ()F
+	METHOD IlIIlllIIIIlllIlIIllllIll setX (F)V
+		ARG 1 x
+	METHOD lIIllIIIIllllIlIIIIlIlIIl getZ ()F
+	METHOD lIIllIIIIllllIlIIIIlIlIIl setY (F)V
+		ARG 1 x

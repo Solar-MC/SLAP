@@ -1,0 +1,11 @@
+CLASS com/lunar/class_181 com/lunar/common/event/EntityDamageEvent
+	FIELD IIIlIlllIIllllIIIlIllllll damage F
+	FIELD lIllIIllllIlIIlIIIIllIIlI damageSource Lcom/lunar/class_252;
+	FIELD lllIIllIllllIIIllllllllIl damagedEntity Lcom/lunar/class_35;
+	METHOD <init> (Lcom/lunar/class_35;Lcom/lunar/class_252;F)V
+		ARG 1 damaged
+		ARG 2 source
+		ARG 3 damage
+	METHOD IIIlIlllIIllllIIIlIllllll getDamagedEntity ()Lcom/lunar/class_35;
+	METHOD IlIIIIlIlIlIlIIlIlIIlIIll getDamageSource ()Lcom/lunar/class_252;
+	METHOD IlIIlllIIIIlllIlIIllllIll getDamage ()F

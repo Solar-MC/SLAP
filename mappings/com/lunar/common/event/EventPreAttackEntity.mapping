@@ -1,0 +1,10 @@
+CLASS com/lunar/class_177 com/lunar/common/event/EventPreAttackEntity
+	FIELD IIIlIlllIIllllIIIlIllllll distance D
+	FIELD lIllIIllllIlIIlIIIIllIIlI target Lcom/lunar/class_36;
+	FIELD lllIIllIllllIIIllllllllIl player Lcom/lunar/class_46;
+	METHOD <init> (Lcom/lunar/class_36;D)V
+		ARG 1 target
+		ARG 2 distance
+	METHOD IIIlIlllIIllllIIIlIllllll getDistance ()D
+	METHOD lIllIIllllIlIIlIIIIllIIlI getTarget ()Lcom/lunar/class_36;
+	METHOD lllIIllIllllIIIllllllllIl getPlayer ()Lcom/lunar/class_46;

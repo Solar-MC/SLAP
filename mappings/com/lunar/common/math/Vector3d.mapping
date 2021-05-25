@@ -1,0 +1,20 @@
+CLASS com/lunar/class_235 com/lunar/common/math/Vector3d
+	FIELD IIIlIlllIIllllIIIlIllllll z D
+	FIELD lIllIIllllIlIIlIIIIllIIlI y D
+	FIELD lllIIllIllllIIIllllllllIl x D
+	METHOD <init> (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD IIIlIlllIIllllIIIlIllllll getZ ()D
+	METHOD IIIlIlllIIllllIIIlIllllll setZ (D)V
+		ARG 1 z
+	METHOD lIllIIllllIlIIlIIIIllIIlI getY ()D
+	METHOD lIllIIllllIlIIlIIIIllIIlI setY (D)V
+		ARG 1 y
+	METHOD lllIIllIllllIIIllllllllIl getX ()D
+	METHOD lllIIllIllllIIIllllllllIl setX (D)V
+		ARG 1 x
+	METHOD lllIIllIllllIIIllllllllIl (Lcom/lunar/class_235;Lcom/lunar/class_235;Lcom/lunar/class_235;)Lcom/lunar/class_235;
+		ARG 0 other
+	METHOD lllIIllIllllIIIllllllllIl isOtherVector3d (Ljava/lang/Object;)Z

@@ -7,13 +7,18 @@ CLASS com/lunar/class_194 com/lunar/common/mod/feature/ModEventHandler
 	FIELD IlIIlllIIIIlllIlIIllllIll mods Ljava/util/List;
 	FIELD lIIlIlIIIIIlIIIIIIIlllIlI panelIndex I
 	FIELD lIIllIlIllIlIIlIlIlIIlIlI bigIconIdentifier Lcom/lunar/class_245;
+	FIELD lIllIIlIIIIllllIlllIlIlIl enabled Z
 	FIELD llIlIIlIllllllllllIllIIll eventHandlers Ljava/util/Map;
+	METHOD IIIlIlllIIllllIIIlIllllll registerModEvents ()V
 	METHOD IIIlIlllIIllllIIIlIllllll setIsSeen (Z)V
 	METHOD IIlIIlIIllIIIIlIIlllIIlll getMinecraftClient ()Lcom/lunar/class_1023;
 	METHOD IIlIllIllIIIllIIIIIIlIllI getFeatureDetails ()Lcom/lunar/class_193;
+	METHOD IlIIIIlIlIlIlIIlIlIIlIIll unregisterModEvents ()V
 	METHOD IlIIlllIIllIIlllIllIIIlII getMods ()Ljava/util/List;
 	METHOD IlllIIIIlllllllIllIIIlIII isSeen ()Z
 	METHOD lIIllIIIIllllIlIIIIlIlIIl getSettings ()Ljava/util/List;
+	METHOD lIllIIllllIlIIlIIIIllIIlI (Ljava/lang/Boolean;)V
+		ARG 1 isEnabledSetting
 	METHOD lIlllIlIlIIlIlIIIIllllIll getEventHandlers ()Ljava/util/Map;
 	METHOD lIllllIlllIIIlllIllllllll getDetails ()Lcom/lunar/class_193;
 	METHOD llIlIIlIllllllllllIllIIll getLunarClient ()Lcom/lunar/class_286;

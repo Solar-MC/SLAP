@@ -1,0 +1,12 @@
+CLASS com/lunar/class_243 com/lunar/common/math/Vector3i
+	FIELD IIIlIlllIIllllIIIlIllllll z I
+	FIELD lIllIIllllIlIIlIIIIllIIlI y I
+	FIELD lllIIllIllllIIIllllllllIl x I
+	METHOD <init> (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD IIIlIlllIIllllIIIlIllllll getZ ()I
+	METHOD lIllIIllllIlIIlIIIIllIIlI getY ()I
+	METHOD lllIIllIllllIIIllllllllIl getX ()I
+	METHOD lllIIllIllllIIIllllllllIl isOtherVector3i (Ljava/lang/Object;)Z
