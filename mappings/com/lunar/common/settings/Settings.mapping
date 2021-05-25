@@ -1,0 +1,2 @@
+CLASS com/lunar/class_830 com/lunar/common/settings/Settings
+	METHOD llllIllllIllllIIllIlllIII loadOptions (Ljava/io/File;)V
