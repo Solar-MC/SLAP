@@ -1,2 +1,44 @@
 CLASS com/lunar/class_286 com/lunar/common/LunarClient
+	FIELD field_1000 profileManager Lcom/lunar/class_577;
+	FIELD field_1002 configManager Lcom/lunar/class_525;
+	FIELD field_1003 branchName Ljava/lang/String;
 	FIELD field_1005 cosmeticManager Lcom/lunar/class_519;
+	FIELD field_1008 language Ljava/lang/String;
+	FIELD field_1011 lunarServerIntegration Lcom/lunar/class_586;
+	FIELD field_1013 networkManager Lcom/lunar/class_555;
+	FIELD field_1018 rpc Lcom/lunar/class_803;
+	FIELD field_1024 RANDOM Ljava/util/Random;
+	FIELD field_1025 arch Ljava/lang/String;
+	FIELD field_1028 EVENT_BUS Lcom/lunar/class_359;
+	FIELD field_3252 longCommitHash Ljava/lang/String;
+	FIELD field_3253 shortCommitHash Ljava/lang/String;
+	FIELD field_981 accountMod Lcom/lunar/class_527;
+	FIELD field_986 lunarSettingsFolder Ljava/io/File;
+	FIELD field_987 GSON Lcom/google/gson/Gson;
+	FIELD field_988 EMPTY Lcom/lunar/class_68;
+	FIELD field_991 lunarServerConnection Lcom/lunar/class_295;
+	FIELD field_994 osName Ljava/lang/String;
+	FIELD field_995 instance Lcom/lunar/class_286;
+	FIELD field_998 languageManager Lcom/lunar/class_516;
+	FIELD field_999 modManager Lcom/lunar/class_521;
+	METHOD method_697 getOsName ()Ljava/lang/String;
+	METHOD method_698 getProfileManager ()Lcom/lunar/class_577;
+	METHOD method_699 getLanguageManager ()Lcom/lunar/class_516;
+	METHOD method_704 getModManager ()Lcom/lunar/class_521;
+	METHOD method_710 getLunarSettingsFolder ()Ljava/io/File;
+	METHOD method_715 getShortCommitHash ()Ljava/lang/String;
+	METHOD method_719 getCosmeticManager ()Lcom/lunar/class_519;
+	METHOD method_720 getRpc ()Lcom/lunar/class_803;
+	METHOD method_725 getLunarServerIntegration ()Lcom/lunar/class_586;
+	METHOD method_731 getLongCommitHash ()Ljava/lang/String;
+	METHOD method_733 getOsBits ()I
+	METHOD method_734 getConfigManager ()Lcom/lunar/class_525;
+	METHOD method_736 getArch ()Ljava/lang/String;
+	METHOD method_737 getAccountMod ()Lcom/lunar/class_527;
+	METHOD method_741 getBranchName ()Ljava/lang/String;
+	METHOD method_744 getNetworkManager ()Lcom/lunar/class_555;
+	METHOD method_746 getWindowtitle ()Ljava/lang/String;
+	METHOD method_747 getLunarServerConnection ()Lcom/lunar/class_295;
+	METHOD method_748 getInstance ()Lcom/lunar/class_286;
+	METHOD method_756 openScreen (Lcom/lunar/class_1049;)V
+		ARG 1 screen

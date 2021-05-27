@@ -1,6 +1,16 @@
 CLASS com/lunar/class_500 com/lunar/common/profile/MinecraftProfile
+	FIELD field_1989 name Ljava/lang/String;
+	FIELD field_1990 uuid Ljava/lang/String;
 	METHOD <init> (Ljava/lang/String;Ljava/lang/String;)V
 		ARG 1 id
 		ARG 2 name
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 profile
+	METHOD method_1815 getName ()Ljava/lang/String;
+	METHOD method_1816 setName (Ljava/lang/String;)V
+		ARG 1 name
+	METHOD method_1817 getUuid ()Ljava/lang/String;
+	METHOD method_1818 instanceOfMinecraftProfile (Ljava/lang/Object;)Z
+		ARG 1 object
+	METHOD method_1819 setUuid (Ljava/lang/String;)V
+		ARG 1 uuid

@@ -1,1 +1,5 @@
 CLASS com/lunar/class_527 com/lunar/common/auth/AccountMod
+	FIELD field_2107 account Ljava/lang/String;
+	METHOD method_2039 login (Lcom/lunar/class_503;)Z
+	METHOD method_2040 getAccount ()Lcom/lunar/class_503;
+	METHOD method_2041 log (Ljava/lang/Object;[Ljava/lang/Object;)V

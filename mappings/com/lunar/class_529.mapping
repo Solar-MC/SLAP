@@ -1,0 +1,7 @@
+CLASS com/lunar/class_529
+	METHOD method_1862 (FFLcom/lunar/class_803;)V
+		ARG 3 rpc
+	METHOD method_1863 getSkin (Ljava/lang/String;)Lcom/lunar/class_245;
+		ARG 0 uuid
+	METHOD method_1867 (Lcom/lunar/class_803;)V
+		ARG 1 rpc

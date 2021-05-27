@@ -1,0 +1,2 @@
+CLASS com/lunar/class_556 com/lunar/common/settings/ProfileSetting
+	FIELD field_2326 name Ljava/lang/String;

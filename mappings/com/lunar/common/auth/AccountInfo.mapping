@@ -1,1 +1,7 @@
 CLASS com/lunar/class_502 com/lunar/common/auth/AccountInfo
+	FIELD field_1983 userProperties Lcom/google/gson/JsonArray;
+	FIELD field_1984 eligibleForMigration Z
+	FIELD field_1985 persistent Z
+	FIELD field_1986 legacy Z
+	FIELD field_1987 hasMultipleProfiles Z
+	FIELD field_1988 avatar Ljava/lang/String;

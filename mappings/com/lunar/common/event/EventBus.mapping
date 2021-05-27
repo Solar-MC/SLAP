@@ -1,1 +1,13 @@
 CLASS com/lunar/class_359 com/lunar/common/event/EventBus
+	FIELD field_1187 INSTANCE Lcom/lunar/class_359;
+	FIELD field_1188 classLoader Lcom/lunar/class_353;
+	FIELD field_1190 eventListeners Ljava/util/concurrent/ConcurrentHashMap;
+	METHOD method_1004 getClassLoader ()Lcom/lunar/class_353;
+	METHOD method_1006 (Ljava/lang/Class;Ljava/util/function/Consumer;)Z
+		ARG 2 consumer
+	METHOD method_1009 getInstance ()Lcom/lunar/class_359;
+	METHOD method_1011 registerEvent (Ljava/lang/Class;Ljava/util/function/Consumer;)Z
+	METHOD method_1012 addEventListener (Ljava/lang/Object;)V
+		ARG 1 eventListener
+	METHOD method_1015 callEvent (Lcom/lunar/class_360;)Lcom/lunar/class_360;
+		ARG 1 event

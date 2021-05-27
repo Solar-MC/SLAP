@@ -1,0 +1,4 @@
+CLASS com/lunar/class_611 com/lunar/common/screen/BugReportScreen
+	FIELD field_2490 parent Lcom/lunar/class_1049;
+	METHOD <init> (Lcom/lunar/class_1049;)V
+		ARG 1 parent

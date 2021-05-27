@@ -1,0 +1,4 @@
+CLASS com/lunar/class_496 com/lunar/common/auth/AccountMap
+	FIELD field_1981 accountMap Ljava/util/Map;
+	METHOD method_1805 getAccounts ()Ljava/util/Map;
+	METHOD method_1806 getProfileSettings ()Ljava/util/Map;

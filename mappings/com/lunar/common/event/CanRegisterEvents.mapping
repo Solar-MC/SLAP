@@ -1,0 +1,4 @@
+CLASS com/lunar/class_354 com/lunar/common/event/CanRegisterEvents
+	METHOD method_1032 registerEvent (Ljava/lang/Class;Ljava/util/function/Consumer;)V
+		ARG 1 eventListener
+		ARG 2 consumer

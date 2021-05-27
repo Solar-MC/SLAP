@@ -1,2 +1,10 @@
 CLASS com/lunar/class_194 com/lunar/common/mod/feature/ModEventHandler
+	FIELD field_538 lunarClient Lcom/lunar/class_286;
+	FIELD field_542 featureDetails Lcom/lunar/class_193;
+	FIELD field_543 minecraftClient Lcom/lunar/class_1023;
 	METHOD method_1 a_ ()V
+	METHOD method_373 getMinecraftClient ()Lcom/lunar/class_1023;
+	METHOD method_390 getLunarClient ()Lcom/lunar/class_286;
+	METHOD method_395 getFeatureDetails ()Lcom/lunar/class_193;
+	METHOD method_405 getFeatureIcon (Ljava/lang/String;)Lcom/lunar/class_245;
+		ARG 1 name

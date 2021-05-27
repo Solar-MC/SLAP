@@ -1,1 +1,2 @@
 CLASS com/lunar/class_294 com/lunar/common/auth/Authenticator
+	FIELD field_1039 consumer Ljava/util/function/Consumer;

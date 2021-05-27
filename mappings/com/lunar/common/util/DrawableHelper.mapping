@@ -1,1 +1,3 @@
 CLASS com/lunar/class_513 com/lunar/common/util/DrawableHelper
+	FIELD field_2100 instance Lcom/lunar/class_513;
+	METHOD method_2025 getInstance ()Lcom/lunar/class_513;

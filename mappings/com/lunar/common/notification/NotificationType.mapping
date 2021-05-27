@@ -1,1 +1,3 @@
 CLASS com/lunar/class_693 com/lunar/common/notification/NotificationType
+	FIELD field_2923 notificationIdentifier Lcom/lunar/class_245;
+	METHOD method_3109 getIdentifier ()Lcom/lunar/class_245;

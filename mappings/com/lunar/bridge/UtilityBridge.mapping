@@ -1,1 +1,17 @@
 CLASS com/lunar/class_834 com/lunar/bridge/UtilityBridge
+	METHOD method_3310 getRenderManager ()Lcom/lunar/class_1105;
+	METHOD method_3311 getPlayer ()Lcom/lunar/class_1072;
+	METHOD method_3312 isOnLunar ()Z
+	METHOD method_3313 getLunarClient ()Lcom/lunar/class_286;
+	METHOD method_3315 getNetHandler ()Lcom/lunar/class_1066;
+	METHOD method_3317 getTime ()J
+	METHOD method_3319 getCurrentScreen ()Ljava/lang/Class;
+	METHOD method_3320 getWorld ()Lcom/lunar/class_1060;
+	METHOD method_3321 getLunarServerConnection ()Ljava/util/Optional;
+	METHOD method_3322 getFontRenderer ()Lcom/lunar/class_1027;
+	METHOD method_3323 getMinecraftClient ()Lcom/lunar/class_1023;
+	METHOD method_3324 sendActionBarMessage (Ljava/lang/String;)V
+		ARG 0 string
+	METHOD method_3325 sendChatMessage (Ljava/lang/String;Z)V
+		ARG 0 mesage
+		ARG 1 actionBar

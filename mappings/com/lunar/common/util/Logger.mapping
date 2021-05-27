@@ -1,1 +1,30 @@
 CLASS com/lunar/class_493 com/lunar/common/util/Logger
+	FIELD field_1980 LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD method_1797 info (Ljava/lang/Object;[Ljava/lang/Object;)V
+		ARG 0 formatting
+		ARG 1 filler
+	METHOD method_1798 info (Ljava/lang/String;Ljava/lang/Object;[Ljava/lang/Object;)V
+		ARG 0 moduleName
+		ARG 1 formatting
+		ARG 2 filler
+	METHOD method_1799 error (Ljava/lang/Object;[Ljava/lang/Object;)V
+		ARG 0 formatting
+		ARG 1 filler
+	METHOD method_1800 error (Ljava/lang/String;Ljava/lang/Object;[Ljava/lang/Object;)V
+		ARG 0 moduleName
+		ARG 1 formatting
+		ARG 2 filler
+	METHOD method_1801 warn (Ljava/lang/Object;[Ljava/lang/Object;)V
+		ARG 0 formatting
+		ARG 1 filler
+	METHOD method_1802 warn (Ljava/lang/String;Ljava/lang/Object;[Ljava/lang/Object;)V
+		ARG 0 moduleName
+		ARG 1 formatting
+		ARG 2 filler
+	METHOD method_1803 debug (Ljava/lang/Object;[Ljava/lang/Object;)V
+		ARG 0 formatting
+		ARG 1 filler
+	METHOD method_1804 debug (Ljava/lang/String;Ljava/lang/Object;[Ljava/lang/Object;)V
+		ARG 0 moduleName
+		ARG 1 formatting
+		ARG 2 filler

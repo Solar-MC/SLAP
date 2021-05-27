@@ -1,1 +1,28 @@
 CLASS com/lunar/class_107 com/lunar/bridge/BridgeManager
+	FIELD field_307 minecraftClient Lcom/lunar/class_1023;
+	FIELD field_309 defaultResourcePack Lcom/lunar/class_6;
+	FIELD field_312 bossBar Lcom/lunar/class_105;
+	FIELD field_313 renderLayer Lcom/lunar/class_4;
+	FIELD field_314 renderSystem Lcom/lunar/class_1082;
+	FIELD field_321 bridge Lcom/lunar/class_108;
+	FIELD field_322 optifineLink Ljava/lang/String;
+	METHOD method_102 getVersion ()Lcom/lunar/class_106;
+	METHOD method_103 getOptifineLink ()Ljava/lang/String;
+	METHOD method_106 getMinecraftClient ()Lcom/lunar/class_1023;
+	METHOD method_110 getBridge ()Lcom/lunar/class_108;
+	METHOD method_114 getRenderSystem ()Lcom/lunar/class_1082;
+	METHOD method_115 getBossBar ()Ljava/util/Optional;
+	METHOD method_117 getDefaultResourcePack ()Ljava/util/Optional;
+	METHOD method_118 setOptifineLink (Ljava/lang/String;)V
+		ARG 0 optifineLink
+	METHOD method_119 setRenderLayer (Lcom/lunar/class_4;)V
+		ARG 0 renderLayer
+	METHOD method_120 setCosmeticResourcePackBridge (Lcom/lunar/class_6;)V
+	METHOD method_128 (Lcom/lunar/class_108;)V
+		ARG 0 bridge
+	METHOD method_129 setBossBar (Lcom/lunar/class_105;)V
+		ARG 0 bossBar
+	METHOD method_135 setMinecraftClientBridge (Lcom/lunar/class_1023;)V
+	METHOD method_136 setRenderSystem (Lcom/lunar/class_1082;)V
+		ARG 0 renderSystem
+	METHOD method_141 getRenderLayer ()Lcom/lunar/class_4;

@@ -1,1 +1,45 @@
 CLASS com/lunar/class_503 com/lunar/common/auth/account/Account
+	FIELD field_1995 refrashToken Ljava/lang/String;
+	FIELD field_1996 remoteId Ljava/lang/String;
+	FIELD field_1997 accessToken Ljava/lang/String;
+	FIELD field_1998 minecraftProfile Lcom/lunar/class_500;
+	FIELD field_1999 username Ljava/lang/String;
+	FIELD field_2000 localId Ljava/lang/String;
+	FIELD field_2002 authtype Lcom/lunar/class_498;
+	FIELD field_2003 accessTokenExpiry Ljava/time/Instant;
+	FIELD field_2004 accountInfo Lcom/lunar/class_502;
+	FIELD field_2005 skin Lcom/lunar/class_245;
+	METHOD <init> (Ljava/lang/String;)V
+		ARG 1 localId
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 account
+	METHOD method_1821 getAuthType ()Lcom/lunar/class_498;
+	METHOD method_1822 getAccountInfo ()Lcom/lunar/class_502;
+	METHOD method_1823 getAccessTokenExpiry ()Ljava/time/Instant;
+	METHOD method_1825 setLocalId (Ljava/lang/String;)V
+		ARG 1 localId
+	METHOD method_1826 getAccessToken ()Ljava/lang/String;
+	METHOD method_1827 setRefreshToken (Ljava/lang/String;)V
+		ARG 1 refreshToken
+	METHOD method_1828 getMinecraftProfile ()Lcom/lunar/class_500;
+	METHOD method_1829 getHead ()Lcom/lunar/class_245;
+	METHOD method_1830 setUsername (Ljava/lang/String;)V
+		ARG 1 username
+	METHOD method_1831 getRefreshToken ()Ljava/lang/String;
+	METHOD method_1832 getUsername ()Ljava/lang/String;
+	METHOD method_1833 getLocalId ()Ljava/lang/String;
+	METHOD method_1835 setRemoteId (Ljava/lang/String;)V
+		ARG 1 remoteId
+	METHOD method_1836 getRemoteId ()Ljava/lang/String;
+	METHOD method_1838 instanceOfAccount (Ljava/lang/Object;)Z
+		ARG 1 object
+	METHOD method_1839 setAccessToken (Ljava/lang/String;)V
+		ARG 1 accessToken
+	METHOD method_1840 setAccessTokenExpiry (Ljava/time/Instant;)V
+		ARG 1 accessTokenExpiry
+	METHOD method_1842 setAccountInfo (Lcom/lunar/class_502;)V
+		ARG 1 info
+	METHOD method_1843 setMinecraftProfile (Lcom/lunar/class_500;)V
+		ARG 1 minecraftProfile
+	METHOD method_1844 setAuthType (Lcom/lunar/class_498;)V
+		ARG 1 authType

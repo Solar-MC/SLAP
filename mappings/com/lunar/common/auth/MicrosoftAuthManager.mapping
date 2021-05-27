@@ -1,1 +1,39 @@
 CLASS com/lunar/class_833 com/lunar/common/auth/MicrosoftAuthManager
+	FIELD field_3160 mcStore Ljava/lang/String;
+	FIELD field_3161 oauthToken Ljava/lang/String;
+	FIELD field_3162 clientId Ljava/lang/String;
+	FIELD field_3163 oauthDesktopWithCode Ljava/lang/String;
+	FIELD field_3164 authorize Ljava/lang/String;
+	FIELD field_3165 oauthDesktop Ljava/lang/String;
+	FIELD field_3166 profile Ljava/lang/String;
+	FIELD field_3167 authenticate Ljava/lang/String;
+	FIELD field_3168 fullLink Ljava/lang/String;
+	FIELD field_3169 loginWithXbox Ljava/lang/String;
+	FIELD field_3170 yggdrasilUserAuthentication Lcom/mojang/authlib/yggdrasil/YggdrasilUserAuthentication;
+	METHOD method_3446 serialize (Ljava/lang/String;)Lcom/google/gson/JsonObject;
+		ARG 0 rawToken
+	METHOD method_3447 (Lcom/lunar/class_503;Lcom/google/gson/JsonObject;)V
+		ARG 1 json
+	METHOD method_3448 (Lcom/lunar/class_503;Ljava/lang/String;)V
+		ARG 0 account
+	METHOD method_3449 (Lcom/lunar/class_503;Lcom/google/gson/JsonObject;)V
+		ARG 1 json
+	METHOD method_3450 mojangAuthenticate (Ljava/lang/String;)V
+		ARG 0 clientToken
+	METHOD method_3452 formatString (Ljava/lang/String;)Ljava/lang/String;
+		ARG 0 str
+	METHOD method_3454 (Lcom/lunar/class_503;Ljava/lang/String;)V
+		ARG 0 account
+	METHOD method_3455 start ()V
+	METHOD method_3458 setAccessToken (Ljava/lang/String;Lcom/lunar/class_503;)V
+		ARG 1 account
+	METHOD method_3459 refreshAccount (Lcom/lunar/class_503;)V
+		ARG 0 account
+	METHOD method_3460 (Lcom/lunar/class_503;Lcom/google/gson/JsonObject;)V
+		ARG 1 json
+	METHOD method_3461 (Lcom/lunar/class_503;Ljava/lang/String;)V
+		ARG 0 account
+	METHOD method_3463 (Lcom/lunar/class_503;Ljava/lang/String;Ljava/lang/String;)V
+		ARG 0 account
+		ARG 1 accessToken
+		ARG 2 token
