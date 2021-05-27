@@ -1,3 +1,2 @@
 CLASS com/lunar/class_494 com/lunar/common/misc/ReadAndWritable
-	METHOD IIIlIlllIIllllIIIlIllllll save ()V
 	METHOD method_2 read ()V

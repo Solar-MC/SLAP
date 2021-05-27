@@ -1,3 +1,1 @@
 CLASS com/lunar/class_372 com/lunar/common/mod/skyblockaddons/SkyblockAddonsMod
-	FIELD lIllllllIIIlIIlIlllllIIII dropWhitelist Lcom/lunar/class_568;
-	FIELD llIllIIIIIllIIlIIIIlIIIlI dropBlacklist Lcom/lunar/class_568;

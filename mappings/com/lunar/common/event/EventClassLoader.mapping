@@ -1,7 +1,3 @@
 CLASS com/lunar/class_353 com/lunar/common/event/EventClassLoader
-	FIELD lllIIllIllllIIIllllllllIl classMap Ljava/util/Map;
 	METHOD <init> (Ljava/lang/ClassLoader;)V
 		ARG 1 classLoader
-	METHOD lllIIllIllllIIIllllllllIl getOrDefineClass (Ljava/lang/String;[B)Ljava/lang/Class;
-		ARG 1 className
-		ARG 2 bytecode

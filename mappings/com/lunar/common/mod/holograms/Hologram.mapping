@@ -1,17 +1,5 @@
 CLASS com/lunar/class_436 com/lunar/common/mod/holograms/Hologram
-	FIELD IIIlIlllIIllllIIIlIllllll x D
-	FIELD IlIIIIlIlIlIlIIlIlIIlIIll y D
-	FIELD IlIIlllIIIIlllIlIIllllIll z D
-	FIELD lIllIIllllIlIIlIIIIllIIlI lines [Ljava/lang/String;
-	FIELD lllIIllIllllIIIllllllllIl uuid Ljava/util/UUID;
 	METHOD <init> (Ljava/util/UUID;[Ljava/lang/String;DDD)V
 		ARG 3 x
 		ARG 5 y
 		ARG 7 z
-	METHOD IIIlIlllIIllllIIIlIllllll getX ()D
-	METHOD IlIIIIlIlIlIlIIlIlIIlIIll getY ()D
-	METHOD IlIIlllIIIIlllIlIIllllIll getZ ()D
-	METHOD lIllIIllllIlIIlIIIIllIIlI getLines ()[Ljava/lang/String;
-	METHOD lllIIllIllllIIIllllllllIl getUuid ()Ljava/util/UUID;
-	METHOD lllIIllIllllIIIllllllllIl setLines ([Ljava/lang/String;)V
-		ARG 1 lines

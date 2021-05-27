@@ -1,5 +1,3 @@
 CLASS com/lunar/class_113
-	FIELD lllIIllIllllIIIllllllllIl screen Lcom/lunar/class_1043;
 	METHOD <init> (Lcom/lunar/class_1043;)V
 		ARG 1 screen
-	METHOD IIIlIlllIIllllIIIlIllllll getScreen ()Lcom/lunar/class_1043;

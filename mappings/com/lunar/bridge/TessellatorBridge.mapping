@@ -2,10 +2,3 @@ CLASS com/lunar/class_1084 com/lunar/bridge/TessellatorBridge
 	METHOD bridge$uv (FF)Lcom/lunar/class_1084;
 		ARG 1 u
 		ARG 2 v
-	METHOD lllIIllIllllIIIllllllllIl pos (DDD)Lcom/lunar/class_1084;
-		ARG 1 x
-		ARG 3 y
-		ARG 5 z
-	METHOD lllIIllIllllIIIllllllllIl pos (FF)Lcom/lunar/class_1084;
-		ARG 1 x
-		ARG 2 y

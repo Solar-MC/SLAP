@@ -1,11 +1,1 @@
 CLASS com/lunar/class_834 com/lunar/bridge/UtilityBridge
-	METHOD IIIlIlllIIllllIIIlIllllll getServerConnection ()Ljava/util/Optional;
-	METHOD IIlIllIllIIIllIIIIIIlIllI getWorld ()Lcom/lunar/class_1060;
-	METHOD IIllIllIIllIIlllIIIlIlllI getRefNet ()Lcom/lunar/class_1066;
-	METHOD IlIIlllIIllIIlllIllIIIlII getFontRenderer ()Lcom/lunar/class_1027;
-	METHOD IlllIIIIlllllllIllIIIlIII getTime ()J
-	METHOD lIIlIlIIIIIlIIIIIIIlllIlI getRenderManager ()Lcom/lunar/class_1105;
-	METHOD lIIllIIIIllllIlIIIIlIlIIl getPlayer ()Lcom/lunar/class_1072;
-	METHOD lIllIIllllIlIIlIIIIllIIlI getLunarClient ()Lcom/lunar/class_286;
-	METHOD lIllllIlllIIIlllIllllllll getOpenScreen ()Ljava/lang/Class;
-	METHOD lllIIllIllllIIIllllllllIl getMinecraftClient ()Lcom/lunar/class_1023;

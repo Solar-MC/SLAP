@@ -1,20 +1,9 @@
 CLASS com/lunar/class_568 com/lunar/common/settings/Setting
-	FIELD IIIlIlllIIllllIIIlIllllll name Ljava/lang/String;
-	FIELD IlIIlllIIIIlllIlIIllllIll loadListeners Ljava/util/List;
-	FIELD lIllIIllllIlIIlIIIIllIIlI defaultValue Ljava/lang/Object;
-	FIELD lllIIllIllllIIIllllllllIl value Ljava/lang/Object;
 	METHOD <init> (Ljava/lang/String;Ljava/lang/Object;)V
 		ARG 1 name
 		ARG 2 defaultValue
 	METHOD <init> (Ljava/lang/String;Ljava/lang/Object;Ljava/util/function/BooleanSupplier;)V
 		ARG 1 name
 		ARG 2 defaultValue
-	METHOD IIlllIlIIIIIIlIlIlllllIlI getDefaultValue ()Ljava/lang/Object;
-	METHOD lIIllIlIllIlIIlIlIlIIlIlI getName ()Ljava/lang/String;
-	METHOD lIllIIllllIlIIlIIIIllIIlI addUpdateListener (Ljava/util/function/Consumer;)Lcom/lunar/class_568;
-	METHOD llIlIIlIllllllllllIllIIll getValue ()Ljava/lang/Object;
-	METHOD lllIIllIllllIIIllllllllIl setIfValue (Ljava/lang/Object;Ljava/util/function/Predicate;)V
-		ARG 2 valuePredicate
-	METHOD lllIIllIllllIIIllllllllIl addAndRunLoadListener (Ljava/util/function/Consumer;)Lcom/lunar/class_568;
 	METHOD method_4 setDefault ()V
 	METHOD method_5 getTranslation ()Ljava/lang/String;

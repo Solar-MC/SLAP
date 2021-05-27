@@ -1,9 +1,1 @@
 CLASS com/lunar/class_833 com/lunar/common/auth/MicrosoftAuthManager
-	FIELD IIIlIlllIIllllIIIlIllllll oauthAuthorize Ljava/lang/String;
-	FIELD IIlIllIllIIIllIIIIIIlIllI xblAuthenticate Ljava/lang/String;
-	FIELD IIllIllIIllIIlllIIIlIlllI xblAuthorize Ljava/lang/String;
-	FIELD lIllIIllllIlIIlIIIIllIIlI applicationId Ljava/lang/String;
-	FIELD lllIIllIllllIIIllllllllIl yggdrasilUserAuth Lcom/mojang/authlib/yggdrasil/YggdrasilUserAuthentication;
-	METHOD lllIIllIllllIIIllllllllIl start ()V
-	METHOD lllIIllIllllIIIllllllllIl (Lcom/lunar/class_503;)V
-		ARG 0 authManager

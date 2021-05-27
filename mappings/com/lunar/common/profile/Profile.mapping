@@ -1,7 +1,1 @@
 CLASS com/lunar/class_578 com/lunar/common/profile/Profile
-	METHOD IIIlIlllIIllllIIIlIllllll getDisplayName ()Ljava/lang/String;
-	METHOD IIlIllIllIIIllIIIIIIlIllI getServer ()Ljava/lang/String;
-	METHOD IlIIIIlIlIlIlIIlIlIIlIIll getDefault ()Z
-	METHOD IlIIlllIIIIlllIlIIllllIll getActive ()Z
-	METHOD lIIllIIIIllllIlIIIIlIlIIl getIconName ()Ljava/lang/String;
-	METHOD lIllIIllllIlIIlIIIIllIIlI getName ()Ljava/lang/String;

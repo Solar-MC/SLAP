@@ -1,10 +1,4 @@
 CLASS com/lunar/class_204 com/lunar/common/hud/SimpleHudModSize
-	FIELD IIIlIlllIIllllIIIlIllllll maxHeight I
-	FIELD IlIIIIlIlIlIlIIlIlIIlIIll minWidth I
-	FIELD IlIIlllIIIIlllIlIIllllIll width I
-	FIELD lIIllIIIIllllIlIIIIlIlIIl maxWidth I
-	FIELD lIllIIllllIlIIlIIIIllIIlI height I
-	FIELD lllIIllIllllIIIllllllllIl minHeight I
 	METHOD <init> (IIIIII)V
 		ARG 1 minHeight
 		ARG 2 height
@@ -12,22 +6,3 @@ CLASS com/lunar/class_204 com/lunar/common/hud/SimpleHudModSize
 		ARG 4 minWidth
 		ARG 5 width
 		ARG 6 maxWidth
-	METHOD IIIlIlllIIllllIIIlIllllll getMaxHeight ()I
-	METHOD IIIlIlllIIllllIIIlIllllll setMaxHeight (I)V
-		ARG 1 maxHeight
-	METHOD IlIIIIlIlIlIlIIlIlIIlIIll getMinWidth ()I
-	METHOD IlIIIIlIlIlIlIIlIlIIlIIll setMinWidth (I)V
-		ARG 1 minWidth
-	METHOD IlIIlllIIIIlllIlIIllllIll getWidth ()I
-	METHOD IlIIlllIIIIlllIlIIllllIll setWidth (I)V
-		ARG 1 width
-	METHOD lIIllIIIIllllIlIIIIlIlIIl getMaxWidth ()I
-	METHOD lIIllIIIIllllIlIIIIlIlIIl setMaxWidth (I)V
-		ARG 1 maxWidth
-	METHOD lIllIIllllIlIIlIIIIllIIlI getHeight ()I
-	METHOD lIllIIllllIlIIlIIIIllIIlI setHeight (I)V
-		ARG 1 height
-	METHOD lllIIllIllllIIIllllllllIl getMinHeight ()I
-	METHOD lllIIllIllllIIIllllllllIl setMinHeight (I)V
-		ARG 1 minHeight
-	METHOD lllIIllIllllIIIllllllllIl isSimpleHudModSize (Ljava/lang/Object;)Z

@@ -1,4 +1,1 @@
 CLASS com/lunar/class_592 com/lunar/common/mod/LunarMod
-	METHOD IIIlIlllIIllllIIIlIllllll getId ()Ljava/lang/String;
-	METHOD lIIlIlIIIIIlIIIIIIIlllIlI getModType ()Ljava/lang/String;
-	METHOD lIllIIllllIlIIlIIIIllIIlI getDisplayName ()Ljava/lang/String;

@@ -1,16 +1,6 @@
 CLASS com/lunar/class_500 com/lunar/common/profile/MinecraftProfile
-	FIELD lIllIIllllIlIIlIIIIllIIlI name Ljava/lang/String;
-	FIELD lllIIllIllllIIIllllllllIl id Ljava/lang/String;
 	METHOD <init> (Ljava/lang/String;Ljava/lang/String;)V
 		ARG 1 id
 		ARG 2 name
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 profile
-	METHOD lIllIIllllIlIIlIIIIllIIlI getName ()Ljava/lang/String;
-	METHOD lIllIIllllIlIIlIIIIllIIlI setName (Ljava/lang/String;)V
-		ARG 1 id
-	METHOD lllIIllIllllIIIllllllllIl getId ()Ljava/lang/String;
-	METHOD lllIIllIllllIIIllllllllIl isInstanceOf (Ljava/lang/Object;)Z
-		ARG 1 profile
-	METHOD lllIIllIllllIIIllllllllIl setId (Ljava/lang/String;)V
-		ARG 1 id

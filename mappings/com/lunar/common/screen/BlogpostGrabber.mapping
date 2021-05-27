@@ -1,9 +1,4 @@
 CLASS com/lunar/class_504 com/lunar/common/screen/BlogpostGrabber
-	FIELD IIIlIlllIIllllIIIlIllllll latestBlogpostPath Ljava/lang/String;
-	FIELD IlIIlllIIIIlllIlIIllllIll latestBlockpost Lcom/lunar/class_245;
-	FIELD lllIIllIllllIIIllllllllIl blogPostImags Ljava/io/File;
 	METHOD <init> (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 		ARG 1 image
 		ARG 2 latestBlogpost
-	METHOD IIIlIlllIIllllIIIlIllllll getLatestBlogpostImg ()Ljava/lang/String;
-	METHOD IlIIlllIIIIlllIlIIllllIll getLatestBlogpost ()Lcom/lunar/class_245;

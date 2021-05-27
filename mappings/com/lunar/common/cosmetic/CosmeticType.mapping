@@ -1,5 +1,1 @@
 CLASS com/lunar/class_539 com/lunar/common/cosmetic/CosmeticType
-	FIELD IlIIlllIIllIIlllIllIIIlII type Lcom/lunar/class_539;
-	FIELD llllIlIlIIllllIIlIlIIllII location Lcom/lunar/class_245;
-	METHOD IIIlIlllIIllllIIIlIllllll getType ()Lcom/lunar/class_539;
-	METHOD IlIIIIlIlIlIlIIlIlIIlIIll getLocation ()Lcom/lunar/class_245;

@@ -1,7 +1,3 @@
 CLASS com/lunar/class_295 com/lunar/common/network/ServerConnection
-	FIELD IIlIllIllIIIllIIIIIIlIllI lunarClient Lcom/lunar/class_286;
-	FIELD IIllIllIIllIIlllIIIlIlllI minecraftClient Lcom/lunar/class_1023;
-	FIELD IlIIIIlIlIlIlIIlIlIIlIIll connection Lcom/lunar/class_291;
-	FIELD IlIIlllIIllIIlllIllIIIlII status Lcom/lunar/class_293;
 	METHOD onOpen (Lorg/java_websocket/handshake/ServerHandshake;)V
 		ARG 1 handshake

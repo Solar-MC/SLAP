@@ -1,4 +1,1 @@
 CLASS com/lunar/class_244 com/lunar/common/text/formatting/Formatting
-	FIELD llIlllIllIIlllllIllllIIII pattern Ljava/util/regex/Pattern;
-	METHOD IlIIIIlIlIlIlIIlIlIIlIIll getId ()Ljava/lang/String;
-	METHOD values ()[Lcom/lunar/class_244;

@@ -1,4 +1,1 @@
 CLASS com/lunar/class_497
-	FIELD lllIIllIllllIIIllllllllIl items Ljava/util/Set;
-	METHOD IlIIIIlIlIlIlIIlIlIIlIIll getItems ()Ljava/util/Set;
-	METHOD lllIIllIllllIIIllllllllIl getAll ()Ljava/util/Set;

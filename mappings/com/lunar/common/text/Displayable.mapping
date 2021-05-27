@@ -1,2 +1,1 @@
 CLASS com/lunar/class_563 com/lunar/common/text/Displayable
-	METHOD lllIIllIllllIIIllllllllIl getDisplayName ()Ljava/lang/String;
