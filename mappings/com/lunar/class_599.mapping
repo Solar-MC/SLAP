@@ -1,1 +1,3 @@
 CLASS com/lunar/class_599
+	METHOD method_2501 (Lcom/lunar/class_626;)V
+		ARG 0 screen

@@ -1,0 +1,11 @@
+CLASS com/lunar/class_830 com/lunar/common/input/Keybindings
+	FIELD field_3063 translations Ljava/util/Map;
+	FIELD field_3065 keys Ljava/util/Map;
+	FIELD field_3066 ids Ljava/util/Map;
+	FIELD field_3067 UNKNOWN Lcom/lunar/class_821;
+	METHOD method_3284 stringToBoolFloat (Ljava/lang/String;)F
+		ARG 0 floatAsAStringWtf
+	METHOD method_3286 registerKeybind (Ljava/lang/String;Lcom/lunar/class_56;I)V
+		ARG 0 translation
+		ARG 1 key
+		ARG 2 id

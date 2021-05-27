@@ -1,1 +1,3 @@
 CLASS com/lunar/class_497
+	FIELD field_1982 lunarScreens Ljava/util/Set;
+	METHOD method_1812 getLunarScreens ()Ljava/util/Set;

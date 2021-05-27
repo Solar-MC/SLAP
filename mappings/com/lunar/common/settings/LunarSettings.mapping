@@ -1,0 +1,6 @@
+CLASS com/lunar/class_530 com/lunar/common/settings/LunarSettings
+	FIELD field_2158 compactMenu Lcom/lunar/class_574;
+	FIELD field_2169 debugEnum Lcom/lunar/class_558;
+	FIELD field_2173 shiftEffects Lcom/lunar/class_574;
+	FIELD field_2178 popupLocation Lcom/lunar/class_558;
+	FIELD field_2185 debug01 Lcom/lunar/class_574;

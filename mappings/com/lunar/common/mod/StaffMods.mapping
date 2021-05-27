@@ -1,0 +1,3 @@
+CLASS com/lunar/class_523 com/lunar/common/mod/StaffMods
+	FIELD field_2071 xray Lcom/lunar/class_401;
+	METHOD method_1953 getXray ()Lcom/lunar/class_401;

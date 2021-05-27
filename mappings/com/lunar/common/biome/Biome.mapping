@@ -1,1 +1,2 @@
 CLASS com/lunar/class_278 com/lunar/common/biome/Biome
+	METHOD values ()[Lcom/lunar/class_278;

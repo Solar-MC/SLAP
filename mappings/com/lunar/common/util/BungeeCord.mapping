@@ -1,1 +1,3 @@
 CLASS com/lunar/class_832 com/lunar/common/util/BungeeCord
+	FIELD field_3059 bungeeName Ljava/lang/String;
+	METHOD method_3272 getName ()Ljava/lang/String;
