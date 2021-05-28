@@ -2,7 +2,7 @@
 
 plugins {
     java
-    id("com.solarmc.eclipse") version "1.0-SNAPSHOT"
+    id("com.solarmc.eclipse") version "1.2-SNAPSHOT"
 }
 
 group = "com.solarmc"

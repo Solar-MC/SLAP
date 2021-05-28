@@ -1,0 +1,22 @@
+CLASS com/lunar/class_194 com/lunar/common/mod/PanelFeature
+	FIELD field_530 logo50 Lcom/lunar/class_245;
+	FIELD field_536 logo20 Lcom/lunar/class_245;
+	FIELD field_537 events Ljava/util/Map;
+	FIELD field_538 lunarClient Lcom/lunar/class_286;
+	FIELD field_542 featureDetails Lcom/lunar/class_193;
+	FIELD field_543 minecraftClient Lcom/lunar/class_1023;
+	METHOD method_1 a_ ()V
+	METHOD method_372 getLogo50 ()Lcom/lunar/class_245;
+	METHOD method_373 getMinecraftClient ()Lcom/lunar/class_1023;
+	METHOD method_377 getEvents ()Ljava/util/Map;
+	METHOD method_380 isEnabled ()Z
+	METHOD method_388 getLogo20 ()Lcom/lunar/class_245;
+	METHOD method_390 getLunarClient ()Lcom/lunar/class_286;
+	METHOD method_391 unregisterEvents ()V
+	METHOD method_395 getFeatureDetails ()Lcom/lunar/class_193;
+	METHOD method_396 getDetails ()Lcom/lunar/class_193;
+	METHOD method_397 registerEvents ()V
+	METHOD method_405 getFeatureIcon (Ljava/lang/String;)Lcom/lunar/class_245;
+		ARG 1 name
+	METHOD method_406 drawStringCentered (Ljava/lang/String;FFFF)V
+		ARG 1 string

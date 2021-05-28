@@ -1,1 +1,5 @@
 CLASS com/lunar/class_626 com/lunar/common/screen/LunarScreen
+	FIELD field_2576 legacySound Lcom/lunar/class_245;
+	FIELD field_2579 lunarStar Lcom/lunar/class_245;
+	FIELD field_2582 sound Lcom/lunar/class_245;
+	FIELD field_2584 sizeHelper Lcom/lunar/class_814;

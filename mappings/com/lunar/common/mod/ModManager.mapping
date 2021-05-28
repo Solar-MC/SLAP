@@ -1,4 +1,5 @@
 CLASS com/lunar/class_521 com/lunar/common/mod/ModManager
+	FIELD field_2043 chatMod Lcom/lunar/class_1180;
 	FIELD field_2045 skyblockAddonsMod Lcom/lunar/class_372;
 	FIELD field_2046 sprintSneakToggleMod Lcom/lunar/class_405;
 	FIELD field_2047 itemPhysicsMod Lcom/lunar/class_447;
@@ -28,20 +29,27 @@ CLASS com/lunar/class_521 com/lunar/common/mod/ModManager
 	METHOD method_1924 getMotionBlurMod ()Lcom/lunar/class_453;
 	METHOD method_1925 getHitboxMod ()Lcom/lunar/class_443;
 	METHOD method_1926 getArmorStatusMod ()Lcom/lunar/class_208;
+	METHOD method_1927 getPotionEffectMod ()Lcom/lunar/class_466;
 	METHOD method_1929 getAutoTextMod ()Lcom/lunar/class_444;
 	METHOD method_1930 getMenuBlurMod ()Lcom/lunar/class_452;
 	METHOD method_1931 scrollableTooltipsMod ()Lcom/lunar/class_369;
+	METHOD method_1932 getItems2DMod ()Lcom/lunar/class_446;
 	METHOD method_1933 getFreelookMod ()Lcom/lunar/class_441;
 	METHOD method_1934 getBlockOutlineMod ()Lcom/lunar/class_210;
+	METHOD method_1935 getChatMod ()Lcom/lunar/class_1180;
 	METHOD method_1936 getScreenshotMod ()Lcom/lunar/class_474;
 	METHOD method_1937 getSkyblockAddonsMod ()Lcom/lunar/class_372;
 	METHOD method_1938 getCrosshairMod ()Lcom/lunar/class_220;
 	METHOD method_1939 getNickHiderMod ()Lcom/lunar/class_457;
 	METHOD method_1940 getZoomMod ()Lcom/lunar/class_430;
 	METHOD method_1941 getReplayMod ()Lcom/lunar/class_468;
+	METHOD method_1943 getSprintSneakToggleMod ()Lcom/lunar/class_405;
+	METHOD method_1944 getShinyPotsMod ()Lcom/lunar/class_371;
 	METHOD method_1945 getWaypointsMod ()Lcom/lunar/class_408;
 	METHOD method_1946 getParticleMultiplierMod ()Lcom/lunar/class_462;
 	METHOD method_1947 getBossBarMod ()Lcom/lunar/class_211;
 	METHOD method_1948 getKeystrokesMod ()Lcom/lunar/class_449;
 	METHOD method_1949 getOneSevenVisualsMod ()Lcom/lunar/class_461;
+	METHOD method_1950 setSkyblockAddons (Lcom/lunar/class_372;)V
+		ARG 1 skyblockAddons
 	METHOD method_1952 getItemPhysicsMod ()Lcom/lunar/class_447;

@@ -62,7 +62,7 @@ CLASS com/lunar/class_286 com/lunar/common/LunarClient
 		ARG 1 authConsumer
 	METHOD method_753 (Lcom/lunar/class_164;)V
 		ARG 0 event
-	METHOD method_754 (Lcom/lunar/class_253;)V
+	METHOD method_754 initSession (Lcom/lunar/class_253;)V
 		ARG 1 session
 	METHOD method_756 openScreen (Lcom/lunar/class_1049;)V
 		ARG 1 screen

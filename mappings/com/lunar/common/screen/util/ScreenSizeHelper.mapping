@@ -1,0 +1,13 @@
+CLASS com/lunar/class_814 com/lunar/common/screen/util/ScreenSizeHelper
+	FIELD field_3100 scaledHeight D
+	FIELD field_3101 scale I
+	FIELD field_3102 height I
+	FIELD field_3103 width I
+	FIELD field_3104 scaledWidth D
+	METHOD <init> (Lcom/lunar/class_1023;)V
+		ARG 1 client
+	METHOD method_3381 getHeight ()I
+	METHOD method_3382 getScale ()I
+	METHOD method_3383 getScaledHeight ()D
+	METHOD method_3384 getScaledWidth ()D
+	METHOD method_3385 getWidth ()I

@@ -1,1 +1,1 @@
-CLASS org/spongepowered/asm/mixin/injection/callback/Cancellable org/spongepowered/asm/mixin/injection/callback/Cancellable
+CLASS org/spongepowered/asm/mixin/injection/callback/Cancellable

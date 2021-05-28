@@ -1,1 +1,1 @@
-CLASS org/spongepowered/asm/mixin/injection/callback/LocalCapture org/spongepowered/asm/mixin/injection/callback/LocalCapture
+CLASS org/spongepowered/asm/mixin/injection/callback/LocalCapture

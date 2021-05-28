@@ -1,0 +1,5 @@
+CLASS com/lunar/class_820 com/lunar/common/math/LunarMaths
+	METHOD method_3345 round (D)I
+		ARG 0 val
+	METHOD method_3349 (III)I
+		ARG 0 v
