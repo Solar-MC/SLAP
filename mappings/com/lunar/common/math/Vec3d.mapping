@@ -1,0 +1,25 @@
+CLASS com/lunar/class_235 com/lunar/common/math/Vec3d
+	FIELD field_789 y D
+	FIELD field_790 z D
+	FIELD field_791 x D
+	METHOD <init> (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 vec3D
+	METHOD method_626 getY ()D
+	METHOD method_627 setY (D)V
+		ARG 1 y
+	METHOD method_628 getZ ()D
+	METHOD method_629 setZ (D)V
+		ARG 1 z
+	METHOD method_630 getX ()D
+	METHOD method_631 setX (D)V
+		ARG 1 x
+	METHOD method_632 instanceOfVec3d (Ljava/lang/Object;)Z
+		ARG 1 obj
+	METHOD method_633 minus (Lcom/lunar/class_235;Lcom/lunar/class_235;Lcom/lunar/class_235;)Lcom/lunar/class_235;
+		ARG 0 original
+		ARG 1 takeAway
+		ARG 2 result

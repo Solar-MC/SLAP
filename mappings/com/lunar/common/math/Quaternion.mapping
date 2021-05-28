@@ -1,6 +1,38 @@
 CLASS com/lunar/class_249 com/lunar/common/math/Quaternion
+	FIELD field_799 x F
+	FIELD field_800 w F
+	FIELD field_801 z F
+	FIELD field_802 y F
+	FIELD field_803 EMPTY Lcom/lunar/class_249;
 	METHOD <init> (FFFF)V
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
 		ARG 4 w
+	METHOD method_638 getZ ()F
+	METHOD method_639 setY (F)V
+		ARG 1 y
+	METHOD method_641 cos (F)F
+		ARG 0 f
+	METHOD method_642 getY ()F
+	METHOD method_643 setX (F)V
+		ARG 1 x
+	METHOD method_644 setW (F)V
+		ARG 1 w
+	METHOD method_645 getX ()F
+	METHOD method_647 getW ()F
+	METHOD method_648 setZ (F)V
+		ARG 1 z
+	METHOD method_649 copy ()Lcom/lunar/class_249;
+	METHOD method_650 sin (F)F
+		ARG 0 f
+	METHOD method_651 negative ()V
+	METHOD method_652 scale (F)V
+		ARG 1 scale
+	METHOD method_653 setValues (FFFF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 w
+	METHOD method_654 multiply (Lcom/lunar/class_249;)V
+		ARG 1 quaternion

@@ -1,5 +1,0 @@
-CLASS com/lunar/class_243 com/lunar/common/math/Vector3i
-	METHOD <init> (III)V
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z

@@ -1,0 +1,4 @@
+CLASS com/lunar/class_497 com/lunar/common/util/SetStorage
+	FIELD field_1982 set Ljava/util/Set;
+	METHOD method_1812 getSet ()Ljava/util/Set;
+	METHOD method_1813 getStartingSet ()Ljava/util/Set;

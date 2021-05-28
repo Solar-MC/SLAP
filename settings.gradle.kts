@@ -8,5 +8,6 @@ pluginManagement {
         maven(url = "https://jitpack.io")
         maven(url = "gcs://devan-maven")
         mavenCentral()
+        mavenLocal()
     }
 }

@@ -1,1 +1,17 @@
 CLASS com/lunar/class_516 com/lunar/common/lang/LanguageManager
+	FIELD field_2076 langFile Lcom/google/gson/JsonObject;
+	FIELD field_2077 translationMap Ljava/util/Map;
+	FIELD field_2078 language Lcom/lunar/class_485;
+	METHOD method_1979 getLangFile (Ljava/lang/String;)Lcom/google/gson/JsonObject;
+		ARG 1 languageFile
+	METHOD method_1981 setLanguage ()V
+	METHOD method_1982 changeLanguage (Ljava/lang/String;)V
+		ARG 1 languageName
+	METHOD method_1984 translate (Lcom/lunar/class_483;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+		ARG 1 translatabke
+		ARG 2 translationKey
+		ARG 3 filler
+	METHOD method_1985 changeLanguage (Lcom/lunar/class_485;)V
+		ARG 1 language
+	METHOD method_1986 getResourceAsStream ([Ljava/lang/String;)Ljava/io/InputStream;
+		ARG 1 path

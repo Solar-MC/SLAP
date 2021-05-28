@@ -1,0 +1,13 @@
+CLASS com/lunar/class_582 com/lunar/common/schedule/Scheduler
+	FIELD field_2369 threadScheduler Lcom/lunar/class_585;
+	METHOD method_2357 getThreadScheduler ()Lcom/lunar/class_585;
+	METHOD method_2359 wrap (Ljava/lang/Runnable;)Ljava/lang/Runnable;
+		ARG 0 r
+	CLASS 1 SomeInnerClass
+	CLASS class_1231 WrappedRunnable
+		FIELD field_2370 r Ljava/lang/Runnable;
+		METHOD <init> (Ljava/lang/Runnable;)V
+			ARG 1 r
+		METHOD <init> (Ljava/lang/Runnable;Lcom/lunar/class_582$1;)V
+			ARG 1 r
+			ARG 2 useless

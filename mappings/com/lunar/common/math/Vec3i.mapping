@@ -1,0 +1,15 @@
+CLASS com/lunar/class_243 com/lunar/common/math/Vec3i
+	FIELD field_796 y I
+	FIELD field_797 z I
+	FIELD field_798 x I
+	METHOD <init> (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 vec3i
+	METHOD method_634 getY ()I
+	METHOD method_635 getZ ()I
+	METHOD method_636 getX ()I
+	METHOD method_637 instanceOfVec3i (Ljava/lang/Object;)Z
+		ARG 1 vec3i

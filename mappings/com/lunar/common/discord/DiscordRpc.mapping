@@ -1,1 +1,3 @@
 CLASS com/lunar/class_803 com/lunar/common/discord/DiscordRpc
+	METHOD method_3248 setStatus (Ljava/lang/String;)V
+	METHOD method_3267 setUsername (Ljava/lang/String;)V

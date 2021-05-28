@@ -1,0 +1,5 @@
+CLASS com/lunar/class_115 com/lunar/common/util/ResourcePackBridgeStore
+	FIELD field_338 resourcePack Lcom/lunar/class_6;
+	METHOD <init> (Lcom/lunar/class_6;)V
+		ARG 1 resourcePack
+	METHOD method_158 getResourcePack ()Lcom/lunar/class_6;

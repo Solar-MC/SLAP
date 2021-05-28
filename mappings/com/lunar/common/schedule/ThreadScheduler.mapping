@@ -1,0 +1,3 @@
+CLASS com/lunar/class_585 com/lunar/common/schedule/ThreadScheduler
+	FIELD field_2372 timer Ljava/util/concurrent/ScheduledExecutorService;
+	FIELD field_2374 scheduler Ljava/util/concurrent/ExecutorService;

@@ -1,0 +1,14 @@
+CLASS com/lunar/class_561 com/lunar/common/hud/ColorSetting
+	FIELD field_2304 type Lcom/lunar/class_558;
+	FIELD field_2305 s F
+	FIELD field_2306 g F
+	FIELD field_2307 h F
+	FIELD field_2308 chroma Lcom/lunar/class_574;
+	FIELD field_2311 b F
+	FIELD field_2312 speed Lcom/lunar/class_560;
+	FIELD field_2313 r F
+	METHOD <init> (Ljava/lang/String;Ljava/lang/Integer;Ljava/util/function/BooleanSupplier;)V
+		ARG 2 defaultValue
+	CLASS class_1228 ChromaType
+		FIELD field_2316 color Ljava/util/function/BiFunction;
+		FIELD field_2317 name Ljava/lang/String;

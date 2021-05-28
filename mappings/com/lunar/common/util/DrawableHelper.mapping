@@ -1,3 +1,22 @@
 CLASS com/lunar/class_513 com/lunar/common/util/DrawableHelper
+	FIELD field_2087 robotoBold Lcom/lunar/class_245;
+	FIELD field_2088 robotoLight14 Lcom/lunar/class_677;
+	FIELD field_2089 robotoLight38 Lcom/lunar/class_677;
+	FIELD field_2090 ralewayExtrabold Lcom/lunar/class_245;
+	FIELD field_2091 robotoBold14 Lcom/lunar/class_677;
+	FIELD field_2092 ralewayLight22 Lcom/lunar/class_677;
+	FIELD field_2093 robotoLight18 Lcom/lunar/class_677;
+	FIELD field_2094 robotoMedium13 Lcom/lunar/class_677;
+	FIELD field_2095 robotoBold10 Lcom/lunar/class_677;
+	FIELD field_2096 robotoLight Lcom/lunar/class_245;
+	FIELD field_2097 robotoMedium Lcom/lunar/class_245;
+	FIELD field_2098 robotoMedium10 Lcom/lunar/class_677;
+	FIELD field_2099 ralewayExtrabold22 Lcom/lunar/class_677;
 	FIELD field_2100 instance Lcom/lunar/class_513;
+	FIELD field_2101 robotoLight22 Lcom/lunar/class_677;
+	FIELD field_2102 robotoBold18 Lcom/lunar/class_677;
+	FIELD field_2103 robotoLight12 Lcom/lunar/class_677;
+	FIELD field_2104 robotoBold12 Lcom/lunar/class_677;
+	FIELD field_2105 robotoLight16 Lcom/lunar/class_677;
+	FIELD field_2106 ralewayLight Lcom/lunar/class_245;
 	METHOD method_2025 getInstance ()Lcom/lunar/class_513;

@@ -1,1 +1,21 @@
 CLASS com/lunar/class_821 com/lunar/common/keybind/KeyVersionPair
+	FIELD field_3072 key Lcom/lunar/class_56;
+	FIELD field_3073 legacyKeyCode I
+	FIELD field_3074 keycode Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;Lcom/lunar/class_56;I)V
+		ARG 1 keycode
+		ARG 2 key
+		ARG 3 legacyKeycode
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 keyVersionPair
+	METHOD method_3296 getKey ()Lcom/lunar/class_56;
+	METHOD method_3297 getLegacyKeyCode ()I
+	METHOD method_3298 getKeycode ()Ljava/lang/String;
+	METHOD method_3299 setLegacyKeycode (I)V
+		ARG 1 id
+	METHOD method_3300 instanceOfKeyVersionPair (Ljava/lang/Object;)Z
+		ARG 1 obj
+	METHOD method_3301 setKeycode (Ljava/lang/String;)V
+		ARG 1 name
+	METHOD method_3302 setKey (Lcom/lunar/class_56;)V
+		ARG 1 key

@@ -1,0 +1,3 @@
+CLASS com/lunar/class_431
+	METHOD <init> (Lcom/lunarclient/bukkitapi/nethandler/client/obj/ServerRule;Z)V
+		ARG 1 rule

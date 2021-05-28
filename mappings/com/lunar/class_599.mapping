@@ -1,3 +1,7 @@
 CLASS com/lunar/class_599
 	METHOD method_2501 (Lcom/lunar/class_626;)V
 		ARG 0 screen
+	METHOD method_2506 (Lcom/lunar/class_1023;II)V
+		ARG 1 client
+		ARG 2 width
+		ARG 3 height

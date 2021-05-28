@@ -1,0 +1,5 @@
+CLASS com/lunar/class_592 com/lunar/common/mod/ThirdPartyMod
+	METHOD method_2424 getDisplayName ()Ljava/lang/String;
+	METHOD method_2432 getName ()Ljava/lang/String;
+	METHOD method_2434 getId ()Ljava/lang/String;
+	METHOD method_3602 getModLanguage ()Ljava/lang/String;

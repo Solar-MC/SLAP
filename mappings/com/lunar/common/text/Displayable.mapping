@@ -1,1 +1,2 @@
 CLASS com/lunar/class_563 com/lunar/common/text/Displayable
+	METHOD method_2302 getTranslatedKey ()Ljava/lang/String;

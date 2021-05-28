@@ -1,2 +1,5 @@
 CLASS com/lunar/class_483 com/lunar/common/lang/Translatable
 	METHOD method_1739 getTranslationKey ()Ljava/lang/String;
+	METHOD method_1740 translate (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+		ARG 1 translationKey
+		ARG 2 fillers

@@ -1,5 +1,6 @@
 CLASS com/lunar/class_286 com/lunar/common/LunarClient
 	FIELD field_1000 profileManager Lcom/lunar/class_577;
+	FIELD field_1001 ruleFeatures Lcom/lunar/class_528;
 	FIELD field_1002 configManager Lcom/lunar/class_525;
 	FIELD field_1003 branchName Ljava/lang/String;
 	FIELD field_1005 cosmeticManager Lcom/lunar/class_519;
@@ -10,35 +11,59 @@ CLASS com/lunar/class_286 com/lunar/common/LunarClient
 	FIELD field_1024 RANDOM Ljava/util/Random;
 	FIELD field_1025 arch Ljava/lang/String;
 	FIELD field_1028 EVENT_BUS Lcom/lunar/class_359;
+	FIELD field_1030 serverIp Ljava/lang/String;
+	FIELD field_1031 thirdPartyMods Ljava/util/Map;
+	FIELD field_1032 worldName Ljava/lang/String;
 	FIELD field_3252 longCommitHash Ljava/lang/String;
 	FIELD field_3253 shortCommitHash Ljava/lang/String;
 	FIELD field_981 accountMod Lcom/lunar/class_527;
+	FIELD field_985 staffMods Lcom/lunar/class_523;
 	FIELD field_986 lunarSettingsFolder Ljava/io/File;
 	FIELD field_987 GSON Lcom/google/gson/Gson;
 	FIELD field_988 EMPTY Lcom/lunar/class_68;
 	FIELD field_991 lunarServerConnection Lcom/lunar/class_295;
+	FIELD field_992 mods Ljava/util/Set;
 	FIELD field_994 osName Ljava/lang/String;
 	FIELD field_995 instance Lcom/lunar/class_286;
+	FIELD field_997 serverName Ljava/lang/String;
 	FIELD field_998 languageManager Lcom/lunar/class_516;
 	FIELD field_999 modManager Lcom/lunar/class_521;
 	METHOD method_697 getOsName ()Ljava/lang/String;
 	METHOD method_698 getProfileManager ()Lcom/lunar/class_577;
 	METHOD method_699 getLanguageManager ()Lcom/lunar/class_516;
+	METHOD method_703 getWorldName ()Ljava/lang/String;
 	METHOD method_704 getModManager ()Lcom/lunar/class_521;
 	METHOD method_710 getLunarSettingsFolder ()Ljava/io/File;
+	METHOD method_711 getRuleFeatures ()Lcom/lunar/class_528;
+	METHOD method_713 connectToAssetServer ()V
+	METHOD method_714 setWorldName (Ljava/lang/String;)V
+		ARG 1 worldName
 	METHOD method_715 getShortCommitHash ()Ljava/lang/String;
 	METHOD method_719 getCosmeticManager ()Lcom/lunar/class_519;
 	METHOD method_720 getRpc ()Lcom/lunar/class_803;
+	METHOD method_723 getThirdPartyMods ()Ljava/util/Map;
 	METHOD method_725 getLunarServerIntegration ()Lcom/lunar/class_586;
+	METHOD method_726 init ()V
+	METHOD method_729 getServerIp ()Ljava/lang/String;
 	METHOD method_731 getLongCommitHash ()Ljava/lang/String;
+	METHOD method_732 getStaffMods ()Lcom/lunar/class_523;
 	METHOD method_733 getOsBits ()I
 	METHOD method_734 getConfigManager ()Lcom/lunar/class_525;
+	METHOD method_735 setupDevEnviroment ()V
 	METHOD method_736 getArch ()Ljava/lang/String;
 	METHOD method_737 getAccountMod ()Lcom/lunar/class_527;
 	METHOD method_741 getBranchName ()Ljava/lang/String;
+	METHOD method_743 getMods ()Ljava/util/Set;
 	METHOD method_744 getNetworkManager ()Lcom/lunar/class_555;
 	METHOD method_746 getWindowtitle ()Ljava/lang/String;
 	METHOD method_747 getLunarServerConnection ()Lcom/lunar/class_295;
 	METHOD method_748 getInstance ()Lcom/lunar/class_286;
+	METHOD method_752 authenticate (Ljava/util/function/Consumer;)V
+		ARG 1 authConsumer
+	METHOD method_753 (Lcom/lunar/class_164;)V
+		ARG 0 event
+	METHOD method_754 (Lcom/lunar/class_253;)V
+		ARG 1 session
 	METHOD method_756 openScreen (Lcom/lunar/class_1049;)V
 		ARG 1 screen
+	METHOD method_757 loadThirdPartyMods ()V
