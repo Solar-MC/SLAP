@@ -1,0 +1,5 @@
+CLASS com/lunar/class_684 com/lunar/common/screen/screens/CosmeticPreviewRenderer
+	FIELD field_2869 player Lcom/lunar/class_1072;
+	METHOD llIlllIIIIIlIIllIIIIIlIII renderFakePlayer ()V
+	METHOD method_3055 getCosmeticType (Lcom/lunar/class_541;)Lcom/lunar/class_687;
+		ARG 1 cosmeticRenderer

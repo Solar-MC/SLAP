@@ -1,1 +1,5 @@
 CLASS com/lunar/class_56 com/lunar/common/input/Key
+	METHOD method_33 isMouseKey ()Z
+	METHOD method_34 getSpecialKeyName ()Ljava/lang/String;
+	METHOD method_35 getMouseKey (I)Lcom/lunar/class_56;
+		ARG 0 mouseButton

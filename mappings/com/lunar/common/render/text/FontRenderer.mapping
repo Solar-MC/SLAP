@@ -1,1 +1,3 @@
 CLASS com/lunar/class_677 com/lunar/common/render/text/FontRenderer
+	METHOD method_2994 drawCenteredString (Ljava/lang/String;FFI)F
+	METHOD method_3005 drawString (Ljava/lang/String;FFI)F

@@ -1,0 +1,4 @@
+CLASS com/lunar/class_824 com/lunar/common/util/NullUtils
+	METHOD method_3464 getNotNullObject (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+		ARG 0 obj1
+		ARG 1 obj2

@@ -1,0 +1,7 @@
+CLASS com/lunar/class_535 com/lunar/common/render/cosmetic/ICosmeticRenderer
+	METHOD method_2120 setPositionsAndAngles (Lcom/lunar/class_1055;Lcom/lunar/class_1055;)V
+		ARG 1 cosmetic
+		ARG 2 parent
+	METHOD method_2121 render (Lcom/lunar/class_1075;F)V
+		ARG 1 player
+		ARG 2 tickDelta

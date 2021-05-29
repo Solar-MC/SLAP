@@ -1,2 +1,4 @@
 CLASS com/lunar/class_1023 com/lunar/bridge/MinecraftClientBridge
-	METHOD bridge$getGameSettings ()Lcom/lunar/class_23;
+	METHOD bridge$displayScreen (Lcom/lunar/class_1049;)V
+	METHOD bridge$getCurrentScreen ()Lcom/lunar/class_1049;
+	METHOD bridge$getRenderManager ()Lcom/lunar/class_1105;

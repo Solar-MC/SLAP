@@ -1,1 +1,2 @@
 CLASS com/lunar/class_46 com/lunar/bridge/WeirdPlayerEntityBridge
+	METHOD bridge$preparePlayerToSpawn ()V

@@ -1,0 +1,7 @@
+CLASS com/lunar/class_679 com/lunar/common/screen/screens/MainMenuScreen
+	FIELD field_2829 optionsButton Lcom/lunar/class_663;
+	FIELD field_2830 exitButton Lcom/lunar/class_663;
+	FIELD field_2832 menuButton Lcom/lunar/class_663;
+	FIELD field_2835 languageButton Lcom/lunar/class_663;
+	FIELD field_2836 cosmeticsButton Lcom/lunar/class_663;
+	METHOD method_3032 renderLabels ()V

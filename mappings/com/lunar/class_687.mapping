@@ -1,0 +1,5 @@
+CLASS com/lunar/class_687
+	FIELD field_2849 cosmeticRenderer Lcom/lunar/class_541;
+	METHOD <init> (Lcom/lunar/class_629;Lcom/lunar/class_541;)V
+		ARG 2 cosmeticRenderer
+	METHOD method_3043 getRenderer ()Lcom/lunar/class_541;

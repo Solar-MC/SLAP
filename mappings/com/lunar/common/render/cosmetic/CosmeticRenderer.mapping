@@ -1,0 +1,10 @@
+CLASS com/lunar/class_541 com/lunar/common/render/cosmetic/CosmeticRenderer
+	FIELD field_2241 thumbnailLocation Lcom/lunar/class_245;
+	FIELD field_2243 location Lcom/lunar/class_245;
+	FIELD field_2246 cosmeticType Lcom/lunar/class_539;
+	METHOD <init> (JLjava/lang/String;FLjava/lang/String;Lcom/lunar/class_539;Z)V
+		ARG 5 name
+		ARG 6 type
+	METHOD method_2140 getThumbnailLocation ()Lcom/lunar/class_245;
+	METHOD method_2142 getLocation ()Lcom/lunar/class_245;
+	METHOD method_2145 getCosmeticType ()Lcom/lunar/class_539;

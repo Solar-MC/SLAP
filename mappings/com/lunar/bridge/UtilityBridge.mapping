@@ -4,7 +4,9 @@ CLASS com/lunar/class_834 com/lunar/bridge/UtilityBridge
 	METHOD method_3312 isOnLunar ()Z
 	METHOD method_3313 getLunarClient ()Lcom/lunar/class_286;
 	METHOD method_3315 getNetHandler ()Lcom/lunar/class_1066;
+	METHOD method_3316 isConnectedToServer ()Z
 	METHOD method_3317 getTime ()J
+	METHOD method_3318 replayModKeyStuff ()V
 	METHOD method_3319 getCurrentScreen ()Ljava/lang/Class;
 	METHOD method_3320 getWorld ()Lcom/lunar/class_1060;
 	METHOD method_3321 getLunarServerConnection ()Ljava/util/Optional;
@@ -15,3 +17,5 @@ CLASS com/lunar/class_834 com/lunar/bridge/UtilityBridge
 	METHOD method_3325 sendChatMessage (Ljava/lang/String;Z)V
 		ARG 0 mesage
 		ARG 1 actionBar
+	METHOD method_3330 (Lcom/lunar/class_572;)V
+		ARG 0 keybind

@@ -1,1 +1,8 @@
 CLASS com/lunar/class_36 com/lunar/bridge/EntityBridge
+	METHOD bridge$setDimension (I)V
+	METHOD bridge$setPosX (D)V
+	METHOD bridge$setPosY (D)V
+	METHOD bridge$setPosZ (D)V
+	METHOD bridge$setPreviousPosX (D)V
+	METHOD bridge$setPreviousPosY (D)V
+	METHOD bridge$setPreviousPosZ (D)V

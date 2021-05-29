@@ -1,1 +1,4 @@
 CLASS com/lunar/class_1105 com/lunar/bridge/EntityRenderDispatcherBridge
+	METHOD bridge$setLivingEntity (Lcom/lunar/class_35;)V
+	METHOD bridge$setOptions (Lcom/lunar/class_23;)V
+	METHOD bridge$setTextureManager (Lcom/lunar/class_1122;)V

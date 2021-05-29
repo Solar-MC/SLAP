@@ -1,3 +1,17 @@
 CLASS com/lunar/class_803 com/lunar/common/discord/DiscordRpc
+	FIELD field_3048 version Lcom/lunar/class_106;
+	FIELD field_3049 status Lcom/lunar/class_292;
+	FIELD field_3055 playerUuid Ljava/util/UUID;
+	METHOD method_3242 getStatus ()Lcom/lunar/class_292;
+	METHOD method_3245 getStatusMessage ()Ljava/lang/String;
 	METHOD method_3248 setStatus (Ljava/lang/String;)V
+	METHOD method_3249 setStatus (Lcom/lunar/class_292;)V
+		ARG 1 status
+	METHOD method_3251 getVersion ()Lcom/lunar/class_106;
+	METHOD method_3259 getPlayerUuid ()Ljava/util/UUID;
 	METHOD method_3267 setUsername (Ljava/lang/String;)V
+		ARG 1 message
+	METHOD method_3268 setVersion (Lcom/lunar/class_106;)V
+		ARG 1 version
+	METHOD method_3270 getIdByStatus (Lcom/lunar/class_292;)I
+		ARG 0 status

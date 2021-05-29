@@ -1,0 +1,3 @@
+CLASS com/lunar/class_54
+	METHOD method_39 getKey (Ljava/lang/String;)Lcom/lunar/class_56;
+		ARG 1 keyName

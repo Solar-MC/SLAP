@@ -1,1 +1,2 @@
 CLASS com/lunar/class_1072 com/lunar/bridge/ClientPlayerEntityBridge
+	METHOD bridge$setMovementInput (Lcom/lunar/class_1074;)V

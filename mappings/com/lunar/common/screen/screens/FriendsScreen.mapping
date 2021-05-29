@@ -1,0 +1,5 @@
+CLASS com/lunar/class_600 com/lunar/common/screen/screens/FriendsScreen
+	FIELD field_2421 parent Lcom/lunar/class_1049;
+	FIELD field_2426 instance Lcom/lunar/class_600;
+	METHOD method_2512 getInstance ()Lcom/lunar/class_600;
+	METHOD method_2514 init ()V

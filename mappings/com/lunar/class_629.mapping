@@ -1,0 +1,4 @@
+CLASS com/lunar/class_629
+	FIELD field_2591 lunarClient Lcom/lunar/class_286;
+	FIELD field_2595 minecraftClient Lcom/lunar/class_1023;
+	METHOD method_2729 render (FFZ)V

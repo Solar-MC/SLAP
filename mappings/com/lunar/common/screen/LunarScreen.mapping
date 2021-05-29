@@ -3,3 +3,7 @@ CLASS com/lunar/class_626 com/lunar/common/screen/LunarScreen
 	FIELD field_2579 lunarStar Lcom/lunar/class_245;
 	FIELD field_2582 sound Lcom/lunar/class_245;
 	FIELD field_2584 sizeHelper Lcom/lunar/class_814;
+	METHOD method_2634 getScaledX ()F
+	METHOD method_2645 getScaledY ()F
+	METHOD method_2658 getButtons ()Ljava/util/List;
+	METHOD method_2669 render (FF)V

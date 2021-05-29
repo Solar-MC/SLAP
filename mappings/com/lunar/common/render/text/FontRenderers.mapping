@@ -1,4 +1,4 @@
-CLASS com/lunar/class_513 com/lunar/common/util/DrawableHelper
+CLASS com/lunar/class_513 com/lunar/common/render/text/FontRenderers
 	FIELD field_2087 robotoBold Lcom/lunar/class_245;
 	FIELD field_2088 robotoLight14 Lcom/lunar/class_677;
 	FIELD field_2089 robotoLight38 Lcom/lunar/class_677;
@@ -19,4 +19,18 @@ CLASS com/lunar/class_513 com/lunar/common/util/DrawableHelper
 	FIELD field_2104 robotoBold12 Lcom/lunar/class_677;
 	FIELD field_2105 robotoLight16 Lcom/lunar/class_677;
 	FIELD field_2106 ralewayLight Lcom/lunar/class_245;
+	METHOD method_2019 getRobotoLight22 ()Lcom/lunar/class_677;
+	METHOD method_2020 getRobotoMedium13 ()Lcom/lunar/class_677;
+	METHOD method_2021 getRobotoBold18 ()Lcom/lunar/class_677;
+	METHOD method_2022 getRalewayLight22 ()Lcom/lunar/class_677;
+	METHOD method_2023 getRobotoLight16 ()Lcom/lunar/class_677;
+	METHOD method_2024 getRobotoBold12 ()Lcom/lunar/class_677;
 	METHOD method_2025 getInstance ()Lcom/lunar/class_513;
+	METHOD method_2026 getRobotoLight12 ()Lcom/lunar/class_677;
+	METHOD method_2027 getRalewayExtrabold22 ()Lcom/lunar/class_677;
+	METHOD method_2028 getRobotoLight38 ()Lcom/lunar/class_677;
+	METHOD method_2029 getRobotoBold10 ()Lcom/lunar/class_677;
+	METHOD method_2030 getRobotoLight14 ()Lcom/lunar/class_677;
+	METHOD method_2031 getRobotoBold14 ()Lcom/lunar/class_677;
+	METHOD method_2032 getRobotoLight18 ()Lcom/lunar/class_677;
+	METHOD method_2033 getRobotoMedium10 ()Lcom/lunar/class_677;

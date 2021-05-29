@@ -1,5 +1,7 @@
 CLASS com/lunar/class_108 com/lunar/bridge/Bridge
-	METHOD initChatText (Ljava/lang/String;)Lcom/lunar/class_240;
-	METHOD initTessellator ()Lcom/lunar/class_1084;
+	METHOD initCustomScreen (Lcom/lunar/class_1043;)Lcom/lunar/class_1033;
+	METHOD initDummyPlayer ()Lcom/lunar/class_1072;
+	METHOD initMovementInput (Lcom/lunar/class_23;)Lcom/lunar/class_1074;
+	METHOD initResourceLocation (Ljava/lang/String;Ljava/lang/String;)Lcom/lunar/class_245;
 	METHOD readImage (Ljava/io/InputStream;)Ljava/awt/image/BufferedImage;
 		ARG 1 input

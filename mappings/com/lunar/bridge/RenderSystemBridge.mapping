@@ -1,4 +1,6 @@
 CLASS com/lunar/class_1082 com/lunar/bridge/RenderSystemBridge
+	METHOD bridge$popMatrix ()V
+	METHOD bridge$pushMatrix ()V
 	METHOD bridge$scale (DDD)V
 		ARG 1 x
 		ARG 3 y

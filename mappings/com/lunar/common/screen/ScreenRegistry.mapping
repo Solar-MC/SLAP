@@ -3,7 +3,7 @@ CLASS com/lunar/class_599 com/lunar/common/screen/ScreenRegistry
 		ARG 0 screen
 	METHOD method_2504 (Lcom/lunar/class_626;)V
 		ARG 1 screen
-	METHOD method_2506 (Lcom/lunar/class_1023;II)V
+	METHOD method_2506 initScreens (Lcom/lunar/class_1023;II)V
 		ARG 1 client
 		ARG 2 width
 		ARG 3 height
