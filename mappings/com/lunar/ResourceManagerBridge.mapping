@@ -1,0 +1,2 @@
+CLASS com/lunar/class_11 com/lunar/ResourceManagerBridge
+	METHOD bridge$getResourceDomains ()Ljava/util/Set;

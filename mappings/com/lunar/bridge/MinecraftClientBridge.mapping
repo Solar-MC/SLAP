@@ -1,4 +1,45 @@
 CLASS com/lunar/class_1023 com/lunar/bridge/MinecraftClientBridge
+	METHOD bridge$displayHeight ()I
 	METHOD bridge$displayScreen (Lcom/lunar/class_1049;)V
+		ARG 1 screen
+	METHOD bridge$displayWidth ()I
 	METHOD bridge$getCurrentScreen ()Lcom/lunar/class_1049;
+	METHOD bridge$getCurrentServerData bridge$getCurrentServerInfo ()Lcom/lunar/class_1058;
+	METHOD bridge$getDebugFPS ()I
+	METHOD bridge$getEffectRenderer ()Lcom/lunar/class_1068;
+	METHOD bridge$getEntityRenderer ()Lcom/lunar/class_1108;
+	METHOD bridge$getFontRenderer ()Lcom/lunar/class_1027;
+	METHOD bridge$getFramebuffer ()Lcom/lunar/class_28;
+	METHOD bridge$getGameSettings bridge$getGameOptions ()Lcom/lunar/class_23;
+	METHOD bridge$getGuiIngame ()Lcom/lunar/class_1038;
+	METHOD bridge$getGuiScale ()I
+	METHOD bridge$getMcDataDir ()Ljava/io/File;
+	METHOD bridge$getMcDefaultResourcePack ()Lcom/lunar/class_6;
+	METHOD bridge$getNetHandler ()Lcom/lunar/class_1066;
+	METHOD bridge$getPlayerController ()Lcom/lunar/class_1062;
+	METHOD bridge$getRenderBuffers ()Ljava/util/Optional;
+	METHOD bridge$getRenderGlobal ()Lcom/lunar/class_1090;
+	METHOD bridge$getRenderItem ()Lcom/lunar/class_1104;
 	METHOD bridge$getRenderManager ()Lcom/lunar/class_1105;
+	METHOD bridge$getRenderViewEntity ()Lcom/lunar/class_36;
+	METHOD bridge$getResourceManager ()Lcom/lunar/class_11;
+	METHOD bridge$getSession ()Lcom/lunar/class_253;
+	METHOD bridge$getSoundHandler ()Lcom/lunar/class_1025;
+	METHOD bridge$getSystemTime ()J
+	METHOD bridge$getTextureManager ()Lcom/lunar/class_1122;
+	METHOD bridge$getTextureMap ()Lcom/lunar/class_1121;
+	METHOD bridge$getTimer ()Lcom/lunar/class_238;
+	METHOD bridge$getWindowId ()Ljava/util/Optional;
+	METHOD bridge$getWorld ()Lcom/lunar/class_1060;
+	METHOD bridge$hasInGameFocus ()Z
+	METHOD bridge$isConnectedToRealms ()Z
+	METHOD bridge$isFullScreen ()Z
+	METHOD bridge$lastServerData ()Lcom/lunar/class_1058;
+	METHOD bridge$loadWorld (Lcom/lunar/class_1060;)V
+		ARG 1 world
+	METHOD bridge$refreshResources ()V
+	METHOD bridge$setPlayer (Lcom/lunar/class_1072;)V
+	METHOD bridge$setSession (Lcom/lunar/class_253;)V
+		ARG 1 session
+	METHOD bridge$shutdownMinecraftApplet ()V
+	METHOD bridge$toggleFullscreen ()V
