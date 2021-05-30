@@ -1,1 +1,12 @@
 CLASS com/lunar/class_457 com/lunar/common/mod/nickhider/NickHiderMod
+	FIELD field_1713 hideOwnSkin Lcom/lunar/class_574;
+	FIELD field_1714 alexSkin Lcom/lunar/class_245;
+	FIELD field_1715 usernamesPattern Ljava/util/regex/Pattern;
+	FIELD field_1716 steveSkin Lcom/lunar/class_245;
+	FIELD field_1717 hideReaName Lcom/lunar/class_574;
+	FIELD field_1720 hideOthersSkin Lcom/lunar/class_574;
+	FIELD field_1722 useRealSkin Lcom/lunar/class_574;
+	FIELD field_1723 hideName Lcom/lunar/class_574;
+	FIELD field_1724 hideOthersNames Lcom/lunar/class_574;
+	METHOD method_1547 isUsername (Ljava/lang/String;)Z
+		ARG 1 username

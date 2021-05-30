@@ -1,1 +1,16 @@
 CLASS com/lunar/class_269 com/lunar/bridge/WorldBridge
+	METHOD bridge$getBlockAt (DDD)Lcom/lunar/class_726;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD bridge$getChunkFromBlockCoords (Lcom/lunar/class_243;)Lcom/lunar/class_281;
+		ARG 1 vec
+	METHOD bridge$getDimensionId ()I
+	METHOD bridge$getEntities ()Ljava/util/List;
+	METHOD bridge$getPlayerByUniqueId (Ljava/util/UUID;)Ljava/util/Optional;
+		ARG 1 id
+	METHOD bridge$getPlayerEntities ()Ljava/util/List;
+	METHOD bridge$getWorldInfo ()Lcom/lunar/class_283;
+	METHOD bridge$isRemote ()Z
+	METHOD bridge$setWorldTime (J)V
+		ARG 1 time

@@ -9,6 +9,7 @@ CLASS com/lunar/class_194 com/lunar/common/mod/PanelFeature
 	METHOD method_372 getLogo50 ()Lcom/lunar/class_245;
 	METHOD method_373 getMinecraftClient ()Lcom/lunar/class_1023;
 	METHOD method_377 getEvents ()Ljava/util/Map;
+	METHOD method_378 getSettings ()Ljava/util/List;
 	METHOD method_380 isEnabled ()Z
 	METHOD method_388 getLogo20 ()Lcom/lunar/class_245;
 	METHOD method_390 getLunarClient ()Lcom/lunar/class_286;
@@ -16,6 +17,7 @@ CLASS com/lunar/class_194 com/lunar/common/mod/PanelFeature
 	METHOD method_395 getFeatureDetails ()Lcom/lunar/class_193;
 	METHOD method_396 getDetails ()Lcom/lunar/class_193;
 	METHOD method_397 registerEvents ()V
+	METHOD method_401 drawPreview (FFFFFFZ)V
 	METHOD method_405 getFeatureIcon (Ljava/lang/String;)Lcom/lunar/class_245;
 		ARG 1 name
 	METHOD method_406 drawStringCentered (Ljava/lang/String;FFFF)V

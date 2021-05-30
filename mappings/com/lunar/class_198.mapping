@@ -1,1 +1,4 @@
 CLASS com/lunar/class_198
+	METHOD method_462 getExampleText ()Ljava/lang/String;
+	METHOD method_464 getDefaultSize ()Lcom/lunar/class_204;
+	METHOD method_468 getDisplayText ()Ljava/lang/String;
