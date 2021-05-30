@@ -1,0 +1,21 @@
+CLASS com/lunar/class_1181 com/lunar/common/mod/fov/FOVMod
+	FIELD field_769 movementMin Lcom/lunar/class_560;
+	FIELD field_770 staticFOV Lcom/lunar/class_574;
+	FIELD field_772 aimingModifier Lcom/lunar/class_560;
+	FIELD field_773 slownessFOV Lcom/lunar/class_560;
+	FIELD field_775 aimingMin Lcom/lunar/class_560;
+	FIELD field_776 aimingMax Lcom/lunar/class_560;
+	FIELD field_777 defaultFOV Lcom/lunar/class_560;
+	FIELD field_780 movementMax Lcom/lunar/class_560;
+	FIELD field_782 movementModifier Lcom/lunar/class_560;
+	FIELD field_785 speedFOV Lcom/lunar/class_560;
+	METHOD method_606 getSlownessPOV ()Lcom/lunar/class_560;
+	METHOD method_608 getDefaultFOV ()Lcom/lunar/class_560;
+	METHOD method_610 getMovementModifier ()Lcom/lunar/class_560;
+	METHOD method_611 getSpeedFOV ()Lcom/lunar/class_560;
+	METHOD method_612 getAimingMax ()Lcom/lunar/class_560;
+	METHOD method_613 getMovementMax ()Lcom/lunar/class_560;
+	METHOD method_614 getStaticFOV ()Lcom/lunar/class_574;
+	METHOD method_617 getAimingModifier ()Lcom/lunar/class_560;
+	METHOD method_621 getMovementMin ()Lcom/lunar/class_560;
+	METHOD method_622 getAimingMin ()Lcom/lunar/class_560;
