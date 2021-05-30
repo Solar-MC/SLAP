@@ -1,1 +1,5 @@
 CLASS com/lunar/class_203 com/lunar/common/mod/feature/ModFeature
+	FIELD field_611 parent Lcom/lunar/class_195;
+	METHOD <init> (Lcom/lunar/class_195;ZLcom/lunar/class_197;)V
+		ARG 1 parent
+		ARG 3 anchor

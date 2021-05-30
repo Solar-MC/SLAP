@@ -1,6 +1,14 @@
 CLASS com/lunar/class_572 com/lunar/common/settings/KeybindSetting
 	FIELD field_2323 keybinds Ljava/util/Set;
+	METHOD <init> (Lcom/lunar/class_194;Ljava/lang/String;Lcom/lunar/class_56;Z)V
+		ARG 2 name
+	METHOD <init> (Lcom/lunar/class_194;Ljava/lang/String;Lcom/lunar/class_576;)V
+		ARG 2 name
 	METHOD <init> (Lcom/lunar/class_194;Ljava/lang/String;Lcom/lunar/class_576;Z)V
 		ARG 1 modEventHandler
 	METHOD <init> (Ljava/lang/String;Lcom/lunar/class_56;)V
+		ARG 1 name
+	METHOD <init> (Ljava/lang/String;Lcom/lunar/class_56;Z)V
+		ARG 1 name
+	METHOD <init> (Ljava/lang/String;Lcom/lunar/class_576;)V
 		ARG 1 name
