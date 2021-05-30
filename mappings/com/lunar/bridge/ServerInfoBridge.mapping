@@ -1,1 +1,13 @@
 CLASS com/lunar/class_1058 com/lunar/bridge/ServerInfoBridge
+	METHOD bridge$getBase64Icon ()Ljava/lang/String;
+	METHOD bridge$getPingToServer ()J
+	METHOD bridge$serverIP ()Ljava/lang/String;
+	METHOD getCheckedLunar ()Z
+	METHOD getLunarServer ()Ljava/lang/String;
+	METHOD getSupportsLunar ()Z
+	METHOD setCheckedLunar (Z)V
+		ARG 1 checked
+	METHOD setLunarServer (Ljava/lang/String;)V
+		ARG 1 server
+	METHOD setSupportsLunar (Z)V
+		ARG 1 supports
