@@ -1,1 +1,3 @@
 CLASS com/lunar/class_371 com/lunar/common/mod/shinypots/ShinyPotsMod
+	FIELD field_1238 renderGlint Lcom/lunar/class_574;
+	FIELD field_1239 colored Lcom/lunar/class_574;
