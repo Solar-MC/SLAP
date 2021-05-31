@@ -1,0 +1,5 @@
+CLASS com/lunar/class_392 com/lunar/common/mod/skyblockaddons/SkyblockAddonsHealthTextChildMod
+	FIELD field_1413 showTextShadow Lcom/lunar/class_574;
+	FIELD field_1414 barColor Lcom/lunar/class_561;
+	METHOD <init> (Lcom/lunar/class_195;)V
+		ARG 1 sba

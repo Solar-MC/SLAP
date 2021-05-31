@@ -1,5 +1,167 @@
 CLASS com/lunar/class_372 com/lunar/common/mod/skyblockaddons/SkyblockAddonsMod
-	CLASS class_1205
+	FIELD field_1240 alertOnSpecialZealot Lcom/lunar/class_574;
+	FIELD field_1242 stopBlinkingNightVision Lcom/lunar/class_574;
+	FIELD field_1243 zealotsPerEyeChildMod Lcom/lunar/class_383;
+	FIELD field_1245 disableEndermanTeleportationEffect Lcom/lunar/class_574;
+	FIELD field_1246 stopOpenProfileWhileHoldingBow Lcom/lunar/class_574;
+	FIELD field_1249 lockedSlots Ljava/util/Set;
+	FIELD field_1250 warningsChildMod Lcom/lunar/class_391;
+	FIELD field_1251 disableMagicalSoupMessages Lcom/lunar/class_574;
+	FIELD field_1252 summoningEyeCount I
+	FIELD field_1253 totalZealotKIlls I
+	FIELD field_1254 endstoneProtectorChildMod Lcom/lunar/class_377;
+	FIELD field_1255 sortItemEnchants Lcom/lunar/class_574;
+	FIELD field_1256 defensePercentageChildMod Lcom/lunar/class_387;
+	FIELD field_1257 supportExplosiveBowInZealotCounter Lcom/lunar/class_574;
+	FIELD field_1258 confirmDrop Lcom/lunar/class_558;
+	FIELD field_1259 enableBackpackPreview Lcom/lunar/class_574;
+	FIELD field_1261 skeletonHelmetChildMod Lcom/lunar/class_375;
+	FIELD field_1262 dropBlacklist Lcom/lunar/class_568;
+	FIELD field_1263 summoningEyeChildMod Lcom/lunar/class_388;
+	FIELD field_1265 manaTextChildMod Lcom/lunar/class_389;
+	FIELD field_1266 birchParkRainTimerChildMod Lcom/lunar/class_374;
+	FIELD field_1267 hidePetHealthBar Lcom/lunar/class_574;
+	FIELD field_1268 enableSlayerIndicator Lcom/lunar/class_574;
+	FIELD field_1269 showSkeletonHelmetBars Lcom/lunar/class_574;
+	FIELD field_1270 enableSlotLocking Lcom/lunar/class_574;
+	FIELD field_1271 tickerChargesChildMod Lcom/lunar/class_396;
+	FIELD field_1272 hidePlayersInLobbies Lcom/lunar/class_574;
+	FIELD field_1273 zealotTotalCounterChildMod Lcom/lunar/class_394;
+	FIELD field_1274 lockSlotKey Lcom/lunar/class_572;
+	FIELD field_1275 zealotKillsChildMod Lcom/lunar/class_380;
+	FIELD field_1277 backpackPreviewStyle Lcom/lunar/class_558;
+	FIELD field_1278 previewBackpacksOnAuctionHouse Lcom/lunar/class_574;
+	FIELD field_1279 manaBarChildMod Lcom/lunar/class_385;
+	FIELD field_1280 enableCakeBagPreview Lcom/lunar/class_574;
+	FIELD field_1281 baitListChildMod Lcom/lunar/class_390;
+	FIELD field_1282 disableTeleportPadMessages Lcom/lunar/class_574;
+	FIELD field_1283 hideVanillaFoodBar Lcom/lunar/class_574;
+	FIELD field_1285 zealotKillsSinceLastEye I
+	FIELD field_1286 replaceRomanNumerals Lcom/lunar/class_574;
+	FIELD field_1287 showBrokenDragonFragments Lcom/lunar/class_574;
+	FIELD field_1288 hideVanillaHealthBar Lcom/lunar/class_574;
+	FIELD field_1290 healthTextChildMod Lcom/lunar/class_392;
+	FIELD field_1291 recolorZealots Lcom/lunar/class_574;
+	FIELD field_1292 minimumHotbarItemRarity Lcom/lunar/class_558;
+	FIELD field_1293 enableFishingSoundIndicator Lcom/lunar/class_574;
+	FIELD field_1294 showCannotBreakBlockMessagesInPark Lcom/lunar/class_574;
+	FIELD field_1295 showEnchantmentsReforges Lcom/lunar/class_574;
+	FIELD field_1298 enableFancyWarpMenu Lcom/lunar/class_574;
+	FIELD field_1299 powerOrbChildMod Lcom/lunar/class_384;
+	FIELD field_1300 turnBowGreenWhenUsingToxicArrowPoison Lcom/lunar/class_574;
+	FIELD field_1301 colorEnderChestsInEnd Lcom/lunar/class_574;
+	FIELD field_1302 magmaBossTimerChildMod Lcom/lunar/class_386;
+	FIELD field_1303 speedTextChildMod Lcom/lunar/class_378;
+	FIELD field_1304 hideGreyEnchants Lcom/lunar/class_574;
+	FIELD field_1305 changeBarColorForPotions Lcom/lunar/class_574;
+	FIELD field_1306 stopDroppingSellingRareItems Lcom/lunar/class_574;
+	FIELD field_1307 darkAuctionTimerChildMod Lcom/lunar/class_379;
+	FIELD field_1308 dropWhitelist Lcom/lunar/class_568;
+	FIELD field_1309 backpackPreviewFreezeKey Lcom/lunar/class_572;
+	FIELD field_1310 zealotColor Lcom/lunar/class_561;
+	FIELD field_1311 colorBackpackInventories Lcom/lunar/class_574;
+	FIELD field_1313 hideSkeletonHelmetBones Lcom/lunar/class_574;
+	FIELD field_1314 displayCombatTimer Lcom/lunar/class_574;
+	FIELD field_1315 showItemAnvilUses Lcom/lunar/class_574;
+	FIELD field_1316 enderChestColorInEnd Lcom/lunar/class_561;
+	FIELD field_1319 hideSvenPupNametags Lcom/lunar/class_574;
+	FIELD field_1320 defenseIconChildMod Lcom/lunar/class_381;
+	FIELD field_1321 healthBarChildMod Lcom/lunar/class_382;
+	FIELD field_1322 showBackpackPreviewWhileHoldingShift Lcom/lunar/class_574;
+	FIELD field_1323 defenseTextChildMod Lcom/lunar/class_376;
+	FIELD field_1324 enableWarpMenuAdvancedMode Lcom/lunar/class_574;
+	FIELD field_1325 disableCursorResetBetweenInventories Lcom/lunar/class_574;
+	FIELD field_1327 skillExpDisplayChildMod Lcom/lunar/class_393;
+	METHOD method_1067 getZealotKillsChildMod ()Lcom/lunar/class_380;
+	METHOD method_1069 showsBackpackPreviewWhileHoldingShift ()Lcom/lunar/class_574;
+	METHOD method_1070 replacesRomanNumerals ()Lcom/lunar/class_574;
+	METHOD method_1071 getSummoningEyeCount ()I
+	METHOD method_1074 getEndstoneProtectorChildMod ()Lcom/lunar/class_377;
+	METHOD method_1075 disablesCursorResetBetweenInventories ()Lcom/lunar/class_574;
+	METHOD method_1076 getDropWhitelist ()Ljava/util/List;
+	METHOD method_1077 hidesVanillaFoodBar ()Lcom/lunar/class_574;
+	METHOD method_1078 getBackpackPreviewStyle ()Lcom/lunar/class_558;
+	METHOD method_1079 enablesSlayerIndicator ()Lcom/lunar/class_574;
+	METHOD method_1080 getBackpackPreviewFreezeKey ()Lcom/lunar/class_572;
+	METHOD method_1081 getLockSlotKey ()Lcom/lunar/class_572;
+	METHOD method_1082 getDefenseIconChildMod ()Lcom/lunar/class_381;
+	METHOD method_1084 hidesGreyEnchants ()Lcom/lunar/class_574;
+	METHOD method_1085 getDropBlacklist ()Ljava/util/List;
+	METHOD method_1086 getSpeedTextChildMod ()Lcom/lunar/class_378;
+	METHOD method_1087 getBirchParkRainTimerChildMod ()Lcom/lunar/class_374;
+	METHOD method_1088 confirmsDrop ()Lcom/lunar/class_558;
+	METHOD method_1089 getDefenseTextChildMod ()Lcom/lunar/class_376;
+	METHOD method_1090 getManaBarChildMod ()Lcom/lunar/class_385;
+	METHOD method_1091 enablesWarpMenuAdvancedMode ()Lcom/lunar/class_574;
+	METHOD method_1092 getLockedSlots ()Ljava/util/Set;
+	METHOD method_1094 getMagmaBossTimerChildMod ()Lcom/lunar/class_386;
+	METHOD method_1095 getHealthBarChildMod ()Lcom/lunar/class_382;
+	METHOD method_1096 getSkyblockAddonsDarkAuctionTimerChildMod ()Lcom/lunar/class_379;
+	METHOD method_1097 getZealotsPerEyeChildMod ()Lcom/lunar/class_383;
+	METHOD method_1099 stopsBlinkingNightVision ()Lcom/lunar/class_574;
+	METHOD method_1100 previewsBackpacks ()Lcom/lunar/class_574;
+	METHOD method_1101 setZealotKillsSinceLastEye (I)V
+		ARG 1 kills
+	METHOD method_1103 getZealotTotalCounterChildMod ()Lcom/lunar/class_394;
+	METHOD method_1105 getZealotColor ()Lcom/lunar/class_561;
+	METHOD method_1106 getMinimumHotbarItemRarity ()Lcom/lunar/class_558;
+	METHOD method_1107 hidesSvenPupNametags ()Lcom/lunar/class_574;
+	METHOD method_1109 alertsOnSpecialZealot ()Lcom/lunar/class_574;
+	METHOD method_1111 hidesSkeletonHeletBones ()Lcom/lunar/class_574;
+	METHOD method_1112 enablesFishingSoundIndicator ()Lcom/lunar/class_574;
+	METHOD method_1114 getEnderChestColorInEnd ()Lcom/lunar/class_561;
+	METHOD method_1115 hidesPetHealthBar ()Lcom/lunar/class_574;
+	METHOD method_1116 showsEnchantmentsReforges ()Lcom/lunar/class_574;
+	METHOD method_1117 displaysCombatTimer ()Lcom/lunar/class_574;
+	METHOD method_1118 getWarningsChildMod ()Lcom/lunar/class_391;
+	METHOD method_1120 disablesEndermanTeleportationEffect ()Lcom/lunar/class_574;
+	METHOD method_1121 getTotalZealotKills ()I
+	METHOD method_1122 colorsBackpackInventories ()Lcom/lunar/class_574;
+	METHOD method_1123 enablesFancyWarpMenu ()Lcom/lunar/class_574;
+	METHOD method_1124 showsSkeletonHelmetBars ()Lcom/lunar/class_574;
+	METHOD method_1125 changesBarColorForPotions ()Lcom/lunar/class_574;
+	METHOD method_1127 previewsBackpacksOnAuctionHouse ()Lcom/lunar/class_574;
+	METHOD method_1128 getPowerOrbChildMod ()Lcom/lunar/class_384;
+	METHOD method_1129 getSummoningEyeCounterChildMod ()Lcom/lunar/class_388;
+	METHOD method_1130 disablesMagicalSoupMessages ()Lcom/lunar/class_574;
+	METHOD method_1131 setSummoningEyeCount (I)V
+		ARG 1 count
+	METHOD method_1132 getSkeletonHelmetChildMod ()Lcom/lunar/class_375;
+	METHOD method_1133 turnsBowGreenWhenUsingToxicArrowPoison ()Lcom/lunar/class_574;
+	METHOD method_1134 stopsOpenProfileWhileHoldingBow ()Lcom/lunar/class_574;
+	METHOD method_1135 getDefensePercentageChildMod ()Lcom/lunar/class_387;
+	METHOD method_1137 enablesSlotLocking ()Lcom/lunar/class_574;
+	METHOD method_1138 getZealotKillsSinceLastEye ()I
+	METHOD method_1139 recolorsZealots ()Lcom/lunar/class_574;
+	METHOD method_1140 supportsExplosiveBowInZealotCounter ()Lcom/lunar/class_574;
+	METHOD method_1141 colorsEnderChestsInEnd ()Lcom/lunar/class_574;
+	METHOD method_1142 showsBrokenDragonFragments ()Lcom/lunar/class_574;
+	METHOD method_1144 enablesCakeBagPreview ()Lcom/lunar/class_574;
+	METHOD method_1146 getTickerChargesChildMod ()Lcom/lunar/class_396;
+	METHOD method_1147 getSkillExpDisplayChildMod ()Lcom/lunar/class_393;
+	METHOD method_1148 hidesPlayersInLobbies ()Lcom/lunar/class_574;
+	METHOD method_1149 sortsItemEnchants ()Lcom/lunar/class_574;
+	METHOD method_1150 showCannotBreakBlockMessagesInPark ()Lcom/lunar/class_574;
+	METHOD method_1151 getHealthTextChildMod ()Lcom/lunar/class_392;
+	METHOD method_1152 hidesVanillaHealthBar ()Lcom/lunar/class_574;
+	METHOD method_1153 setTotalZealotKills (I)V
+		ARG 1 kills
+	METHOD method_1154 getManaTextChildMod ()Lcom/lunar/class_389;
+	METHOD method_1155 getBaitListChildMod ()Lcom/lunar/class_390;
+	METHOD method_1156 disablesTeleportPadMessages ()Lcom/lunar/class_574;
+	METHOD method_1158 showsItemAnvilUses ()Lcom/lunar/class_574;
+	METHOD method_1159 (Lcom/google/gson/JsonElement;)V
+		ARG 1 slot
+	METHOD method_1163 stopsDroppingSellingRareItems ()Lcom/lunar/class_574;
+	CLASS class_1204 CraftingPattern
+		FIELD field_1329 THREE Lcom/lunar/class_372$class_1204;
+		FIELD field_1330 name Ljava/lang/String;
+		FIELD field_1331 SIX Lcom/lunar/class_372$class_1204;
+		FIELD field_1332 FIVE Lcom/lunar/class_372$class_1204;
+		FIELD field_1333 FREE Lcom/lunar/class_372$class_1204;
+		METHOD <init> (Ljava/lang/String;ILjava/lang/String;)V
+			ARG 3 name
+	CLASS class_1205 SkyblockRarity
 		FIELD field_1335 MYTHIC Lcom/lunar/class_372$class_1205;
 		FIELD field_1336 UNCOMMON Lcom/lunar/class_372$class_1205;
 		FIELD field_1337 LEGENDARY Lcom/lunar/class_372$class_1205;
@@ -7,4 +169,14 @@ CLASS com/lunar/class_372 com/lunar/common/mod/skyblockaddons/SkyblockAddonsMod
 		FIELD field_1339 EPIC Lcom/lunar/class_372$class_1205;
 		FIELD field_1340 SPECIAL Lcom/lunar/class_372$class_1205;
 		FIELD field_1341 RARE Lcom/lunar/class_372$class_1205;
+		FIELD field_1342 name Ljava/lang/String;
 		FIELD field_1343 COMMON Lcom/lunar/class_372$class_1205;
+		METHOD <init> (Ljava/lang/String;ILjava/lang/String;)V
+			ARG 3 name
+		METHOD method_1164 getName ()Ljava/lang/String;
+	CLASS class_1206 SkyblockAddonsDisplayType
+		FIELD field_1344 COMPACT Lcom/lunar/class_372$class_1206;
+		FIELD field_1346 name Ljava/lang/String;
+		FIELD field_1347 REGULAR Lcom/lunar/class_372$class_1206;
+		METHOD <init> (Ljava/lang/String;ILjava/lang/String;)V
+			ARG 3 name

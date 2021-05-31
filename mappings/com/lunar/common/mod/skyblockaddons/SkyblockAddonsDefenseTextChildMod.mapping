@@ -1,0 +1,5 @@
+CLASS com/lunar/class_376 com/lunar/common/mod/skyblockaddons/SkyblockAddonsDefenseTextChildMod
+	FIELD field_1415 showTextShadow Lcom/lunar/class_574;
+	FIELD field_1416 textColor Lcom/lunar/class_561;
+	METHOD <init> (Lcom/lunar/class_195;)V
+		ARG 1 sba

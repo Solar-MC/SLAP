@@ -1,0 +1,3 @@
+CLASS com/lunar/class_375 com/lunar/common/mod/skyblockaddons/SkyblockAddonsSkeletonHelmetChildMod
+	METHOD <init> (Lcom/lunar/class_195;)V
+		ARG 1 sba

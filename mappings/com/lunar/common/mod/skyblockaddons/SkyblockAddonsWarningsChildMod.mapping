@@ -1,0 +1,23 @@
+CLASS com/lunar/class_391 com/lunar/common/mod/skyblockaddons/SkyblockAddonsWarningsChildMod
+	FIELD field_1363 warningTime Lcom/lunar/class_560;
+	FIELD field_1364 warnOnMagmaBoss Lcom/lunar/class_574;
+	FIELD field_1365 warnOnFullMinion Lcom/lunar/class_574;
+	FIELD field_1366 shadowColor Lcom/lunar/class_561;
+	FIELD field_1367 warnOnMinionLocationDisable Lcom/lunar/class_574;
+	FIELD field_1371 repeatFullInventoryWarning Lcom/lunar/class_574;
+	FIELD field_1372 warnOnFullInventory Lcom/lunar/class_574;
+	FIELD field_1373 textColor Lcom/lunar/class_561;
+	FIELD field_1374 showTextShadow Lcom/lunar/class_574;
+	FIELD field_1375 warnOnMinionStop Lcom/lunar/class_574;
+	METHOD <init> (Lcom/lunar/class_195;)V
+		ARG 1 sba
+	METHOD method_1166 warnsOnMinionStop ()Lcom/lunar/class_574;
+	METHOD method_1167 getTextColor ()Lcom/lunar/class_561;
+	METHOD method_1168 warnsOnMinionLocationDisable ()Lcom/lunar/class_574;
+	METHOD method_1172 getWarningTime ()Lcom/lunar/class_560;
+	METHOD method_1173 warnsOnMagmaBoss ()Lcom/lunar/class_574;
+	METHOD method_1174 warnsOnFullMinion ()Lcom/lunar/class_574;
+	METHOD method_1175 warnsOnFullInventory ()Lcom/lunar/class_574;
+	METHOD method_1176 getShadowColor ()Lcom/lunar/class_561;
+	METHOD method_1177 showsTextShadow ()Lcom/lunar/class_574;
+	METHOD method_1180 repeatsFullInventroyWarning ()Lcom/lunar/class_574;
