@@ -1,3 +1,0 @@
-CLASS com/lunar/class_245 com/lunar/bridge/IndentifierBridge
-	METHOD bridge$getDomain ()Ljava/lang/String;
-	METHOD bridge$getPath ()Ljava/lang/String;
