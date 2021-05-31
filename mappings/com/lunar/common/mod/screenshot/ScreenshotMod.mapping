@@ -1,1 +1,8 @@
 CLASS com/lunar/class_474 com/lunar/common/mod/screenshot/ScreenshotMod
+	FIELD field_1212 showUploadOption Lcom/lunar/class_574;
+	FIELD field_1213 copyAutomatically Lcom/lunar/class_574;
+	FIELD field_1214 showCopyOption Lcom/lunar/class_574;
+	FIELD field_1215 dateFormat Ljava/text/DateFormat;
+	FIELD field_1217 showTweetOption Lcom/lunar/class_574;
+	METHOD method_1046 getFreePath (Ljava/io/File;)Ljava/io/File;
+		ARG 0 dir
