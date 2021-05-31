@@ -1,0 +1,16 @@
+CLASS com/lunar/class_345 com/lunar/common/cosmetic/CosmeticLocation
+	FIELD field_1149 LEFT_LEG Lcom/lunar/class_345;
+	FIELD field_1150 BODY Lcom/lunar/class_345;
+	FIELD field_1151 RIGHT_LEG Lcom/lunar/class_345;
+	FIELD field_1153 LEFT_ARM Lcom/lunar/class_345;
+	FIELD field_1154 id I
+	FIELD field_1155 RIGHT_ARM Lcom/lunar/class_345;
+	FIELD field_1156 HEAD Lcom/lunar/class_345;
+	METHOD <init> (Ljava/lang/String;II)V
+		ARG 3 id
+	METHOD method_960 getId ()I
+	METHOD method_961 isNotArm ()Z
+	METHOD method_962 (Lcom/lunar/class_1056;)Lcom/lunar/class_835;
+		ARG 1 bipedEntityModel
+	METHOD method_963 (Lcom/lunar/class_1054;)Lcom/lunar/class_835;
+		ARG 1 playerEntity
