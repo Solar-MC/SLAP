@@ -1,0 +1,9 @@
+CLASS com/lunar/class_201 com/lunar/common/text/AnchorLocation
+	FIELD field_552 name Ljava/lang/String;
+	FIELD field_553 BOTTOM Lcom/lunar/class_201;
+	FIELD field_554 RIGHT Lcom/lunar/class_201;
+	FIELD field_555 LEFT Lcom/lunar/class_201;
+	FIELD field_557 MIDDLE Lcom/lunar/class_201;
+	FIELD field_558 TOP Lcom/lunar/class_201;
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;)V
+		ARG 3 name
