@@ -1,0 +1,5 @@
+CLASS com/lunar/class_104 com/lunar/common/settings/VideoSettingsProvider
+	METHOD setFastRender (Z)V
+		ARG 1 fastRender
+	METHOD setZooming (Z)V
+		ARG 1 zooming
