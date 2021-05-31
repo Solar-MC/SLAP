@@ -1,1 +1,15 @@
 CLASS com/lunar/class_449 com/lunar/common/mod/keystrokes/KeystrokesMod
+	FIELD field_1640 showCombinedCPS Lcom/lunar/class_574;
+	FIELD field_1643 showMovementKeys Lcom/lunar/class_574;
+	FIELD field_1644 showMovementKeysAsArrows Lcom/lunar/class_574;
+	FIELD field_1645 backgroundPressedColor Lcom/lunar/class_561;
+	FIELD field_1646 textShadow Lcom/lunar/class_574;
+	FIELD field_1647 backgroundColor Lcom/lunar/class_561;
+	FIELD field_1648 color Lcom/lunar/class_561;
+	FIELD field_1650 showRightCPS Lcom/lunar/class_574;
+	FIELD field_1651 showLeftCPS Lcom/lunar/class_574;
+	FIELD field_1652 pressedColor Lcom/lunar/class_561;
+	FIELD field_1653 boxSize Lcom/lunar/class_560;
+	FIELD field_1655 showSpacebar Lcom/lunar/class_574;
+	METHOD method_1450 showsLeftCPS ()Lcom/lunar/class_574;
+	METHOD method_1453 showsRightCPS ()Lcom/lunar/class_574;
