@@ -1,5 +1,11 @@
 CLASS com/lunar/class_442 com/lunar/common/camera/CameraPos
+	FIELD field_1568 FORWARD Lcom/lunar/class_442;
 	FIELD field_1569 id I
 	FIELD field_1570 name Ljava/lang/String;
+	FIELD field_1571 FIRST_PERSON Lcom/lunar/class_442;
+	FIELD field_1572 THIRD_PERSON Lcom/lunar/class_442;
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;I)V
+		ARG 3 name
+		ARG 4 id
 	METHOD method_1395 getName ()Ljava/lang/String;
 	METHOD method_1396 getId ()I
