@@ -1,1 +1,2 @@
 CLASS com/lunar/class_202
+	METHOD method_423 getDefaultLocation ()V

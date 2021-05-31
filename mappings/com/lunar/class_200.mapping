@@ -1,0 +1,2 @@
+CLASS com/lunar/class_200
+	METHOD method_473 getApplicableServer ()Lcom/lunar/class_586$class_1252;

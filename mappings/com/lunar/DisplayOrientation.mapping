@@ -1,0 +1,6 @@
+CLASS com/lunar/class_206 com/lunar/DisplayOrientation
+	FIELD field_639 HORIZONTAL Lcom/lunar/class_206;
+	FIELD field_641 name Ljava/lang/String;
+	FIELD field_642 VERTICAL Lcom/lunar/class_206;
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;)V
+		ARG 3 name
