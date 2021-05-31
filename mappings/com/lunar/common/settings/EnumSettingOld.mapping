@@ -1,1 +1,6 @@
 CLASS com/lunar/class_571 com/lunar/common/settings/EnumSettingOld
+	FIELD field_2285 enabled Lcom/lunar/class_574;
+	METHOD <init> (Lcom/lunar/class_574;Ljava/lang/String;Lcom/lunar/class_460;)V
+		ARG 1 enabled
+		ARG 2 name
+		ARG 3 defaultVersion

@@ -1,1 +1,2 @@
 CLASS com/lunar/class_433 com/lunar/common/mod/borders/BordersMod
+	FIELD field_1548 forcefieldResource Lcom/lunar/class_245;

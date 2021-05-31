@@ -1,1 +1,27 @@
 CLASS com/lunar/class_1180 com/lunar/common/mod/chat/ChatMod
+	FIELD field_679 openFilter Lcom/lunar/class_570;
+	FIELD field_680 showChatShadow Lcom/lunar/class_574;
+	FIELD field_683 unlimitedMessageLength Lcom/lunar/class_574;
+	FIELD field_684 chatNameColor Lcom/lunar/class_558;
+	FIELD field_685 hideBanWaves Lcom/lunar/class_574;
+	FIELD field_686 maxChatHeight Lcom/lunar/class_574;
+	FIELD field_688 stopProfaneMessages Lcom/lunar/class_574;
+	FIELD field_689 noCloseChat Lcom/lunar/class_574;
+	FIELD field_690 profanityFilter Lcom/lunar/class_558;
+	FIELD field_691 disableChat Lcom/lunar/class_574;
+	FIELD field_692 stackMessages Lcom/lunar/class_574;
+	FIELD field_693 chatBackgroundOpacity Lcom/lunar/class_560;
+	METHOD method_528 isOpenFilter ()Lcom/lunar/class_570;
+	METHOD method_529 getProfanityFilterFilename ()Ljava/lang/String;
+	METHOD method_530 getProfanityFilterHandle ()Ljava/io/File;
+	METHOD method_531 showsChatShadow ()Lcom/lunar/class_574;
+	METHOD method_533 hidesBanWaves ()Lcom/lunar/class_574;
+	METHOD method_534 getNoCloseChat ()Lcom/lunar/class_574;
+	METHOD method_535 stacksMessages ()Lcom/lunar/class_574;
+	METHOD method_540 getProfanityFilter ()Lcom/lunar/class_558;
+	METHOD method_541 getMaxChatHeight ()Lcom/lunar/class_574;
+	METHOD method_542 disablesChat ()Lcom/lunar/class_574;
+	METHOD method_543 getChatBackgroundOpacity ()Lcom/lunar/class_560;
+	METHOD method_546 allowsUnlimiteedMessageLength ()Lcom/lunar/class_574;
+	METHOD method_548 stopsProfaneMessages ()Lcom/lunar/class_574;
+	METHOD method_549 getChatNameColor ()Lcom/lunar/class_558;

@@ -1,1 +1,11 @@
 CLASS com/lunar/class_199 com/lunar/common/mod/ModCategory
+	FIELD field_574 NONE Lcom/lunar/class_199;
+	FIELD field_575 NEW Lcom/lunar/class_199;
+	FIELD field_576 MECHANIC Lcom/lunar/class_199;
+	FIELD field_578 SERVER Lcom/lunar/class_199;
+	FIELD field_579 name Ljava/lang/String;
+	FIELD field_580 HUD Lcom/lunar/class_199;
+	FIELD field_581 ALL Lcom/lunar/class_199;
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;)V
+		ARG 3 name
+	METHOD method_456 getName ()Ljava/lang/String;

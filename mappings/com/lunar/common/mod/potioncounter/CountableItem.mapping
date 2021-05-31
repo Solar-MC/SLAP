@@ -1,0 +1,6 @@
+CLASS com/lunar/class_465 com/lunar/common/mod/potioncounter/CountableItem
+	FIELD field_1765 SOUP Lcom/lunar/class_465;
+	FIELD field_1767 name Ljava/lang/String;
+	FIELD field_1768 POTION Lcom/lunar/class_465;
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;)V
+		ARG 3 name

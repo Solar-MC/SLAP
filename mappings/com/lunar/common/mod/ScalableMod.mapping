@@ -1,0 +1,3 @@
+CLASS com/lunar/class_202 com/lunar/common/mod/ScalableMod
+	FIELD field_560 scale Lcom/lunar/class_560;
+	METHOD method_423 getDefaultLocation ()V

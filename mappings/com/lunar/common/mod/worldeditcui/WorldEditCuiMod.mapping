@@ -1,1 +1,7 @@
 CLASS com/lunar/class_411 com/lunar/common/mod/worldeditcui/WorldEditCuiMod
+	FIELD field_1507 point2Color Lcom/lunar/class_561;
+	FIELD field_1514 outlineColor Lcom/lunar/class_561;
+	FIELD field_1516 point1Color Lcom/lunar/class_561;
+	METHOD method_1312 getPoint1Color ()Lcom/lunar/class_561;
+	METHOD method_1313 getOutlineColor ()Lcom/lunar/class_561;
+	METHOD method_1315 getPoint2Color ()Lcom/lunar/class_561;

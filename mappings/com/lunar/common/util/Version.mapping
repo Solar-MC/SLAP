@@ -1,5 +1,10 @@
 CLASS com/lunar/class_106 com/lunar/common/util/Version
 	FIELD field_323 mcVersion Ljava/lang/String;
+	FIELD field_324 v1_8 Lcom/lunar/class_106;
+	FIELD field_325 v1_16 Lcom/lunar/class_106;
+	FIELD field_326 v1_15 Lcom/lunar/class_106;
+	FIELD field_328 v1_12 Lcom/lunar/class_106;
+	FIELD field_329 v1_7 Lcom/lunar/class_106;
 	METHOD <init> (Ljava/lang/String;ILjava/lang/String;)V
 		ARG 3 name
 	METHOD method_142 getMcVersion ()Ljava/lang/String;
@@ -8,3 +13,4 @@ CLASS com/lunar/class_106 com/lunar/common/util/Version
 	METHOD method_145 isOldLegacy ()Z
 	METHOD method_146 isModern2 ()Z
 	METHOD method_147 isModern ()Z
+	METHOD values ()[Lcom/lunar/class_106;

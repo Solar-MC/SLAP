@@ -1,1 +1,6 @@
 CLASS com/lunar/class_460 com/lunar/common/version/Pre12Versions
+	FIELD field_1730 VERSION_1_8 Lcom/lunar/class_460;
+	FIELD field_1732 name Ljava/lang/String;
+	FIELD field_1733 VERSION_1_7 Lcom/lunar/class_460;
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;)V
+		ARG 3 name

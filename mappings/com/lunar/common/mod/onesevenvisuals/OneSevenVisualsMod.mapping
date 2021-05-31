@@ -1,1 +1,17 @@
 CLASS com/lunar/class_461 com/lunar/common/mod/onesevenvisuals/OneSevenVisualsMod
+	FIELD field_1735 enchantGlintResource Lcom/lunar/class_245;
+	FIELD field_1736 firstPersonFishingRodAnimationVersion Lcom/lunar/class_571;
+	FIELD field_1737 sneakAnimationVersion Lcom/lunar/class_571;
+	FIELD field_1741 tpHeldItemsVersion Lcom/lunar/class_571;
+	FIELD field_1745 armorHitAnimationVersion Lcom/lunar/class_571;
+	FIELD field_1747 healthAnimationVersion Lcom/lunar/class_571;
+	FIELD field_1750 potionDrinkingAnimaionVersion Lcom/lunar/class_571;
+	FIELD field_1751 firstPersonCarpetModelVersion Lcom/lunar/class_571;
+	FIELD field_1752 hurtCameraShakeAnimationVersion Lcom/lunar/class_571;
+	FIELD field_1753 blockHitAnimationVersion Lcom/lunar/class_571;
+	FIELD field_1754 glintAnimationVersion Lcom/lunar/class_571;
+	METHOD method_1565 getBlockHitAnimationVersion ()Lcom/lunar/class_571;
+	METHOD method_1566 getArmorHitAnimationVersion ()Lcom/lunar/class_571;
+	METHOD method_1567 getHealthAnimationVersion ()Lcom/lunar/class_571;
+	METHOD method_1568 getPotionDrinkingAnimationVersion ()Lcom/lunar/class_571;
+	METHOD method_1571 getHurtCameraShakeAnimationVersion ()Lcom/lunar/class_571;

@@ -1,0 +1,7 @@
+CLASS com/lunar/class_219 com/lunar/common/mod/crosshair/CrosshairType
+	FIELD field_743 CIRCLE Lcom/lunar/class_219;
+	FIELD field_745 name Ljava/lang/String;
+	FIELD field_746 ARROR Lcom/lunar/class_219;
+	FIELD field_747 CROSS Lcom/lunar/class_219;
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;)V
+		ARG 3 name

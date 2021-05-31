@@ -1,1 +1,6 @@
 CLASS com/lunar/class_446 com/lunar/common/mod/items2D/Items2DMod
+	FIELD field_1622 renderType Lcom/lunar/class_558;
+	METHOD method_1436 getRenderType ()Lcom/lunar/class_558;
+	CLASS class_1210 RenderType
+		FIELD field_1623 MODEL Lcom/lunar/class_446$class_1210;
+		FIELD field_1625 SPRITE Lcom/lunar/class_446$class_1210;

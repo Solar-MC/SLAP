@@ -1,5 +1,4 @@
 CLASS com/lunar/class_283 com/lunar/bridge/ClientWorld$PropertiesBridge
-
 	METHOD bridge$getGameTime ()J
 	METHOD bridge$getSpawnX ()I
 	METHOD bridge$getSpawnY ()I

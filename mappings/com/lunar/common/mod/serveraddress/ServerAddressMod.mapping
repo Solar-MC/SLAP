@@ -1,1 +1,2 @@
 CLASS com/lunar/class_370 com/lunar/common/mod/serveraddress/ServerAddressMod
+	FIELD field_1233 unknownServerIconResource Lcom/lunar/class_245;

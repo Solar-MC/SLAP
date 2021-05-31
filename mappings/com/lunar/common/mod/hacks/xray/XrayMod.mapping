@@ -1,1 +1,4 @@
 CLASS com/lunar/class_401 com/lunar/common/mod/hacks/xray/XrayMod
+	FIELD field_1435 xrayToggleKey Lcom/lunar/class_572;
+	FIELD field_1437 opacity Lcom/lunar/class_560;
+	METHOD method_1207 getOpacity ()Lcom/lunar/class_560;

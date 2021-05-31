@@ -1,1 +1,15 @@
 CLASS com/lunar/class_197 com/lunar/common/screen/GuiAnchor
+	FIELD field_582 BOTTOM_RIGHT Lcom/lunar/class_197;
+	FIELD field_584 MIDDLE_RIGHT Lcom/lunar/class_197;
+	FIELD field_586 TOP_CENTER Lcom/lunar/class_197;
+	FIELD field_587 MIDDLE_CENTER Lcom/lunar/class_197;
+	FIELD field_588 BOTTOM_CENTER_LEFT Lcom/lunar/class_197;
+	FIELD field_589 MIDDLE_LEFT Lcom/lunar/class_197;
+	FIELD field_591 name Ljava/lang/String;
+	FIELD field_592 BOTTOM_LEFT Lcom/lunar/class_197;
+	FIELD field_593 TOP_RIGHT Lcom/lunar/class_197;
+	FIELD field_594 BOTTOM_CENTER_RIGHT Lcom/lunar/class_197;
+	FIELD field_595 TOP_LEFT Lcom/lunar/class_197;
+	METHOD method_459 getByName (Ljava/lang/String;)Lcom/lunar/class_197;
+		ARG 0 name
+	METHOD values validNames ()[Lcom/lunar/class_197;

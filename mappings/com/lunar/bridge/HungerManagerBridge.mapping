@@ -1,1 +1,3 @@
 CLASS com/lunar/class_50 com/lunar/bridge/HungerManagerBridge
+	METHOD bridge$getFoodLevel bridge$getHungerLevel ()F
+	METHOD bridge$getSaturationLevel ()F

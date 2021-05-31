@@ -1,1 +1,38 @@
 CLASS com/lunar/class_68 com/lunar/bridge/ItemStackBridge
+	METHOD bridge$areItemsEqual (Lcom/lunar/class_68;)Z
+		ARG 1 stack
+	METHOD bridge$areItemsEqual (Lcom/lunar/class_68;Ljava/util/function/BiPredicate;)Z
+		ARG 1 stack
+	METHOD bridge$clearCustomName ()V
+	METHOD bridge$copy ()Lcom/lunar/class_68;
+	METHOD bridge$getDisplayName ()Ljava/lang/String;
+	METHOD bridge$getItem ()Lcom/lunar/class_70;
+	METHOD bridge$getItemDamage bridge$getItemDurability ()I
+	METHOD bridge$getItemUseAction ()Lcom/lunar/class_68$class_1148;
+	METHOD bridge$getMaxDamage bridge$getMaxDurability ()I
+	METHOD bridge$getMaxStackSize ()I
+	METHOD bridge$getRepairCost ()I
+	METHOD bridge$getStackSize ()I
+	METHOD bridge$hasDisplayName ()Z
+	METHOD bridge$isEmpty ()Z
+	METHOD bridge$isItemDamaged ()Z
+	METHOD bridge$isItemStackDamageable ()Z
+	METHOD bridge$isItemStackDamageableNoUnbr ()Z
+	METHOD bridge$setEnchantments (Ljava/util/Map;)V
+		ARG 1 enchatnments
+	METHOD bridge$setItemDamage bridge$setItemDurability (I)V
+		ARG 1 durability
+	METHOD bridge$setRepairCost (I)V
+		ARG 1 cost
+	METHOD bridge$setStackDisplayName (Ljava/lang/String;)V
+		ARG 1 name
+	METHOD bridge$setStackSize (I)V
+		ARG 1 size
+	CLASS class_1148 ItemStackType
+		FIELD field_272 SPEAR Lcom/lunar/class_68$class_1148;
+		FIELD field_273 EAT Lcom/lunar/class_68$class_1148;
+		FIELD field_274 BOW Lcom/lunar/class_68$class_1148;
+		FIELD field_276 BLOCK Lcom/lunar/class_68$class_1148;
+		FIELD field_277 CROSSBOW Lcom/lunar/class_68$class_1148;
+		FIELD field_278 DRINK Lcom/lunar/class_68$class_1148;
+		FIELD field_279 NONE Lcom/lunar/class_68$class_1148;

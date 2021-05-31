@@ -1,1 +1,18 @@
 CLASS com/lunar/class_445 com/lunar/common/mod/hypixelmod/HypixelMod
+	FIELD field_1610 enableAutoWho Lcom/lunar/class_574;
+	FIELD field_1611 enableAutoFriend Lcom/lunar/class_574;
+	FIELD field_1612 numberColor Lcom/lunar/class_561;
+	FIELD field_1613 postGameChatLeads Lcom/google/common/collect/ImmutableList;
+	FIELD field_1614 enableAntiGG Lcom/lunar/class_574;
+	FIELD field_1617 levelColor Lcom/lunar/class_561;
+	FIELD field_1619 enableLevelhead Lcom/lunar/class_574;
+	FIELD field_1620 enableAutoGG Lcom/lunar/class_574;
+	FIELD field_1621 enableAutoTip Lcom/lunar/class_574;
+	METHOD method_1419 autoGGEnabled ()Lcom/lunar/class_574;
+	METHOD method_1420 getNumberColor ()Lcom/lunar/class_561;
+	METHOD method_1421 autoFriendEnabled ()Lcom/lunar/class_574;
+	METHOD method_1422 antiGGEnabled ()Lcom/lunar/class_574;
+	METHOD method_1424 autoWhoEnabled ()Lcom/lunar/class_574;
+	METHOD method_1426 levelheadEnabled ()Lcom/lunar/class_574;
+	METHOD method_1428 getLevelColor ()Lcom/lunar/class_561;
+	METHOD method_1429 autoTipEnabled ()Lcom/lunar/class_574;

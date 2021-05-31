@@ -1,1 +1,3 @@
 CLASS com/lunar/class_586 com/lunar/common/server/ServerIntegration
+	CLASS class_1252 ServerWithRules
+		FIELD field_3031 HYPIXEL Lcom/lunar/class_586$class_1252;

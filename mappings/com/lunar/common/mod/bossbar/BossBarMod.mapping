@@ -1,1 +1,6 @@
 CLASS com/lunar/class_211 com/lunar/common/mod/bossbar/BossBarMod
+	FIELD field_668 useCustomBossBar Lcom/lunar/class_574;
+	FIELD field_669 iconsResource Lcom/lunar/class_245;
+	FIELD field_670 barColor Lcom/lunar/class_561;
+	FIELD field_671 lunarIconsResource Lcom/lunar/class_245;
+	FIELD field_672 showBossBar Lcom/lunar/class_574;

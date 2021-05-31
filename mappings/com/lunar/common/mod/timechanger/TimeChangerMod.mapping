@@ -1,1 +1,4 @@
 CLASS com/lunar/class_404 com/lunar/common/mod/timechanger/TimeChangerMod
+	FIELD field_1451 timeToLock Lcom/lunar/class_575;
+	FIELD field_1453 useRealTime Lcom/lunar/class_574;
+	FIELD field_1454 horizonYLevel Lcom/lunar/class_560;

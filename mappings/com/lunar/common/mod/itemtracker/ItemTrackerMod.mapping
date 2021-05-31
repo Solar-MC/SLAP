@@ -1,1 +1,3 @@
 CLASS com/lunar/class_448 com/lunar/common/mod/itemtracker/ItemTrackerMod
+	FIELD field_1630 skyblockOnly Lcom/lunar/class_574;
+	FIELD field_1634 showTextShadow Lcom/lunar/class_574;

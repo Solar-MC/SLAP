@@ -1,1 +1,13 @@
 CLASS com/lunar/class_217 com/lunar/common/mod/coords/CoordsMod
+	FIELD field_711 displayMode Lcom/lunar/class_558;
+	FIELD field_714 showBiomeCoordinates Lcom/lunar/class_574;
+	FIELD field_716 showBackground Lcom/lunar/class_574;
+	FIELD field_719 showCCounter Lcom/lunar/class_574;
+	FIELD field_722 showTextShadow Lcom/lunar/class_574;
+	FIELD field_731 showBiome Lcom/lunar/class_574;
+	FIELD field_732 showLables Lcom/lunar/class_574;
+	FIELD field_733 showBorder Lcom/lunar/class_574;
+	FIELD field_734 showWhileTyping Lcom/lunar/class_574;
+	FIELD field_738 borderThickness Lcom/lunar/class_560;
+	METHOD method_586 getColorCor (Lcom/lunar/class_278;)I
+		ARG 0 biome

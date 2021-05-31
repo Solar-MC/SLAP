@@ -1,0 +1,7 @@
+CLASS com/lunar/class_205 com/lunar/common/text/NumberDisplayMode
+	FIELD field_643 PERCENTAGE Lcom/lunar/class_205;
+	FIELD field_645 type Ljava/lang/String;
+	FIELD field_646 NONE Lcom/lunar/class_205;
+	FIELD field_647 VALUE Lcom/lunar/class_205;
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;)V
+		ARG 3 type

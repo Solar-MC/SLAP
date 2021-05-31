@@ -1,1 +1,2 @@
 CLASS com/lunar/class_467 com/lunar/common/mod/range/RangeMod
+	FIELD field_1797 numberFormat Ljava/text/DecimalFormat;

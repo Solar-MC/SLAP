@@ -1,1 +1,7 @@
 CLASS com/lunar/class_408 com/lunar/common/mod/waypoints/WaypointsMod
+	FIELD field_1484 waypointKey Lcom/lunar/class_566;
+	FIELD field_1485 showBeams Lcom/lunar/class_574;
+	FIELD field_1487 showTextShadow Lcom/lunar/class_574;
+	FIELD field_1489 showBoxBorder Lcom/lunar/class_574;
+	FIELD field_1490 boxPadding Lcom/lunar/class_560;
+	METHOD method_1279 getWaypointKey ()Lcom/lunar/class_566;
