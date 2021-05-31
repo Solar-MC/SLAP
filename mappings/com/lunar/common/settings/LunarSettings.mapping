@@ -4,3 +4,29 @@ CLASS com/lunar/class_530 com/lunar/common/settings/LunarSettings
 	FIELD field_2173 shiftEffects Lcom/lunar/class_574;
 	FIELD field_2178 popupLocation Lcom/lunar/class_558;
 	FIELD field_2185 debug01 Lcom/lunar/class_574;
+	CLASS class_1224
+		FIELD field_2189 name Ljava/lang/String;
+		METHOD <init> (Ljava/lang/String;ILjava/lang/String;)V
+			ARG 3 name
+	CLASS class_1225
+		FIELD field_2194 name Ljava/lang/String;
+		METHOD <init> (Ljava/lang/String;ILjava/lang/String;)V
+			ARG 3 name
+	CLASS class_1226 TextColor
+		FIELD field_2197 WHITE Lcom/lunar/class_530$class_1226;
+		FIELD field_2198 BLUE Lcom/lunar/class_530$class_1226;
+		FIELD field_2199 AQUA Lcom/lunar/class_530$class_1226;
+		FIELD field_2200 DARK_PUPPLE Lcom/lunar/class_530$class_1226;
+		FIELD field_2201 LIGHT_PURPLE Lcom/lunar/class_530$class_1226;
+		FIELD field_2202 DARK_BLUE Lcom/lunar/class_530$class_1226;
+		FIELD field_2203 DARK_RED Lcom/lunar/class_530$class_1226;
+		FIELD field_2204 GRAY Lcom/lunar/class_530$class_1226;
+		FIELD field_2206 DARK_AQUA Lcom/lunar/class_530$class_1226;
+		FIELD field_2207 RED Lcom/lunar/class_530$class_1226;
+		FIELD field_2208 YELLOW Lcom/lunar/class_530$class_1226;
+		FIELD field_2209 GREEN Lcom/lunar/class_530$class_1226;
+		FIELD field_2210 GOLD Lcom/lunar/class_530$class_1226;
+		FIELD field_2211 DARK_GREEN Lcom/lunar/class_530$class_1226;
+		FIELD field_2212 DARK_GRAY Lcom/lunar/class_530$class_1226;
+		FIELD field_2213 NONE Lcom/lunar/class_530$class_1226;
+		METHOD method_2119 getFormattingCode ()Lcom/lunar/class_244;

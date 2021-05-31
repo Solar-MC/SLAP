@@ -1,1 +1,14 @@
 CLASS com/lunar/class_1213 com/lunar/common/mod/nametags/NameTagMod
+	FIELD field_1689 enableToggleNametags Lcom/lunar/class_574;
+	FIELD field_1690 toggleNametagsKey Lcom/lunar/class_572;
+	FIELD field_1691 nametagBackgroundOpacity Lcom/lunar/class_560;
+	FIELD field_1692 showNametagLogos Lcom/lunar/class_574;
+	FIELD field_1693 showNametags Lcom/lunar/class_574;
+	FIELD field_1694 showNametagShadow Lcom/lunar/class_574;
+	METHOD method_1505 getNametagBackgroundOpacity ()Lcom/lunar/class_560;
+	METHOD method_1507 getNametagOpacity ()F
+	METHOD method_1508 getToggleNametagsKey ()Lcom/lunar/class_572;
+	METHOD method_1509 showsNametagLogos ()Lcom/lunar/class_574;
+	METHOD method_1510 showsNametagShadow ()Lcom/lunar/class_574;
+	METHOD method_1511 toggleNametagsEnabled ()Lcom/lunar/class_574;
+	METHOD method_1512 showsNametags ()Lcom/lunar/class_574;

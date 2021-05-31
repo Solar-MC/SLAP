@@ -1,1 +1,5 @@
 CLASS com/lunar/class_468 com/lunar/common/mod/replaymod/ReplayMod
+	FIELD field_1800 useLunarUI Lcom/lunar/class_574;
+	FIELD field_1801 lunarReplayModUIResource Lcom/lunar/class_245;
+	FIELD field_1802 lunarUIResource Lcom/lunar/class_245;
+	METHOD method_1622 usesLunarUI ()Lcom/lunar/class_574;

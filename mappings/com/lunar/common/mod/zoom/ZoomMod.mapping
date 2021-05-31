@@ -1,1 +1,7 @@
 CLASS com/lunar/class_430 com/lunar/common/mod/zoom/ZoomMod
+	FIELD field_1533 enableZoomKey Lcom/lunar/class_574;
+	FIELD field_1536 smoothZoomAnimation Lcom/lunar/class_574;
+	FIELD field_1540 zoomDivisor Lcom/lunar/class_560;
+	FIELD field_1541 smoothCameraWhileZoomed Lcom/lunar/class_574;
+	FIELD field_1542 enableVariableZoom Lcom/lunar/class_574;
+	FIELD field_1543 zoomKey Lcom/lunar/class_572;

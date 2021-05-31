@@ -1,1 +1,3 @@
 CLASS com/lunar/class_447 com/lunar/common/mod/itemphysics/ItemPhysicsMod
+	METHOD method_1441 getStackSizeFor (Lcom/lunar/class_68;)I
+		ARG 1 stack

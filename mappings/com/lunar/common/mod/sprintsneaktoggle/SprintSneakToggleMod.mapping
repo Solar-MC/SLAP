@@ -1,1 +1,19 @@
 CLASS com/lunar/class_405 com/lunar/common/mod/sprintsneaktoggle/SprintSneakToggleMod
+	FIELD field_1458 flyBoost Lcom/lunar/class_574;
+	FIELD field_1461 allowDoubleTapW Lcom/lunar/class_574;
+	FIELD field_1462 showTextShadow Lcom/lunar/class_574;
+	FIELD field_1463 toggleSneak Lcom/lunar/class_574;
+	FIELD field_1465 textColor Lcom/lunar/class_561;
+	FIELD field_1469 showHudtext Lcom/lunar/class_574;
+	FIELD field_1470 flyBoostAmount Lcom/lunar/class_560;
+	FIELD field_1471 toggleSprint Lcom/lunar/class_574;
+	FIELD field_1472 toggleSneakContainer Lcom/lunar/class_574;
+	METHOD method_1228 showsHudText ()Lcom/lunar/class_574;
+	METHOD method_1231 getTextColor ()Lcom/lunar/class_561;
+	METHOD method_1238 getToggleSneakContainer ()Lcom/lunar/class_574;
+	METHOD method_1241 showsTextShadow ()Lcom/lunar/class_574;
+	METHOD method_1242 allowsDoubleTapW ()Lcom/lunar/class_574;
+	METHOD method_1246 getFlyBoost ()Lcom/lunar/class_574;
+	METHOD method_1247 getToggleSprint ()Lcom/lunar/class_574;
+	METHOD method_1248 getToggleSneak ()Lcom/lunar/class_574;
+	METHOD method_1258 getFlyBoostAmount ()Lcom/lunar/class_560;

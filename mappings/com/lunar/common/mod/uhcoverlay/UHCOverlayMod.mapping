@@ -1,1 +1,15 @@
 CLASS com/lunar/class_406 com/lunar/common/mod/uhcoverlay/UHCOverlayMod
+	FIELD field_1475 goldIngotScale Lcom/lunar/class_560;
+	FIELD field_1476 goldNuggetScale Lcom/lunar/class_560;
+	FIELD field_1477 goldAppleScale Lcom/lunar/class_560;
+	FIELD field_1478 goldOreScale Lcom/lunar/class_560;
+	FIELD field_1479 skullScale Lcom/lunar/class_560;
+	METHOD method_1259 getGoldIngotScale ()Lcom/lunar/class_560;
+	METHOD method_1260 getGoldNuggetScale ()Lcom/lunar/class_560;
+	METHOD method_1261 getGoldOreScale ()Lcom/lunar/class_560;
+	METHOD method_1262 getSkullScale ()Lcom/lunar/class_560;
+	METHOD method_1263 getEnlargeFactor (Ljava/lang/String;)F
+		ARG 1 itemName
+	METHOD method_1264 getGoldAppleScale ()Lcom/lunar/class_560;
+	METHOD method_1265 shouldEnlarge (Ljava/lang/String;)Z
+		ARG 1 itemName

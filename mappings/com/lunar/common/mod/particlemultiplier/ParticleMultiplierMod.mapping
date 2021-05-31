@@ -1,1 +1,11 @@
 CLASS com/lunar/class_462 com/lunar/common/mod/particlemultiplier/ParticleMultiplierMod
+	FIELD field_1756 showCriticals Lcom/lunar/class_574;
+	FIELD field_1757 particleFactor Lcom/lunar/class_560;
+	FIELD field_1758 alwaysShowEnchantedCriticalParticles Lcom/lunar/class_574;
+	FIELD field_1759 affectEnchantedCriticals Lcom/lunar/class_574;
+	FIELD field_1760 affectCriticals Lcom/lunar/class_574;
+	METHOD method_1579 showsCriticals ()Lcom/lunar/class_574;
+	METHOD method_1580 getParticleFactor ()Lcom/lunar/class_560;
+	METHOD method_1581 affectsEnchantedCriticals ()Lcom/lunar/class_574;
+	METHOD method_1582 getAffectsCriticals ()Lcom/lunar/class_574;
+	METHOD method_1583 alwaysShowsEnchantedCriticalParticles ()Lcom/lunar/class_574;

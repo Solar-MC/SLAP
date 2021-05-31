@@ -1,1 +1,23 @@
 CLASS com/lunar/class_208 com/lunar/common/mod/armorstatus/ArmorStatusMod
+	FIELD field_616 showEquippedItems Lcom/lunar/class_574;
+	FIELD field_619 showItemDurability Lcom/lunar/class_574;
+	FIELD field_620 showMaxDurability Lcom/lunar/class_574;
+	FIELD field_621 showItemCount Lcom/lunar/class_574;
+	FIELD field_623 listMode Lcom/lunar/class_558;
+	FIELD field_629 showDurability Lcom/lunar/class_574;
+	FIELD field_630 showTextShadow Lcom/lunar/class_574;
+	FIELD field_631 showItemName Lcom/lunar/class_574;
+	FIELD field_632 showWhileTyping Lcom/lunar/class_574;
+	FIELD field_634 showArmorDurability Lcom/lunar/class_574;
+	METHOD method_476 showsMaxDurability ()Lcom/lunar/class_574;
+	METHOD method_477 showsItemCount ()Lcom/lunar/class_574;
+	METHOD method_480 showsItemName ()Lcom/lunar/class_574;
+	METHOD method_483 getColorFor (I)Lcom/lunar/class_561;
+		ARG 1 durability
+	METHOD method_488 showsTextShadow ()Lcom/lunar/class_574;
+	METHOD method_490 showsArmorDurability ()Lcom/lunar/class_574;
+	METHOD method_491 getMode ()Lcom/lunar/class_558;
+	METHOD method_494 showsDurability ()Lcom/lunar/class_574;
+	METHOD method_495 showsWhileTyping ()Lcom/lunar/class_574;
+	METHOD method_496 showsEquippedItems ()Lcom/lunar/class_574;
+	METHOD method_503 showItemDurability ()Lcom/lunar/class_574;

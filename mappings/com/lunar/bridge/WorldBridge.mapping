@@ -10,6 +10,7 @@ CLASS com/lunar/class_269 com/lunar/bridge/WorldBridge
 	METHOD bridge$getPlayerByUniqueId (Ljava/util/UUID;)Ljava/util/Optional;
 		ARG 1 id
 	METHOD bridge$getPlayerEntities ()Ljava/util/List;
+	METHOD bridge$getWorldChunkManager ()Lcom/lunar/class_276;
 	METHOD bridge$getWorldInfo ()Lcom/lunar/class_283;
 	METHOD bridge$isRemote ()Z
 	METHOD bridge$setWorldTime (J)V

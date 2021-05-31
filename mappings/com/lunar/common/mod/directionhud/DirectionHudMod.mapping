@@ -1,1 +1,6 @@
 CLASS com/lunar/class_222 com/lunar/common/mod/directionhud/DirectionHudMod
+	FIELD field_761 width Lcom/lunar/class_560;
+	FIELD field_762 directionColor Lcom/lunar/class_561;
+	FIELD field_764 useLegacyStyle Lcom/lunar/class_574;
+	FIELD field_766 compassIconResource Lcom/lunar/class_245;
+	FIELD field_768 markerColor Lcom/lunar/class_561;

@@ -1,1 +1,6 @@
-CLASS com/lunar/class_403 com/lunar/common/mod/teamview/TeamviewMod
+CLASS com/lunar/class_403 com/lunar/common/mod/teamview/TeamViewMod
+	CLASS class_1207 TeamViewAnchorLocation
+		FIELD field_1446 LEFT Lcom/lunar/class_403$class_1207;
+		FIELD field_1448 RIGHT Lcom/lunar/class_403$class_1207;
+		FIELD field_1449 BOTTOM Lcom/lunar/class_403$class_1207;
+		FIELD field_1450 TOP Lcom/lunar/class_403$class_1207;

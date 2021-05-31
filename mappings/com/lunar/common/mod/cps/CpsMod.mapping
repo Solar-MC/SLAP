@@ -1,1 +1,4 @@
 CLASS com/lunar/class_218 com/lunar/common/mod/cps/CpsMod
+	FIELD field_740 includeRightClick Lcom/lunar/class_574;
+	FIELD field_741 lineColor Lcom/lunar/class_561;
+	FIELD field_742 showCPSText Lcom/lunar/class_574;

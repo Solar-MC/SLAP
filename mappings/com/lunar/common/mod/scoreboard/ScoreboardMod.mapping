@@ -1,1 +1,7 @@
 CLASS com/lunar/class_472 com/lunar/common/mod/scoreboard/ScoreboardMod
+	FIELD field_1812 showBOrder Lcom/lunar/class_574;
+	FIELD field_1813 showTextShadow Lcom/lunar/class_574;
+	FIELD field_1814 borderThickness Lcom/lunar/class_560;
+	FIELD field_1815 borderColor Lcom/lunar/class_561;
+	FIELD field_1816 showNumbers Lcom/lunar/class_574;
+	FIELD field_1817 backgroundColor Lcom/lunar/class_561;

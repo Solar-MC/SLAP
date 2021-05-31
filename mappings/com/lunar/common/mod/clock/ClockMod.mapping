@@ -1,1 +1,5 @@
 CLASS com/lunar/class_213 com/lunar/common/mod/clock/ClockMod
+	FIELD field_697 twelveHourFormat Ljava/text/SimpleDateFormat;
+	FIELD field_698 usesMilitaryTime Lcom/lunar/class_574;
+	FIELD field_699 militaryFormat Ljava/text/SimpleDateFormat;
+	FIELD field_700 realTime Ljava/util/Date;

@@ -1,1 +1,5 @@
 CLASS com/lunar/class_453 com/lunar/common/mod/motionblur/MotionBlurMod
+	FIELD field_1677 useOldBlur Lcom/lunar/class_574;
+	FIELD field_1678 strength Lcom/lunar/class_560;
+	METHOD method_1493 usesOldBlur ()Lcom/lunar/class_574;
+	METHOD method_1494 getStrength ()Lcom/lunar/class_560;

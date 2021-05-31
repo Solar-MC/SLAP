@@ -1,1 +1,4 @@
 CLASS com/lunar/class_214 com/lunar/common/mod/combo/ComboMod
+	FIELD field_701 currentCombo I
+	METHOD method_558 (Lcom/lunar/class_181;)V
+		ARG 1 event

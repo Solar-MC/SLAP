@@ -1,5 +1,14 @@
 CLASS com/lunar/class_436 com/lunar/common/mod/holograms/Hologram
+	FIELD field_1554 z D
+	FIELD field_1555 y D
+	FIELD field_1556 x D
+	FIELD field_1557 uuid Ljava/util/UUID;
 	METHOD <init> (Ljava/util/UUID;[Ljava/lang/String;DDD)V
+		ARG 1 id
 		ARG 3 x
 		ARG 5 y
 		ARG 7 z
+	METHOD method_1374 getZ ()D
+	METHOD method_1375 getY ()D
+	METHOD method_1376 getX ()D
+	METHOD method_1377 getUuid ()Ljava/util/UUID;

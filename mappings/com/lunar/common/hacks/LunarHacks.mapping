@@ -1,3 +1,8 @@
 CLASS com/lunar/class_399 com/lunar/common/hacks/LunarHacks
+	FIELD field_1428 NAME_TAGS Lcom/lunar/class_399;
+	FIELD field_1430 name Ljava/lang/String;
+	FIELD field_1431 BUNNY_HOP Lcom/lunar/class_399;
+	FIELD field_1432 XRAY Lcom/lunar/class_399;
 	METHOD <init> (Ljava/lang/String;ILjava/lang/String;)V
 		ARG 3 name
+	METHOD method_1199 getName ()Ljava/lang/String;

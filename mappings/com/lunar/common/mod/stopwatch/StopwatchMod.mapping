@@ -1,1 +1,3 @@
 CLASS com/lunar/class_402 com/lunar/common/mod/stopwatch/StopwatchMod
+	FIELD field_1439 startKey Lcom/lunar/class_572;
+	FIELD field_1443 resetOnStart Lcom/lunar/class_574;

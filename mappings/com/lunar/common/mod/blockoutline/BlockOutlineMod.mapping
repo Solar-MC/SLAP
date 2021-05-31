@@ -1,1 +1,11 @@
 CLASS com/lunar/class_210 com/lunar/common/mod/blockoutline/BlockOutlineMod
+	FIELD field_663 blockOverlayColor Lcom/lunar/class_561;
+	FIELD field_664 blockOutlineColor Lcom/lunar/class_561;
+	FIELD field_665 showBlockOverlay Lcom/lunar/class_574;
+	FIELD field_666 blockOutlineWidth Lcom/lunar/class_560;
+	FIELD field_667 showBlockOutline Lcom/lunar/class_574;
+	METHOD method_513 getBlockOverlayColor ()Lcom/lunar/class_561;
+	METHOD method_514 getBlockOutlineColor ()Lcom/lunar/class_561;
+	METHOD method_515 getBlockOutlineWidth ()Lcom/lunar/class_560;
+	METHOD method_516 showsBlockOutline ()Lcom/lunar/class_574;
+	METHOD method_518 showsBlockOverlay ()Lcom/lunar/class_574;

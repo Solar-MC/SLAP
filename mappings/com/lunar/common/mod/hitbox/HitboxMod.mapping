@@ -1,1 +1,40 @@
 CLASS com/lunar/class_443 com/lunar/common/mod/hitbox/HitboxMod
+	FIELD field_1573 linePattern Lcom/lunar/class_558;
+	FIELD field_1574 itemSettings Lcom/lunar/class_443$class_1209;
+	FIELD field_1575 playerSettings Lcom/lunar/class_443$class_1209;
+	FIELD field_1576 mobSettings Lcom/lunar/class_443$class_1209;
+	FIELD field_1577 projectileSettings Lcom/lunar/class_443$class_1209;
+	FIELD field_1578 expSettings Lcom/lunar/class_443$class_1209;
+	METHOD method_1397 getItemSettings ()Lcom/lunar/class_443$class_1209;
+	METHOD method_1398 getPlayerSettings ()Lcom/lunar/class_443$class_1209;
+	METHOD method_1399 getProjectileSettings ()Lcom/lunar/class_443$class_1209;
+	METHOD method_1400 getExpSettings ()Lcom/lunar/class_443$class_1209;
+	METHOD method_1401 getLinePattern ()Lcom/lunar/class_558;
+	METHOD method_1402 getMobSettings ()Lcom/lunar/class_443$class_1209;
+	METHOD method_1403 (Lcom/lunar/class_36;)Lcom/lunar/class_443$class_1209;
+		ARG 1 entity
+	CLASS class_1208 HitboxStyle
+		FIELD field_1580 DASHED Lcom/lunar/class_443$class_1208;
+		FIELD field_1581 frequency I
+		FIELD field_1582 id I
+		FIELD field_1583 DOTTED Lcom/lunar/class_443$class_1208;
+		FIELD field_1584 SOLID Lcom/lunar/class_443$class_1208;
+		METHOD <init> (Ljava/lang/String;III)V
+			ARG 3 id
+			ARG 4 frequency
+		METHOD method_1405 getId ()I
+		METHOD method_1406 getFrequency ()I
+	CLASS class_1209 hitboxTypeSettings
+		FIELD field_1585 lineWidth Lcom/lunar/class_560;
+		FIELD field_1586 show Lcom/lunar/class_574;
+		FIELD field_1587 showLookVector Lcom/lunar/class_574;
+		FIELD field_1588 lineColor Lcom/lunar/class_561;
+		FIELD field_1589 enabled Lcom/lunar/class_564;
+		METHOD <init> (Ljava/lang/String;)V
+			ARG 1 hitboxType
+		METHOD method_1407 shows ()Lcom/lunar/class_574;
+		METHOD method_1408 isEnabled ()Lcom/lunar/class_564;
+		METHOD method_1409 showsLookVector ()Lcom/lunar/class_574;
+		METHOD method_1410 getLineColor ()Lcom/lunar/class_561;
+		METHOD method_1412 getLineWidth ()Lcom/lunar/class_560;
+		METHOD method_1413 getSettings ()Lcom/google/common/collect/ImmutableList;

@@ -52,4 +52,4 @@ CLASS com/lunar/class_244 com/lunar/common/text/formatting/Formatting
 	METHOD method_665 validCodes (ZZ)Ljava/util/Collection;
 		ARG 0 includeColors
 		ARG 1 includeNonColors
-	METHOD values ()[Lcom/lunar/class_244;
+	METHOD valueOf (Ljava/lang/String;)Lcom/lunar/class_244;

@@ -1,1 +1,3 @@
 CLASS com/lunar/class_369 com/lunar/common/mod/scrollabletooltips/ScrollableTooltipsMod
+	FIELD field_1231 horizontalScrollKey Lcom/lunar/class_572;
+	METHOD method_1053 getHorizontalScrollKey ()Lcom/lunar/class_572;

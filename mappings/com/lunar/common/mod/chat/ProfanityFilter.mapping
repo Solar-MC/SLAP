@@ -1,0 +1,8 @@
+CLASS com/lunar/class_1179 com/lunar/common/mod/chat/ProfanityFilter
+	FIELD field_674 OFF Lcom/lunar/class_1179;
+	FIELD field_675 name Ljava/lang/String;
+	FIELD field_676 HIGH Lcom/lunar/class_1179;
+	FIELD field_677 NORMAL Lcom/lunar/class_1179;
+	FIELD field_678 CUSTOM Lcom/lunar/class_1179;
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;)V
+		ARG 3 name
