@@ -1,0 +1,6 @@
+CLASS com/lunar/class_207 com/lunar/common/mod/armorstatus/MaxDurabilityDisplayMode
+	FIELD field_635 PERCENT Lcom/lunar/class_207;
+	FIELD field_637 name Ljava/lang/String;
+	FIELD field_638 VALUE Lcom/lunar/class_207;
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;)V
+		ARG 3 name

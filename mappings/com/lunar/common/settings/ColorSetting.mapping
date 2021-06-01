@@ -38,6 +38,8 @@ CLASS com/lunar/class_561 com/lunar/common/settings/ColorSetting
 	METHOD method_2256 setRed (F)V
 		ARG 1 red
 	METHOD method_2257 getRed ()F
+	METHOD method_2261 setToMatch (Lcom/lunar/class_561;)V
+		ARG 1 other
 	METHOD method_2263 updateWithHSB ()V
 	METHOD method_2265 getOpacity ()F
 	METHOD method_2267 setBlue (F)V
@@ -52,6 +54,8 @@ CLASS com/lunar/class_561 com/lunar/common/settings/ColorSetting
 	METHOD method_2280 getBrightness ()F
 	METHOD method_2281 setOpacity (F)V
 		ARG 1 opacity
+	METHOD method_2288 equals (Lcom/lunar/class_561;)Z
+		ARG 1 other
 	METHOD method_3 getBlue ()F
 	CLASS class_1228 ChromaType
 		FIELD field_2314 SHIRT Lcom/lunar/class_561$class_1228;
