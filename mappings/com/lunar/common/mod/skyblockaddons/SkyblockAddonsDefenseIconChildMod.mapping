@@ -1,0 +1,7 @@
+CLASS com/lunar/class_381 com/lunar/common/mod/skyblockaddons/SkyblockAddonsDefenseIconChildMod
+	FIELD field_1393 iconsResource Lcom/lunar/class_245;
+	FIELD field_1394 defenseIconResource Lcom/lunar/class_245;
+	FIELD field_1395 useVanillaDefenseTexture Lcom/lunar/class_574;
+	METHOD <init> (Lcom/lunar/class_195;)V
+		ARG 1 sba
+	METHOD method_1185 usesVanillaDefenseTexture ()Lcom/lunar/class_574;

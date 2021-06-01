@@ -1,0 +1,6 @@
+CLASS com/lunar/class_380 com/lunar/common/mod/skyblockaddons/SkyblockAddonsZealotKillsChildMod
+	FIELD field_1390 textColor Lcom/lunar/class_561;
+	FIELD field_1391 endermanIconResource Lcom/lunar/class_245;
+	FIELD field_1392 showTextShadow Lcom/lunar/class_574;
+	METHOD <init> (Lcom/lunar/class_195;)V
+		ARG 1 sba

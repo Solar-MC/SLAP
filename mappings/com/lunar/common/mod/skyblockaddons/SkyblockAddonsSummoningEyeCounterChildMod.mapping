@@ -1,0 +1,6 @@
+CLASS com/lunar/class_388 com/lunar/common/mod/skyblockaddons/SkyblockAddonsSummoningEyeCounterChildMod
+	FIELD field_1358 textColor Lcom/lunar/class_561;
+	FIELD field_1359 summoningEyeIconResource Lcom/lunar/class_245;
+	FIELD field_1360 showTextShadow Lcom/lunar/class_574;
+	METHOD <init> (Lcom/lunar/class_195;)V
+		ARG 1 sba
