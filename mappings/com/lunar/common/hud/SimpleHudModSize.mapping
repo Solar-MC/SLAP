@@ -1,4 +1,10 @@
 CLASS com/lunar/class_204 com/lunar/common/hud/SimpleHudModSize
+	FIELD field_546 maxWidth I
+	FIELD field_547 height I
+	FIELD field_548 width I
+	FIELD field_549 minWidth I
+	FIELD field_550 maxHeight I
+	FIELD field_551 minHeight I
 	METHOD <init> (IIIIII)V
 		ARG 1 minHeight
 		ARG 2 height
@@ -6,3 +12,25 @@ CLASS com/lunar/class_204 com/lunar/common/hud/SimpleHudModSize
 		ARG 4 minWidth
 		ARG 5 width
 		ARG 6 maxWidth
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 other
+	METHOD method_409 getMaxWidth ()I
+	METHOD method_410 setMaxWidth (I)V
+		ARG 1 maxWidth
+	METHOD method_411 getHeight ()I
+	METHOD method_412 setHeight (I)V
+		ARG 1 height
+	METHOD method_413 getWidth ()I
+	METHOD method_414 setWidth (I)V
+		ARG 1 width
+	METHOD method_415 getMinWIdth ()I
+	METHOD method_416 setMinWidth (I)V
+		ARG 1 minWidth
+	METHOD method_417 getMaxHeight ()I
+	METHOD method_418 setMaxHeight (I)V
+		ARG 1 maxHeight
+	METHOD method_419 getMinHeight ()I
+	METHOD method_420 setMinHeight (I)V
+		ARG 1 minHeight
+	METHOD method_421 isSimpleHudModSize (Ljava/lang/Object;)Z
+		ARG 1 other

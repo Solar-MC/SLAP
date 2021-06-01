@@ -1,3 +1,7 @@
 CLASS com/lunar/class_498 com/lunar/common/auth/AuthType
+	FIELD field_1991 XBOX Lcom/lunar/class_498;
 	FIELD field_1993 name Ljava/lang/String;
+	FIELD field_1994 MOJANG Lcom/lunar/class_498;
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;)V
+		ARG 3 name
 	METHOD method_1820 getName ()Ljava/lang/String;
