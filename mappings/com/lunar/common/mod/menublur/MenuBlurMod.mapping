@@ -1,1 +1,9 @@
 CLASS com/lunar/class_452 com/lunar/common/mod/menublur/MenuBlurMod
+	FIELD field_1664 blurStrength Lcom/lunar/class_560;
+	FIELD field_1666 blurInPause Lcom/lunar/class_452$class_1212;
+	FIELD field_1669 blurInInventory Lcom/lunar/class_452$class_1212;
+	FIELD field_1670 blurInLunarMenus Lcom/lunar/class_452$class_1212;
+	METHOD method_1464 getBlurStrength ()Lcom/lunar/class_560;
+	METHOD method_1467 blursInInventory ()Lcom/lunar/class_452$class_1212;
+	METHOD method_1474 blursInLunarMenus ()Lcom/lunar/class_452$class_1212;
+	METHOD method_1477 blursInPause ()Lcom/lunar/class_452$class_1212;

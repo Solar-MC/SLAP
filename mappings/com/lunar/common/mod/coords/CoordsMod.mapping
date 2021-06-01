@@ -1,13 +1,36 @@
 CLASS com/lunar/class_217 com/lunar/common/mod/coords/CoordsMod
 	FIELD field_711 displayMode Lcom/lunar/class_558;
+	FIELD field_712 xLabelColor Lcom/lunar/class_561;
+	FIELD field_713 zLabelColor Lcom/lunar/class_561;
 	FIELD field_714 showBiomeCoordinates Lcom/lunar/class_574;
+	FIELD field_715 yLabelColor Lcom/lunar/class_561;
 	FIELD field_716 showBackground Lcom/lunar/class_574;
+	FIELD field_717 zAxisColor Lcom/lunar/class_561;
+	FIELD field_718 cCounterAxisColor Lcom/lunar/class_561;
 	FIELD field_719 showCCounter Lcom/lunar/class_574;
+	FIELD field_720 backgroundColor Lcom/lunar/class_561;
+	FIELD field_721 biomeLabelColorColor Lcom/lunar/class_561;
 	FIELD field_722 showTextShadow Lcom/lunar/class_574;
+	FIELD field_723 directionColor Lcom/lunar/class_561;
+	FIELD field_724 borderColor Lcom/lunar/class_561;
+	FIELD field_725 directionDeltaColor Lcom/lunar/class_561;
+	FIELD field_726 xAxisColor Lcom/lunar/class_561;
+	FIELD field_727 coordinateTextColor Lcom/lunar/class_561;
+	FIELD field_728 yAxisColor Lcom/lunar/class_561;
+	FIELD field_729 showDirectionDelta Lcom/lunar/class_574;
+	FIELD field_730 enableBiomeSpecificColoring Lcom/lunar/class_574;
 	FIELD field_731 showBiome Lcom/lunar/class_574;
 	FIELD field_732 showLables Lcom/lunar/class_574;
 	FIELD field_733 showBorder Lcom/lunar/class_574;
 	FIELD field_734 showWhileTyping Lcom/lunar/class_574;
+	FIELD field_735 showDirection Lcom/lunar/class_574;
+	FIELD field_736 cCounterLabelColor Lcom/lunar/class_561;
+	FIELD field_737 biomeColorColor Lcom/lunar/class_561;
 	FIELD field_738 borderThickness Lcom/lunar/class_560;
+	METHOD method_585 (IIIFLcom/lunar/class_243;IIFF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 angle
 	METHOD method_586 getColorCor (Lcom/lunar/class_278;)I
 		ARG 0 biome

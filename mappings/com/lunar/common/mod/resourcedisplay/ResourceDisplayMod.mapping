@@ -1,1 +1,2 @@
 CLASS com/lunar/class_470 com/lunar/common/mod/resourcedisplay/ResourceDisplayMod
+	FIELD field_1809 showPackIcon Lcom/lunar/class_574;
