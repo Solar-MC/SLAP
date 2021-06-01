@@ -1,0 +1,6 @@
+CLASS com/lunar/class_390 com/lunar/common/mod/skyblockaddons/SkyblockAddonsBaitListChildMod
+	FIELD field_1380 textColor Lcom/lunar/class_561;
+	FIELD field_1381 showTextShadow Lcom/lunar/class_574;
+	FIELD field_1382 baitNameToOrder Ljava/util/Map;
+	METHOD <init> (Lcom/lunar/class_195;)V
+		ARG 1 sba

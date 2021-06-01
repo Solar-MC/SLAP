@@ -1,0 +1,5 @@
+CLASS com/lunar/class_374 com/lunar/common/mod/skyblockaddons/SkyblockAddonsBirchParkRainTimerChildMod
+	FIELD field_1417 textColor Lcom/lunar/class_561;
+	FIELD field_1418 showTextShadow Lcom/lunar/class_574;
+	METHOD <init> (Lcom/lunar/class_195;)V
+		ARG 1 sba

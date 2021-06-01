@@ -1,1 +1,5 @@
-CLASS com/lunar/class_387 com/lunar/common/mod/skyblockaddons/SkyBlockAddonsDefensePercentageChildMod
+CLASS com/lunar/class_387 com/lunar/common/mod/skyblockaddons/SkyblockAddonsDefensePercentageChildMod
+	FIELD field_1376 showTextShadow Lcom/lunar/class_574;
+	FIELD field_1377 textColor Lcom/lunar/class_561;
+	METHOD <init> (Lcom/lunar/class_195;)V
+		ARG 1 sba

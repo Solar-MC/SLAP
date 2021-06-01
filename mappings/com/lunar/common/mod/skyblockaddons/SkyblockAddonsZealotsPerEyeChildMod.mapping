@@ -1,0 +1,7 @@
+CLASS com/lunar/class_383 com/lunar/common/mod/skyblockaddons/SkyblockAddonsZealotsPerEyeChildMod
+	FIELD field_1383 showTextShadow Lcom/lunar/class_574;
+	FIELD field_1384 slashResource Lcom/lunar/class_245;
+	FIELD field_1385 zealotsPerEyeIconResource Lcom/lunar/class_245;
+	FIELD field_1386 textColor Lcom/lunar/class_561;
+	METHOD <init> (Lcom/lunar/class_195;)V
+		ARG 1 sba

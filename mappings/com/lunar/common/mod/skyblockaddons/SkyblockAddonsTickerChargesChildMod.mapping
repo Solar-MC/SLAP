@@ -1,0 +1,4 @@
+CLASS com/lunar/class_396 com/lunar/common/mod/skyblockaddons/SkyblockAddonsTickerChargesChildMod
+	FIELD field_1422 tickerIconResource Lcom/lunar/class_245;
+	METHOD <init> (Lcom/lunar/class_195;)V
+		ARG 1 sba

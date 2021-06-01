@@ -1,1 +1,5 @@
-CLASS com/lunar/class_389 com/lunar/common/mod/skyblockaddons/SkyBlockAddonsManaTextChildMod
+CLASS com/lunar/class_389 com/lunar/common/mod/skyblockaddons/SkyblockAddonsManaTextChildMod
+	FIELD field_1378 showTextShadow Lcom/lunar/class_574;
+	FIELD field_1379 barColor Lcom/lunar/class_561;
+	METHOD <init> (Lcom/lunar/class_195;)V
+		ARG 1 sba

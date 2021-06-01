@@ -1,0 +1,3 @@
+CLASS com/lunar/class_395 com/lunar/common/mod/skyblockaddons/ShowsInOtherGames
+	FIELD field_1421 showInOtherGames Lcom/lunar/class_574;
+	METHOD method_1197 showsInOtherGames ()Lcom/lunar/class_574;

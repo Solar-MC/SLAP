@@ -1,0 +1,8 @@
+CLASS com/lunar/class_398 com/lunar/common/mod/skyblockaddons/FeatureJurisdiction
+	FIELD field_1423 SKYBLOCK_ONLY Lcom/lunar/class_398;
+	FIELD field_1425 name Ljava/lang/String;
+	FIELD field_1426 NEVER Lcom/lunar/class_398;
+	FIELD field_1427 ALWAYS Lcom/lunar/class_398;
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;)V
+		ARG 3 name
+	METHOD method_1198 getName ()Ljava/lang/String;

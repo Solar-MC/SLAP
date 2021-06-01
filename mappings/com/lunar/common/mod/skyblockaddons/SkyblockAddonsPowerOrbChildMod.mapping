@@ -1,0 +1,7 @@
+CLASS com/lunar/class_384 com/lunar/common/mod/skyblockaddons/SkyblockAddonsPowerOrbChildMod
+	FIELD field_1409 detailedMode Lcom/lunar/class_574;
+	FIELD field_1410 textColor Lcom/lunar/class_561;
+	FIELD field_1411 timerFormat Ljava/text/DecimalFormat;
+	FIELD field_1412 showTextShadow Lcom/lunar/class_574;
+	METHOD <init> (Lcom/lunar/class_195;)V
+		ARG 1 sba
