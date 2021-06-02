@@ -1,1 +1,2 @@
 CLASS com/lunar/class_464 com/lunar/common/mod/potioncounter/PotionCounterMod
+	FIELD field_1764 countType Lcom/lunar/class_558;

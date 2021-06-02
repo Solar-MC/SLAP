@@ -2,4 +2,8 @@ CLASS com/lunar/class_468 com/lunar/common/mod/replaymod/ReplayMod
 	FIELD field_1800 useLunarUI Lcom/lunar/class_574;
 	FIELD field_1801 lunarReplayModUIResource Lcom/lunar/class_245;
 	FIELD field_1802 lunarUIResource Lcom/lunar/class_245;
+	FIELD field_1804 pauseResumeKey Lcom/lunar/class_572;
+	FIELD field_1805 startStopKey Lcom/lunar/class_572;
+	METHOD method_1614 getStartStopKey ()Lcom/lunar/class_572;
+	METHOD method_1617 getPauseResumeKey ()Lcom/lunar/class_572;
 	METHOD method_1622 usesLunarUI ()Lcom/lunar/class_574;

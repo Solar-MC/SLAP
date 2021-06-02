@@ -1,14 +1,28 @@
 CLASS com/lunar/class_466 com/lunar/common/mod/potioneffects/PotionEffectsMod
+	FIELD field_1769 excludeWaterBreathing Lcom/lunar/class_574;
+	FIELD field_1770 excludeHaste Lcom/lunar/class_574;
 	FIELD field_1771 effectIdsToColor Ljava/util/Map;
+	FIELD field_1772 excludeWeakness Lcom/lunar/class_574;
 	FIELD field_1773 showEffectName Lcom/lunar/class_574;
+	FIELD field_1774 excludePoison Lcom/lunar/class_574;
+	FIELD field_1775 excludeInvisibility Lcom/lunar/class_574;
+	FIELD field_1776 excludeSpeed Lcom/lunar/class_574;
+	FIELD field_1777 excludeStrength Lcom/lunar/class_574;
 	FIELD field_1778 textColor Lcom/lunar/class_561;
 	FIELD field_1779 showsInInventory Lcom/lunar/class_574;
 	FIELD field_1780 hideModernIcons Lcom/lunar/class_574;
+	FIELD field_1781 excludeJumpBoost Lcom/lunar/class_574;
+	FIELD field_1782 excludeFireResistance Lcom/lunar/class_574;
+	FIELD field_1783 excludeRegeneration Lcom/lunar/class_574;
+	FIELD field_1784 excludeNightVision Lcom/lunar/class_574;
 	FIELD field_1785 blinkDuration Lcom/lunar/class_560;
+	FIELD field_1786 duration Lcom/lunar/class_561;
 	FIELD field_1787 colorNameBasedOnEffect Lcom/lunar/class_574;
 	FIELD field_1788 showTextShadow Lcom/lunar/class_574;
 	FIELD field_1789 blinkNearEnd Lcom/lunar/class_574;
 	FIELD field_1791 displayWhileTyping Lcom/lunar/class_574;
+	FIELD field_1792 excludePermanentEffects Lcom/lunar/class_574;
+	FIELD field_1794 excludeSlowness Lcom/lunar/class_574;
 	METHOD method_1596 hidesModernIcons ()Lcom/lunar/class_574;
 	METHOD method_1597 getShowsInInventory ()Lcom/lunar/class_574;
 	METHOD method_1598 toNumerals (I)Ljava/lang/String;

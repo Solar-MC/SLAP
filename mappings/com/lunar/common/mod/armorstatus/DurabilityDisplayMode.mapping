@@ -1,4 +1,4 @@
-CLASS com/lunar/class_205 com/lunar/common/text/NumberDisplayMode
+CLASS com/lunar/class_205 com/lunar/common/mod/armorstatus/DurabilityDisplayMode
 	FIELD field_643 PERCENTAGE Lcom/lunar/class_205;
 	FIELD field_645 type Ljava/lang/String;
 	FIELD field_646 NONE Lcom/lunar/class_205;

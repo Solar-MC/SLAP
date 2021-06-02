@@ -1,1 +1,5 @@
 CLASS com/lunar/class_382 com/lunar/common/mod/skyblockaddons/SkyblockAddonsHealthBarChildMod
+	FIELD field_1419 barColor Lcom/lunar/class_561;
+	FIELD field_1420 barResource Lcom/lunar/class_245;
+	METHOD <init> (Lcom/lunar/class_195;)V
+		ARG 1 sba

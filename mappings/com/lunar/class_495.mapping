@@ -1,5 +1,5 @@
 CLASS com/lunar/class_495
-	METHOD method_1807 getFile ()Ljava/io/File;
-	METHOD method_1808 getConfig ()Ljava/lang/String;
+	METHOD method_1807 getConfigFileHandle ()Ljava/io/File;
+	METHOD method_1808 getConfigFilePath ()Ljava/lang/String;
 	METHOD method_1809 save ()V
 	METHOD method_1810 load ()Z

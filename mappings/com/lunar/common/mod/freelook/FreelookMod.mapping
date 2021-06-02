@@ -1,1 +1,8 @@
 CLASS com/lunar/class_441 com/lunar/common/mod/freelook/FreelookMod
+	FIELD field_1559 freelookMode Lcom/lunar/class_558;
+	FIELD field_1561 freelookKey Lcom/lunar/class_566;
+	FIELD field_1562 invertPitch Lcom/lunar/class_574;
+	FIELD field_1565 invertYaw Lcom/lunar/class_574;
+	FIELD field_1566 enableFreelookKey Lcom/lunar/class_574;
+	METHOD method_1382 getFreelookMode ()Lcom/lunar/class_558;
+	METHOD method_1384 getFreelookKey ()Lcom/lunar/class_566;

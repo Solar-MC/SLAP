@@ -1,9 +1,13 @@
 CLASS com/lunar/class_220 com/lunar/common/mod/crosshair/CrosshairMod
 	FIELD field_748 gapSize Lcom/lunar/class_560;
+	FIELD field_749 enemyColor Lcom/lunar/class_561;
 	FIELD field_750 showOutline Lcom/lunar/class_574;
 	FIELD field_751 size Lcom/lunar/class_560;
 	FIELD field_752 showDot Lcom/lunar/class_574;
+	FIELD field_753 color Lcom/lunar/class_561;
 	FIELD field_754 style Lcom/lunar/class_558;
 	FIELD field_755 thickness Lcom/lunar/class_560;
 	FIELD field_756 dotSize Lcom/lunar/class_560;
 	FIELD field_757 useDynamicColors Lcom/lunar/class_574;
+	FIELD field_758 dotColor Lcom/lunar/class_561;
+	FIELD field_759 friendlyColor Lcom/lunar/class_561;

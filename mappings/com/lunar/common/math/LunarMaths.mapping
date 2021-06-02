@@ -1,5 +1,10 @@
 CLASS com/lunar/class_820 com/lunar/common/math/LunarMaths
+	METHOD method_3344 wrapToPlusMinus180 (D)D
+		ARG 0 degrees
 	METHOD method_3345 round (D)I
 		ARG 0 val
-	METHOD method_3349 (III)I
+	METHOD method_3346 maxOfMax (DDD)D
+	METHOD method_3347 wrapToPlusMinus180 (F)F
+		ARG 0 degrees
+	METHOD method_3349 minofMin (III)I
 		ARG 0 v

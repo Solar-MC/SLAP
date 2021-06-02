@@ -1,1 +1,2 @@
 CLASS com/lunar/class_469 com/lunar/common/mod/replaymod/RecordingIndicatorFeature
+	FIELD field_1808 showTextShadow Lcom/lunar/class_574;

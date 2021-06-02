@@ -1,0 +1,68 @@
+CLASS com/lunar/class_561 com/lunar/common/settings/ColorSetting
+	FIELD field_2304 type Lcom/lunar/class_558;
+	FIELD field_2305 saturation F
+	FIELD field_2306 green F
+	FIELD field_2307 hue F
+	FIELD field_2308 chroma Lcom/lunar/class_574;
+	FIELD field_2309 a F
+	FIELD field_2310 brightness F
+	FIELD field_2311 blue F
+	FIELD field_2312 speed Lcom/lunar/class_560;
+	FIELD field_2313 red F
+	METHOD <init> (Ljava/lang/String;FFF)V
+		ARG 1 name
+		ARG 2 red
+		ARG 3 green
+		ARG 4 blue
+	METHOD <init> (Ljava/lang/String;FFFF)V
+		ARG 1 name
+		ARG 2 red
+		ARG 3 green
+		ARG 4 blue
+		ARG 5 opacity
+	METHOD <init> (Ljava/lang/String;Ljava/lang/Integer;)V
+		ARG 1 name
+		ARG 2 defaultValue
+	METHOD <init> (Ljava/lang/String;Ljava/lang/Integer;Ljava/util/function/BooleanSupplier;)V
+		ARG 1 name
+		ARG 2 defaultValue
+	METHOD method_2249 setHSBFromRGB ()V
+	METHOD method_2250 getChromaSetting ()Lcom/lunar/class_574;
+	METHOD method_2251 setHue (F)V
+		ARG 1 hue
+	METHOD method_2252 getType ()Lcom/lunar/class_558;
+	METHOD method_2253 setBrightness (F)V
+		ARG 1 brightness
+	METHOD method_2254 updateWithRGBA ()V
+	METHOD method_2255 getHue ()F
+	METHOD method_2256 setRed (F)V
+		ARG 1 red
+	METHOD method_2257 getRed ()F
+	METHOD method_2261 setToMatch (Lcom/lunar/class_561;)V
+		ARG 1 other
+	METHOD method_2263 updateWithHSB ()V
+	METHOD method_2265 getOpacity ()F
+	METHOD method_2267 setBlue (F)V
+		ARG 1 blue
+	METHOD method_2272 getSpeed ()Lcom/lunar/class_560;
+	METHOD method_2273 setSaturation (F)V
+		ARG 1 saturation
+	METHOD method_2274 getSaturation ()F
+	METHOD method_2275 setGreen (F)V
+		ARG 1 green
+	METHOD method_2276 getGreen ()F
+	METHOD method_2280 getBrightness ()F
+	METHOD method_2281 setOpacity (F)V
+		ARG 1 opacity
+	METHOD method_2288 equals (Lcom/lunar/class_561;)Z
+		ARG 1 other
+	METHOD method_3 getBlue ()F
+	CLASS class_1228 ChromaType
+		FIELD field_2314 SHIRT Lcom/lunar/class_561$class_1228;
+		FIELD field_2316 color Ljava/util/function/BiFunction;
+		FIELD field_2317 name Ljava/lang/String;
+		FIELD field_2318 WAVE Lcom/lunar/class_561$class_1228;
+		METHOD <init> (Ljava/lang/String;ILjava/lang/String;Ljava/util/function/BiFunction;)V
+			ARG 3 name
+			ARG 4 color
+		METHOD method_2291 getColor ()Ljava/util/function/BiFunction;

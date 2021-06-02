@@ -1,5 +1,6 @@
 CLASS com/lunar/class_521 com/lunar/common/mod/ModManager
 	FIELD field_2043 chatMod Lcom/lunar/class_1180;
+	FIELD field_2044 nameTagMod Lcom/lunar/class_1213;
 	FIELD field_2045 skyblockAddonsMod Lcom/lunar/class_372;
 	FIELD field_2046 sprintSneakToggleMod Lcom/lunar/class_405;
 	FIELD field_2047 itemPhysicsMod Lcom/lunar/class_447;
@@ -8,6 +9,7 @@ CLASS com/lunar/class_521 com/lunar/common/mod/ModManager
 	FIELD field_2050 menuBlurMod Lcom/lunar/class_452;
 	FIELD field_2051 blockOutlineMod Lcom/lunar/class_210;
 	FIELD field_2052 screenshotMod Lcom/lunar/class_474;
+	FIELD field_2053 fovMod Lcom/lunar/class_1181;
 	FIELD field_2054 motionBlurMod Lcom/lunar/class_453;
 	FIELD field_2055 bossBarMod Lcom/lunar/class_211;
 	FIELD field_2056 scrollableTooltipsMod Lcom/lunar/class_369;
@@ -30,6 +32,7 @@ CLASS com/lunar/class_521 com/lunar/common/mod/ModManager
 	METHOD method_1925 getHitboxMod ()Lcom/lunar/class_443;
 	METHOD method_1926 getArmorStatusMod ()Lcom/lunar/class_208;
 	METHOD method_1927 getPotionEffectMod ()Lcom/lunar/class_466;
+	METHOD method_1928 getFOVMod ()Lcom/lunar/class_1181;
 	METHOD method_1929 getAutoTextMod ()Lcom/lunar/class_444;
 	METHOD method_1930 getMenuBlurMod ()Lcom/lunar/class_452;
 	METHOD method_1931 scrollableTooltipsMod ()Lcom/lunar/class_369;
@@ -43,6 +46,7 @@ CLASS com/lunar/class_521 com/lunar/common/mod/ModManager
 	METHOD method_1939 getNickHiderMod ()Lcom/lunar/class_457;
 	METHOD method_1940 getZoomMod ()Lcom/lunar/class_430;
 	METHOD method_1941 getReplayMod ()Lcom/lunar/class_468;
+	METHOD method_1942 getNameTagMod ()Lcom/lunar/class_1213;
 	METHOD method_1943 getSprintSneakToggleMod ()Lcom/lunar/class_405;
 	METHOD method_1944 getShinyPotsMod ()Lcom/lunar/class_371;
 	METHOD method_1945 getWaypointsMod ()Lcom/lunar/class_408;
@@ -52,4 +56,6 @@ CLASS com/lunar/class_521 com/lunar/common/mod/ModManager
 	METHOD method_1949 getOneSevenVisualsMod ()Lcom/lunar/class_461;
 	METHOD method_1950 setSkyblockAddons (Lcom/lunar/class_372;)V
 		ARG 1 skyblockAddons
+	METHOD method_1951 createLinkedModSet ([Lcom/lunar/class_195;)Ljava/util/LinkedHashSet;
+		ARG 1 mods
 	METHOD method_1952 getItemPhysicsMod ()Lcom/lunar/class_447;

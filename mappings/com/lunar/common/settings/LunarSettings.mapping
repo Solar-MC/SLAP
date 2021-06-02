@@ -1,15 +1,78 @@
 CLASS com/lunar/class_530 com/lunar/common/settings/LunarSettings
-	FIELD field_2158 compactMenu Lcom/lunar/class_574;
+	FIELD field_2157 backgroundColor Lcom/lunar/class_561;
+	FIELD field_2158 enableCompactMenu Lcom/lunar/class_574;
+	FIELD field_2159 backgroundWidth Lcom/lunar/class_560;
+	FIELD field_2160 showWeather Lcom/lunar/class_574;
+	FIELD field_2161 enableRedString Lcom/lunar/class_574;
+	FIELD field_2162 disableFriendsMenu Lcom/lunar/class_574;
+	FIELD field_2163 backgroundHeight Lcom/lunar/class_560;
+	FIELD field_2164 showHatAboveHelmet Lcom/lunar/class_574;
+	FIELD field_2165 sortingOption Lcom/lunar/class_558;
+	FIELD field_2166 searchOptions Lcom/lunar/class_574;
+	FIELD field_2167 showHudInDebug Lcom/lunar/class_574;
+	FIELD field_2168 showInF5 Lcom/lunar/class_574;
 	FIELD field_2169 debugEnum Lcom/lunar/class_558;
+	FIELD field_2170 enableSmartDisconnect Lcom/lunar/class_574;
+	FIELD field_2171 textColor Lcom/lunar/class_561;
+	FIELD field_2172 useModernKeybindHandling Lcom/lunar/class_574;
 	FIELD field_2173 shiftEffects Lcom/lunar/class_574;
+	FIELD field_2174 hudLayoutColor Lcom/lunar/class_561;
+	FIELD field_2175 useMinecraftScaleEnum Lcom/lunar/class_558;
+	FIELD field_2176 showTutorial Lcom/lunar/class_574;
+	FIELD field_2177 achievements Lcom/lunar/class_574;
 	FIELD field_2178 popupLocation Lcom/lunar/class_558;
+	FIELD field_2179 showFriendOnlineStatus Lcom/lunar/class_574;
+	FIELD field_2180 showLogoInTab Lcom/lunar/class_574;
+	FIELD field_2181 enableTransparentResourcePackMenuBackground Lcom/lunar/class_574;
+	FIELD field_2182 showHudInShiftTab Lcom/lunar/class_574;
+	FIELD field_2183 enableBorderlessFullscreen Lcom/lunar/class_574;
+	FIELD field_2184 clearGlassType Lcom/lunar/class_558;
 	FIELD field_2185 debug01 Lcom/lunar/class_574;
-	CLASS class_1224
+	FIELD field_2186 enableLockMods Lcom/lunar/class_574;
+	METHOD method_2078 getHudLayoutColor ()Lcom/lunar/class_561;
+	METHOD method_2079 showsHatAboveHelmet ()Lcom/lunar/class_574;
+	METHOD method_2080 enablesLockMods ()Lcom/lunar/class_574;
+	METHOD method_2081 getBackgroundHeight ()Lcom/lunar/class_560;
+	METHOD method_2082 usesMinecraftScaleEnum ()Lcom/lunar/class_558;
+	METHOD method_2083 getDebugMode ()Lcom/lunar/class_558;
+	METHOD method_2084 getPopupLocation ()Lcom/lunar/class_558;
+	METHOD method_2085 enablesCompactMenu ()Lcom/lunar/class_574;
+	METHOD method_2086 showsLogoInTab ()Lcom/lunar/class_574;
+	METHOD method_2087 enablesTransparentResourcePackMenuBackground ()Lcom/lunar/class_574;
+	METHOD method_2088 showsFriendOnlineStatus ()Lcom/lunar/class_574;
+	METHOD method_2089 enablesSmartDisconnect ()Lcom/lunar/class_574;
+	METHOD method_2090 showsHudInDebug ()Lcom/lunar/class_574;
+	METHOD method_2091 getAchievements ()Lcom/lunar/class_574;
+	METHOD method_2094 showsInF5 ()Lcom/lunar/class_574;
+	METHOD method_2096 getBackgroundColor ()Lcom/lunar/class_561;
+	METHOD method_2097 getTextColor ()Lcom/lunar/class_561;
+	METHOD method_2098 getBackgroundWidth ()Lcom/lunar/class_560;
+	METHOD method_2099 showsTutorial ()Lcom/lunar/class_574;
+	METHOD method_2100 getSearchOptions ()Lcom/lunar/class_574;
+	METHOD method_2101 getSortingOption ()Lcom/lunar/class_558;
+	METHOD method_2102 enablesRedString ()Lcom/lunar/class_574;
+	METHOD method_2103 getClearGlassType ()Lcom/lunar/class_558;
+	METHOD method_2105 getShiftEffects ()Lcom/lunar/class_574;
+	METHOD method_2106 showsHudInShiftTab ()Lcom/lunar/class_574;
+	METHOD method_2107 showsWeather ()Lcom/lunar/class_574;
+	METHOD method_2108 isBorderlessFullscreenEnabled ()Lcom/lunar/class_574;
+	METHOD method_2109 usesModernKeybindHandling ()Lcom/lunar/class_574;
+	METHOD method_2111 getDebug01 ()Lcom/lunar/class_574;
+	METHOD method_2117 setEnableCompactMenu (Lcom/lunar/class_574;)V
+		ARG 1 setting
+	METHOD method_2118 disablesFriendsMenu ()Lcom/lunar/class_574;
+	CLASS class_1224 GuiSettingJurisdiction
+		FIELD field_2187 MODS Lcom/lunar/class_530$class_1224;
 		FIELD field_2189 name Ljava/lang/String;
+		FIELD field_2190 ALL Lcom/lunar/class_530$class_1224;
+		FIELD field_2191 OFF Lcom/lunar/class_530$class_1224;
 		METHOD <init> (Ljava/lang/String;ILjava/lang/String;)V
 			ARG 3 name
-	CLASS class_1225
+	CLASS class_1225 SortingOption
+		FIELD field_2192 ALPHABETICAL Lcom/lunar/class_530$class_1225;
 		FIELD field_2194 name Ljava/lang/String;
+		FIELD field_2195 NORMAL Lcom/lunar/class_530$class_1225;
+		FIELD field_2196 CUSTOM Lcom/lunar/class_530$class_1225;
 		METHOD <init> (Ljava/lang/String;ILjava/lang/String;)V
 			ARG 3 name
 	CLASS class_1226 TextColor

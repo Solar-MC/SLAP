@@ -1,1 +1,12 @@
 CLASS com/lunar/class_992 com/lunar/bridge/impl/ItemStackBridgeImpl
+	FIELD count I
+	METHOD getBaseRepairCost ()I
+	METHOD getHoverName ()Lnr;
+	METHOD getItem ()Lblx;
+	METHOD getMaxDamage ()I
+	METHOD getMaxStackSize ()I
+	METHOD getRarity ()Lbmp;
+	METHOD isDamaged ()Z
+	METHOD isEmpty ()Z
+	METHOD setRepairCost (I)V
+		ARG 1 cost

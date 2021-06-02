@@ -1,0 +1,5 @@
+CLASS com/lunar/class_352 com/lunar/common/debug/DebugModeType
+	FIELD field_1177 MOVEMENT_UI Lcom/lunar/class_352;
+	FIELD field_1179 ASSET_SERVER Lcom/lunar/class_352;
+	FIELD field_1180 F3_KEYS Lcom/lunar/class_352;
+	FIELD field_1181 ALL Lcom/lunar/class_352;

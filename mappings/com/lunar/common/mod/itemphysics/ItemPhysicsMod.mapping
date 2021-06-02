@@ -1,3 +1,4 @@
 CLASS com/lunar/class_447 com/lunar/common/mod/itemphysics/ItemPhysicsMod
+	FIELD field_1628 rotationSpeed Lcom/lunar/class_560;
 	METHOD method_1441 getStackSizeFor (Lcom/lunar/class_68;)I
 		ARG 1 stack

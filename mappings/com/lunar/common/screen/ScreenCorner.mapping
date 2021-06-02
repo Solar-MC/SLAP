@@ -1,0 +1,5 @@
+CLASS com/lunar/class_698 com/lunar/common/screen/ScreenCorner
+	FIELD field_2929 BOTTOM_LEFT Lcom/lunar/class_698;
+	FIELD field_2931 BOTTOM_RIGHT Lcom/lunar/class_698;
+	FIELD field_2933 TOP_RIGHT Lcom/lunar/class_698;
+	FIELD field_2934 TOP_LEFT Lcom/lunar/class_698;
